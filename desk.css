@@ -1,0 +1,14 @@
+h1 {
+    position: absolute;
+    width: 484px;
+    height: 220px;
+    left: 160px;
+    top: 292px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 100%;
+    color: #1A2236;
+    border: 1px solid #1A2236;
+}
