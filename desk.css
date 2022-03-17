@@ -16,6 +16,16 @@
   top: 62px;
 }
 
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 40px;
+}
+
 #home {
   flex: 1;
   position: fixed;
@@ -130,7 +140,7 @@
   height: 84px;
   left: 160px;
   top: 620px;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -149,28 +159,20 @@
   bottom: 83.82%;
 }
 
-#button {
+#txtbutton {
   position: fixed;
   width: 254px;
   height: 70px;
-  left: 160px;
-  top: 715px;
-  background: #1a2236;
-}
-
-#txtbutton {
-  position: fixed;
-  width: 203.68px;
-  height: 26.47px;
   left: 185.16px;
   top: 736.76px;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  line-height: 27px;
+  line-height: 70px;
   text-align: center;
   color: #fff;
+  background: #1a2236;
 }
 
 #dots {
