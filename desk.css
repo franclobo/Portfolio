@@ -9,21 +9,21 @@
   box-shadow: 0 0.5px 0 #dddfe6;
 }
 
+ul {
+  display: flex;
+  list-style-type: none;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 40px;
+}
+
 #navbar > ul {
   width: 24px;
   height: 369px;
   left: 536px;
   top: 62px;
-}
-
-ul {
-    display: flex;
-    list-style-type: none;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0;
-    margin-inline-end: 0;
-    padding-inline-start: 40px;
 }
 
 #home {
