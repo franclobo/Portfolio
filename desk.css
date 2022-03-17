@@ -12,3 +12,17 @@ article > h1 {
     color: #1A2236;
     border: 1px solid #1A2236;
 }
+article > p{
+    position: absolute;
+    width: 484px;
+    height: 84px;
+    left: 160px;
+    top: 572px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: #1A2236;
+}
