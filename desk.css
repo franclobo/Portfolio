@@ -1,4 +1,4 @@
-article.h1 {
+article > h1 {
     position: absolute;
     width: 484px;
     height: 220px;
