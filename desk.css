@@ -1,91 +1,176 @@
-.navb{
-    position: absolute;
-    width: 1440px;
-    height: 100px;
-    left: 0px;
-    top: 0px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 0.5px 0px #DDDFE6;
-}
 #navbar{
-    position: absolute;
-    width: 24px;
-    height: 369px;
-    left: 536px;
-    top: 62px;
-
-    transform: rotate(-90deg);  
+  display: flex;
+  justify-content: center;
+  width: 1440px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+  background: #FFFFFF;
+  box-shadow: 0px 0.5px 0px #DDDFE6;
 }
-nav > img {
-    position: absolute;
-    width: 29px;
-    height: 2px;
-    left: 536px;
-    top: 62px;
-    background: #1A2236;
+#navbar > ul{
+  width: 24px;
+  height: 369px;
+  left: 536px;
+  top: 62px;
+}
+#home{
+  flex: 1;
+  position: absolute;
+  width: 39px;
+  height: 24px;
+  left: 536px;
+  top: 38px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #1A2236;
+}
+#portfolio{
+  flex: 1;
+  position: absolute;
+  width: 66px;
+  height: 24px;
+  left: 625px;
+  top: 38px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #1A2236;
+}
+#about{
+  flex: 1;
+  position: absolute;
+  width: 48px;
+  height: 24px;
+  left: 741px;
+  top: 38px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #1A2236;
+}
+#contact{
+  flex: 1;
+  position: absolute;
+  width: 66px;
+  height: 24px;
+  left: 839px;
+  top: 38px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #1A2236;
+}
+#line{
+  position: absolute;
+  width: 29px;
+  height: 2px;
+  left: 536px;
+  top: 62px;
+
+  background: #1A2236;
 }
 #presentation{
-    position: absolute;
-    width: 484px;
-    height: 493px;
-    left: 160px;
-    top: 292px;
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  width: 484px;
+  height: 493px;
+  left: 160px;
+  top: 292px;
 }
-section > p{
-    position: absolute;
-    width: 203.68px;
-    height: 26.47px;
-    left: 185.16px;
-    top: 736.76px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
-    text-align: center;
-    color: #FFFFFF;
+#presentation > article{
+  width: 484px;
+  height: 493px;
+  left: 160px;
+  top: 292px;
 }
-section > img{
-    position: absolute;
-    width: 254px;
-    height: 70px;
-    left: 160px;
-    top: 715px;
-    background: #1A2236;
+#name{
+  flex: 1;
+  position: absolute;
+  width: 484px;
+  height: 220px;
+  left: 160px;
+  top: 292px;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 110px;
+  line-height: 100%;
+  color: #1A2236;
+  border: 1px solid #1A2236;
 }
-article > h1 {
-    position: absolute;
-    width: 484px;
-    height: 220px;
-    left: 160px;
-    top: 292px;
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 110px;
-    line-height: 100%;
-    color: #1A2236;
-    border: 1px solid #1A2236;
+#phrase{
+  flex: 1;
+  position: absolute;
+  width: 484px;
+  height: 84px;
+  left: 160px;
+  top: 620px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1A2236;
 }
-article > p{
-    position: absolute;
-    width: 484px;
-    height: 84px;
-    left: 160px;
-    top: 572px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: -0.01em;
-    color: #1A2236;
+#presentation > div{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 11.11%;
+  right: 71.25%;
+  top: 14.74%;
+  bottom: 83.82%;
+}
+#button{
+  position: absolute;
+  width: 254px;
+  height: 70px;
+  left: 160px;
+  top: 715px;
+
+  background: #1A2236;
+}
+#txtbutton{
+  position: absolute;
+  width: 203.68px;
+  height: 26.47px;
+  left: 185.16px;
+  top: 736.76px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+}
+#dots{
+  position: absolute;
+  width: 175px;
+  height: 175px;
+  left: 563px;
+  top: 802px;
 }
 #geometry{
-    position: absolute;
-    left: 51.25%;
-    right: -48.68%;
-    top: 2.06%;
-    bottom: 79.86%;
+  position: absolute;
+width: 702px;
+height: 877px;
+left: 738px;
+top: 100px;
 }
