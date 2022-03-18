@@ -200,15 +200,15 @@ ul {
     display: flex;
     justify-content: space-between;
   }
-    
-  #logo{
+  
+  #logo {
     width: 111px;
     height: 74px;
     left: 0;
     top: 0;
   }
 
-  #icon{
+  #icon {
     width: 20px;
     height: 14px;
     left: 284px;
@@ -216,7 +216,7 @@ ul {
     background: #1a2236;
   }
 
-  #navbar{
+  #navbar {
     display: none;
   }
 
@@ -238,7 +238,7 @@ ul {
     top: 104px;
   }
 
-  #name{
+  #name {
     display: flex;
     border: none;
     margin-block-start: 1em;
@@ -256,7 +256,8 @@ ul {
     line-height: 100%;
     color: #1a2236; 
   }
-  #phrase{
+
+  #phrase {
     width: 288px;
     height: 126px;
     left: 56px;
@@ -281,7 +282,7 @@ ul {
     top: 390px;
   }
 
-  #txtbutton{
+  #txtbutton {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -299,7 +300,8 @@ ul {
     background-color: #1a2236;
   }
 
-  #images{
-    display:none;
+  #images {
+    display: none;
   }
+  
 } 
