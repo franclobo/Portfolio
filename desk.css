@@ -2,6 +2,10 @@ header {
   display: none;
 }
 
+body{
+  margin: 0;
+}
+
 #navbar {
   display: flex;
   justify-content: center;
@@ -209,11 +213,12 @@ ul {
   }
 
   #icon {
+    position: fixed;
     width: 20px;
     height: 14px;
-    left: 284px;
+    left: 364px;
     top: 19px;
-    background: #1a2236;
+    background: #fff;
   }
 
   #navbar {
@@ -320,11 +325,12 @@ ul {
   }
 
   #icon {
+    position: fixed;
     width: 20px;
     height: 14px;
     left: 284px;
     top: 19px;
-    background: #1a2236;
+    background: #fff;
   }
 
   #navbar {
