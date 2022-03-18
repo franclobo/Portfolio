@@ -12,7 +12,7 @@ header {
   display: none;
 }
 
-#end {
+footer {
   display: none;
 }
 
@@ -214,6 +214,15 @@ h1 {
 }
 
 @media (max-width: 400px) {
+  body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    margin: 0;
+  }
+
   header {
     display: flex;
     justify-content: space-between;
@@ -324,7 +333,7 @@ h1 {
     display: none;
   }
 
-  #end {
+  footer {
     position: fixed;
     width: 400px;
     height: 160px;
@@ -334,6 +343,15 @@ h1 {
 }
 
 @media (max-width: 320px) {
+  body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 320px;
+    height: 500px;
+    margin: 0;
+  }
+
   #mobile header {
     display: flex;
     justify-content: space-between;
@@ -444,7 +462,7 @@ h1 {
     display: none;
   }
 
-  #end {
+  footer {
     position: fixed;
     width: 320px;
     height: 160px;
