@@ -200,7 +200,7 @@ ul {
     display: flex;
     justify-content: space-between;
   }
-  
+
   #logo {
     width: 111px;
     height: 74px;
@@ -254,7 +254,7 @@ ul {
     font-weight: 400;
     font-size: 50px;
     line-height: 100%;
-    color: #1a2236; 
+    color: #1a2236;
   }
 
   #phrase {
@@ -303,5 +303,5 @@ ul {
   #images {
     display: none;
   }
-  
-} 
+
+}
