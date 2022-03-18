@@ -106,3 +106,4 @@ dist
 #Gulp
 gulp.js
 package.json
+package-lock.json
