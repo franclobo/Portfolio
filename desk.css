@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Poppins;
+  src: url('./fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Playfair_Display;
+  src: url('./fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf') format('truetype');
+}
+
 header {
   display: none;
 }
@@ -132,7 +142,7 @@ ul {
   height: 220px;
   left: 160px;
   top: 292px;
-  font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+  font-family: 'Playfair_Display', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 110px;
@@ -255,7 +265,7 @@ ul {
     height: 100px;
     left: 56px;
     top: 104px;
-    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+    font-family: 'Playfair_Display', 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
@@ -367,7 +377,7 @@ ul {
     height: 100px;
     left: 16px;
     top: 104px;
-    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+    font-family: 'Playfair_Display', 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
