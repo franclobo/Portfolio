@@ -1,6 +1,7 @@
-header{
+header {
   display: none;
 }
+
 #navbar {
   display: flex;
   justify-content: center;
@@ -102,7 +103,6 @@ ul {
   background: #1a2236;
 }
 
-
 #presentation {
   display: flex;
   justify-content: center;
@@ -196,46 +196,47 @@ ul {
 }
 
 @media (max-width: 400px) {
-  header{
-  display: flex;
-  justify-content: space-between;
-}
-#logo{
-  width: 111px;
-  height: 74px;
-  left: 0;
-  top: 0;
-}
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+    
+  #logo{
+    width: 111px;
+    height: 74px;
+    left: 0;
+    top: 0;
+  }
 
-#icon{
-  width: 20px;
-  height: 14px;
-  left: 284px;
-  top: 19px;
-  background: #1a2236;
-}
+  #icon{
+    width: 20px;
+    height: 14px;
+    left: 284px;
+    top: 19px;
+    background: #1a2236;
+  }
 
-#navbar{
-  display: none;
-}
+  #navbar{
+    display: none;
+  }
 
-#presentation {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  width: 220px;
-  height: 100px;
-  left: 16px;
-  top: 240px;
-}
+  #presentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 220px;
+    height: 100px;
+    left: 16px;
+    top: 240px;
+  }
 
-#presentation > article {
-  width: 220px;
-  height: 100px;
-  left: 16px;
-  top: 104px;
-}
+  #presentation > article {
+    width: 220px;
+    height: 100px;
+    left: 16px;
+    top: 104px;
+  }
 
   #name{
     display: flex;
