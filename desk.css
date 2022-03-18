@@ -305,3 +305,114 @@ ul {
     display: none;
   }
 }
+
+@media (max-width: 320px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #logo {
+    width: 111px;
+    height: 74px;
+    left: 0;
+    top: 0;
+  }
+
+  #icon {
+    width: 20px;
+    height: 14px;
+    left: 284px;
+    top: 19px;
+    background: #1a2236;
+  }
+
+  #navbar {
+    display: none;
+  }
+
+  #presentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 288px;
+    height: 336px;
+    left: 16px;
+    top: 140px;
+  }
+
+  #presentation > article {
+    position: fixed;
+    width: 288px;
+    height: 226px;
+    left: 16px;
+    top: 140px;
+  }
+
+  #name {
+    display: flex;
+    border: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    width: 220px;
+    height: 100px;
+    left: 16px;
+    top: 104px;
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 100%;
+    color: #1a2236;
+  }
+
+  #phrase {
+    width: 288px;
+    height: 126px;
+    left: 16px;
+    top: 244px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: #1a2236;
+  }
+
+  #presentation > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 288px;
+    height: 50px;
+    left: 16px;
+    top: 418px;
+  }
+
+  #txtbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 288px;
+    height: 50px;
+    left: 16px;
+    top: 402px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    background-color: #1a2236;
+  }
+
+  #images {
+    display: none;
+  }
+}
