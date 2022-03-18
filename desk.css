@@ -225,17 +225,18 @@ ul {
     justify-content: center;
     align-items: center;
     position: fixed;
-    width: 220px;
-    height: 100px;
-    left: 16px;
-    top: 240px;
+    width: 288px;
+    height: 336px;
+    left: 56px;
+    top: 140px;
   }
 
   #presentation > article {
-    width: 220px;
-    height: 100px;
-    left: 16px;
-    top: 104px;
+    position: fixed;
+    width: 288px;
+    height: 226px;
+    left: 56px;
+    top: 140px;
   }
 
   #name {
@@ -278,8 +279,8 @@ ul {
     position: fixed;
     width: 288px;
     height: 50px;
-    left: 16px;
-    top: 390px;
+    left: 56px;
+    top: 418px;
   }
 
   #txtbutton {
