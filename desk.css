@@ -564,7 +564,7 @@ h1 {
     background: #1c528a;
   }
 
-  #project #square2{
+  #project #square2 {
     position: absolute;
     width: 289px;
     height: 289px;
@@ -593,7 +593,7 @@ h1 {
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
-    letter-spacing: -0.0525em;  
+    letter-spacing: -0.0525em; 
     color: #fff;
   }
 
