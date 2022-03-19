@@ -374,12 +374,12 @@ h1 {
     top: 472px;
   }
 
-  #project {
+  .project {
     height: auto;
     gap: 0;
   }
 
-  #project h2 {
+  .project h2 {
     display: block;
     margin-block-start: 39.9px;
     margin-block-end: 32px;
@@ -394,19 +394,18 @@ h1 {
     color: #1a2236;
   }
 
-  #picture {
+  .picture {
     height: 186px;
     width: 320px;
   }
 
-  #box {
+  .box {
     position: relative;
     top: 0;
     height: 156px;
     background-color: #1a2236;
   }
-
-  #box p {
+.box p {
     position: absolute;
     display: block;
     margin-block-start: 20px;
@@ -421,7 +420,7 @@ h1 {
     color: #fff;
   }
 
-  #box ul {
+  .box ul {
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -433,7 +432,7 @@ h1 {
     margin-inline-end: 50px;
   }
 
-  #box button {
+  .box button {
     appearance: auto;
     writing-mode: horizontal-tb;
     font-family: 'Poppins', sans-serif;
@@ -458,28 +457,28 @@ h1 {
     border-image: initial;
   }
 
-  #html {
+  .html {
     position: absolute;
     width: 69px;
     height: 20px;
     left: 0;
   }
 
-  #ruby {
+  .ruby {
     position: absolute;
     width: 87px;
     height: 20px;
     left: 79px;
   }
 
-  #js {
+  .js {
     position: absolute;
     width: 74px;
     height: 20px;
     left: 176px;
   }
 
-  #box #pjbutton {
+  .box .pjbutton {
     display: flex;
     position: relative;
     width: 178px;
@@ -490,7 +489,7 @@ h1 {
     border: solid #fff;
   }
 
-  #pjbutton #actbutton {
+  .pjbutton .actbutton {
     position: relative;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -505,26 +504,26 @@ h1 {
     left: 10px;
   }
 
-  #narrow {
+  .narrow {
     position: relative;
     top: 10px;
     left: 146px;
   }
 
-  #box1 {
+  .box1 {
     position: relative;
     top: 0;
     height: 334px;
   }
 
-  #box1 #phrase {
+  .box1 .phrase {
     position: absolute;
     top: 70px;
     left: 16px;
     right: 16px;
   }
 
-  #box1 #pjbutton {
+  .box1 .pjbutton {
     display: flex;
     position: relative;
     width: 288px;
@@ -534,7 +533,7 @@ h1 {
     background-color: #1a2236;
   }
 
-  #pjbutton #actbutton1 {
+  .pjbutton .actbutton1 {
     position: absolute;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -549,13 +548,13 @@ h1 {
     left: 79px;
   }
 
-  #narrow0 {
+  .narrow0 {
     position: absolute;
     top: 13px;
     left: 185px;
   }
 
-  #project #square1 {
+  .project #square1 {
     position: absolute;
     width: 289px;
     height: 289px;
@@ -564,7 +563,7 @@ h1 {
     background: #1c528a;
   }
 
-  #project #square2 {
+  .project #square2 {
     position: absolute;
     width: 289px;
     height: 289px;
@@ -573,7 +572,7 @@ h1 {
     background: #e2505c;
   }
 
-  #project #square3 {
+  .project #square3 {
     position: absolute;
     width: 289px;
     height: 289px;
@@ -582,7 +581,7 @@ h1 {
     background: #febf52;
   }
 
-  #project #chart {
+  .project .chart {
     position: relative;
     width: 178px;
     height: 135px;
@@ -597,7 +596,7 @@ h1 {
     color: #fff;
   }
 
-  #project h3 {
+  .project h3 {
     position: relative;
     width: 116px;
     height: 30px;
@@ -611,7 +610,7 @@ h1 {
     color: #fff;
   }
 
-  #project #narrow1 {
+  .project #narrow1 {
     position: relative;
     width: 102px;
     height: 102px;
@@ -619,7 +618,7 @@ h1 {
     bottom: 36px;
   }
 
-  #project #narrow2 {
+  .project #narrow2 {
     position: relative;
     width: 102px;
     height: 102px;
@@ -627,7 +626,7 @@ h1 {
     bottom: 36px;
   }
 
-  #project #narrow3 {
+  .project #narrow3 {
     position: relative;
     width: 102px;
     height: 102px;
