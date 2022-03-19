@@ -269,11 +269,10 @@ h1 {
   }
 
   #presentation {
-    position: relative;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
     width: 288px;
     height: 366px;
     left: 16px;
@@ -284,7 +283,7 @@ h1 {
     position: absolute;
     width: 288px;
     height: 246px;
-    left: 0px;
+    left: 0;
     top: 30px;
   }
 
@@ -295,8 +294,8 @@ h1 {
     margin: 0;
     width: 220px;
     height: 100px;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     font-family: 'Playfair_Display', 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 400;
@@ -309,7 +308,7 @@ h1 {
     position: inherit;
     width: 288px;
     height: 126px;
-    left: 0px;
+    left: 0;
     top: 120px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -355,7 +354,7 @@ h1 {
     border: 1px solid #1a2236;
     box-sizing: border-box;
   }
-  
+
   #txtbutton a:active {
     background: #fff;
     border: 2px solid #1a2236;
@@ -379,7 +378,7 @@ h1 {
     height: auto;
     gap: 0;
   }
-  
+
   #project h2 {
     display: block;
     margin-block-start: 39.9px;
@@ -387,39 +386,42 @@ h1 {
     margin-inline-start: 0;
     margin-inline-end: 0;
     margin-left: 16px;
-    font-family: 'Playfair Display';
+    font-family: 'Playfair_Display', 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
     line-height: 100%;
-    color: #1A2236;
+    color: #1a2236;
   }
 
-  #picture{
+  #picture {
     height: 186px;
-    width: 320;
+    width: 320px;
   }
-  #box{
+
+  #box {
     position: relative;
     top: 0;
     height: 156px;
     background-color: #1a2236;
   }
-  #box p{
-    position:absolute;
+
+  #box p {
+    position: absolute;
     display: block;
     margin-block-start: 20px;
     margin-block-end: 16px;
     margin-inline-start: 20px;
     margin-inline-end: 36px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
     line-height: 80%;
     color: #FFFFFF;
   }
-  #box ul{
+
+  #box ul {
     position:absolute;
     display: flex;
     flex-direction: row;
@@ -431,10 +433,10 @@ h1 {
     margin-inline-end: 50px;
   }
 
-  #box button{
+  #box button {
     appearance: auto;
     writing-mode: horizontal-tb;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 10.3334px;
@@ -490,7 +492,7 @@ h1 {
 
   #pjbutton #actbutton {
     position:relative;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -534,7 +536,7 @@ h1 {
 
   #pjbutton #actbutton1 {
     position:absolute;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -587,7 +589,7 @@ h1 {
     height: 135px;
     left: 20px;
     top: 21px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -602,7 +604,7 @@ h1 {
     height: 30px;
     left: 36px;
     top: 20px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 20px;
