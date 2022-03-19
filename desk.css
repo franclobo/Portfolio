@@ -405,7 +405,8 @@ h1 {
     height: 156px;
     background-color: #1a2236;
   }
-.box p {
+
+  .box p {
     position: absolute;
     display: block;
     margin-block-start: 20px;
@@ -592,7 +593,7 @@ h1 {
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
-    letter-spacing: -0.0525em; 
+    letter-spacing: -0.0525em;
     color: #fff;
   }
 
