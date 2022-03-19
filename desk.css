@@ -50,7 +50,7 @@ ul {
 
 #home {
   flex: 1;
-  position: fixed;
+  position: absolute;
   width: 39px;
   height: 24px;
   left: 536px;
@@ -66,7 +66,7 @@ ul {
 
 #portfolio {
   flex: 1;
-  position: fixed;
+  position: absolute;
   width: 66px;
   height: 24px;
   left: 625px;
@@ -82,7 +82,7 @@ ul {
 
 #about {
   flex: 1;
-  position: fixed;
+  position: absolute;
   width: 48px;
   height: 24px;
   left: 741px;
@@ -98,7 +98,7 @@ ul {
 
 #contact {
   flex: 1;
-  position: fixed;
+  position: absolute;
   width: 66px;
   height: 24px;
   left: 839px;
@@ -113,7 +113,7 @@ ul {
 }
 
 #line {
-  position: fixed;
+  position: absolute;
   width: 29px;
   height: 2px;
   left: 536px;
@@ -125,7 +125,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
+  position: absolute;
   width: 484px;
   height: 493px;
   left: 160px;
@@ -141,7 +141,7 @@ ul {
 
 h1 {
   flex: 1;
-  position: fixed;
+  position: absolute;
   width: 484px;
   height: 220px;
   left: 160px;
@@ -152,12 +152,11 @@ h1 {
   font-size: 110px;
   line-height: 100%;
   color: #1a2236;
-  border: 1px solid #1a2236;
 }
 
 #phrase {
   flex: 1;
-  position: fixed;
+  position: absolute;
   width: 484px;
   height: 84px;
   left: 160px;
@@ -174,7 +173,7 @@ h1 {
 #presentation > div {
   display: flex;
   justify-content: center;
-  position: fixed;
+  position: absolute;
   left: 11.11%;
   right: 71.25%;
   top: 14.74%;
@@ -182,7 +181,7 @@ h1 {
 }
 
 #txtbutton {
-  position: fixed;
+  position: absolute;
   width: 254px;
   height: 70px;
   left: 185.16px;
@@ -198,7 +197,7 @@ h1 {
 }
 
 #dots {
-  position: fixed;
+  position: absolute;
   width: 175px;
   height: 175px;
   left: 563px;
@@ -206,7 +205,7 @@ h1 {
 }
 
 #geometry {
-  position: fixed;
+  position: absolute;
   width: 702px;
   height: 877px;
   left: 738px;
@@ -214,12 +213,12 @@ h1 {
 }
 
 @media (max-width: 320px) {
-  body {
+  .flex-item {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    width: 320px;
-    height: 4910px;
+    max-width: 320px;
+    height: 672px;
     margin: 0;
   }
 
@@ -238,7 +237,7 @@ h1 {
   }
 
   #icon {
-    position: fixed;
+    position: absolute;
     width: 20px;
     height: 14px;
     left: 284px;
@@ -251,33 +250,34 @@ h1 {
   }
 
   #presentation {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    position: absolute;
     width: 288px;
-    height: 336px;
+    height: 366px;
     left: 16px;
-    top: 140px;
+    top: 80px;
   }
 
   #presentation > article {
-    position: fixed;
+    position: absolute;
     width: 288px;
-    height: 226px;
-    left: 16px;
-    top: 140px;
+    height: 246px;
+    left: 0px;
+    top: 30px;
   }
 
   h1 {
-    position: fixed;
+    position: absolute;
     display: flex;
     border: none;
     margin: 0;
     width: 220px;
     height: 100px;
-    left: 16px;
-    top: 104px;
+    left: 0px;
+    top: 0px;
     font-family: 'Playfair_Display', 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 400;
@@ -287,10 +287,11 @@ h1 {
   }
 
   #phrase {
+    position: inherit;
     width: 288px;
     height: 126px;
-    left: 16px;
-    top: 244px;
+    left: 0px;
+    top: 120px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -298,27 +299,22 @@ h1 {
     line-height: 21px;
     letter-spacing: -0.01em;
     color: #1a2236;
-  }
-
-  #presentation > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    width: 288px;
-    height: 50px;
-    left: 16px;
-    top: 418px;
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
   }
 
   #txtbutton {
     display: flex;
+    position: absolute;
     justify-content: center;
     align-items: center;
     width: 288px;
     height: 50px;
-    left: 16px;
-    top: 402px;
+    left: -32px;
+    top: 262px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -334,10 +330,190 @@ h1 {
   }
 
   footer {
-    position: fixed;
+    display: flex;
+    position: absolute;
     width: 320px;
     height: 160px;
     left: 0;
     top: 472px;
   }
+
+  #project {
+    height: auto;
+    gap: 0;
+  }
+  
+  #project h2 {
+    display: block;
+    margin-block-start: 39.9px;
+    margin-block-end: 32px;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    margin-left: 16px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 100%;
+    color: #1A2236;
+  }
+
+  #picture{
+    height: 186px;
+    width: 320;
+  }
+  #box{
+    position: relative;
+    top: 0;
+    height: 156px;
+    background-color: #1a2236;
+  }
+  #box p{
+    position:absolute;
+    display: block;
+    margin-block-start: 20px;
+    margin-block-end: 16px;
+    margin-inline-start: 20px;
+    margin-inline-end: 36px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 80%;
+    color: #FFFFFF;
+  }
+  #box ul{
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-block-start: 52px;
+    margin-block-end: 84px;
+    margin-inline-start: 20px;
+    margin-inline-end: 50px;
+  }
+
+  #box button{
+    appearance: auto;
+    writing-mode: horizontal-tb;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10.3334px;
+    line-height: 80%;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: #98dede;
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: #98dede;
+    border-image: initial;
+  }
+
+  #html {
+    position: absolute;
+    width: 69px;
+    height: 20px;
+    left: 0;
+  }
+
+  #ruby {
+    position: absolute;
+    width: 87px;
+    height: 20px;
+    left: 79px;
+  }
+
+  #js {
+    position: absolute;
+    width: 74px;
+    height: 20px;
+    left: 176px;
+  }
+
+  #box #pjbutton {
+    display: flex;
+    position: relative;
+    width: 178px;
+    height: 40px;
+    left: 20px;
+    top: 92px;
+    background-color: #1a2236;
+    border: solid #fff;
+  }
+
+  #pjbutton #actbutton {
+    position:absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    top: 10px;
+    left: 10px;
+  }
+
+  #narrow {
+    position: absolute;
+    top: 10px;
+    left: 146px;
+  }
+
+  #box1{
+    position: relative;
+    top: 0;
+    height: 334px;
+  }
+
+  #box1 #phrase{
+    position: absolute;
+    top: 70px;
+    left: 16px;
+    right: 16px;
+  }
+
+  #box1 #pjbutton {
+    display: flex;
+    position: relative;
+    width: 288px;
+    height: 50px;
+    left: 8px;
+    top: 128px;
+    background-color: #1a2236;
+  }
+
+  #pjbutton #actbutton {
+    position:absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    top: 13px;
+    left: 79px;
+  }
+
+  #narrow {
+    position: absolute;
+    top: 10px;
+    left: 146px;
+  }
+
 }
