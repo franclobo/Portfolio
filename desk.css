@@ -512,8 +512,9 @@ h1 {
 
   #narrow {
     position: absolute;
-    top: 10px;
-    left: 146px;
+    top: 0;
+    left: 185px;
+    color:#fff
   }
 
 }
