@@ -31,7 +31,7 @@ body {
   box-shadow: 0 0.5px 0 #dddfe6;
 }
 
-ul {
+#list {
   display: flex;
   list-style-type: none;
   margin-block-start: 1em;
@@ -194,6 +194,25 @@ h1 {
   text-align: center;
   color: #fff;
   background: #1a2236;
+  border: 1px solid #1a2236;
+}
+
+#txtbutton a:hover {
+  background: #fff;
+  border: 1px solid #1a2236;
+  box-sizing: border-box;
+}
+
+#txtbutton a:disabled {
+  background: #1a2236;
+  border: 1px solid #1a2236;
+  box-sizing: border-box;
+}
+
+#txtbutton a:active {
+  background: #fff;
+  border: 2px solid #1a2236;
+  box-sizing: border-box;
 }
 
 #dots {
@@ -325,6 +344,24 @@ h1 {
     background-color: #1a2236;
   }
 
+  #txtbutton a:hover {
+    background: #fff;
+    border: 1px solid #1a2236;
+    box-sizing: border-box;
+  }
+
+  #txtbutton a:disabled {
+    background: #1a2236;
+    border: 1px solid #1a2236;
+    box-sizing: border-box;
+  }
+  
+  #txtbutton a:active {
+    background: #fff;
+    border: 2px solid #1a2236;
+    box-sizing: border-box;
+  }
+
   #images {
     display: none;
   }
@@ -452,7 +489,7 @@ h1 {
   }
 
   #pjbutton #actbutton {
-    position:absolute;
+    position:relative;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -467,7 +504,7 @@ h1 {
   }
 
   #narrow {
-    position: absolute;
+    position: relative;
     top: 10px;
     left: 146px;
   }
@@ -495,7 +532,7 @@ h1 {
     background-color: #1a2236;
   }
 
-  #pjbutton #actbutton {
+  #pjbutton #actbutton1 {
     position:absolute;
     font-family: 'Poppins';
     font-style: normal;
@@ -510,11 +547,91 @@ h1 {
     left: 79px;
   }
 
-  #narrow {
+  #narrow0 {
     position: absolute;
-    top: 0;
+    top: 13px;
     left: 185px;
-    color:#fff
+    
   }
 
+  #project #square1{
+    position: absolute;
+    width: 289px;
+    height: 289px;
+    left: 8px;
+    top: 3220px;
+    background: #1c528a;
+  }
+
+  #project #square2{
+    position: absolute;
+    width: 289px;
+    height: 289px;
+    left: 8px;
+    top: 3525px;
+    background: #e2505c;
+  }
+
+  #project #square3{
+    position: absolute;
+    width: 289px;
+    height: 289px;
+    left: 8px;
+    top: 3830px;
+    background: #febf52;
+  }
+
+  #project #chart {
+    position: relative;
+    width: 178px;
+    height: 135px;
+    left: 20px;
+    top: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.0525em;  
+    color: #fff;
+  }
+
+  #project h3 {
+    position: relative;
+    width: 116px;
+    height: 30px;
+    left: 36px;
+    top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+
+  }
+
+  #project #narrow1 {
+    position: relative;
+    width: 102px;
+    height: 102px;
+    left: 187px;
+    bottom: 36px;
+  }
+
+  #project #narrow2 {
+    position: relative;
+    width: 102px;
+    height: 102px;
+    left: 187px;
+    bottom: 36px;
+  }
+
+  #project #narrow3 {
+    position: relative;
+    width: 102px;
+    height: 102px;
+    left: 187px;
+    bottom: 36px;
+  }
 }
