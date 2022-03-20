@@ -15,7 +15,7 @@
   max-width: 320px;
   height: 672px;
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
 #mobile > header {
@@ -61,7 +61,7 @@
   position: absolute;
   width: 288px;
   height: 246px;
-  left: 0px;
+  left: 0;
   top: 30px;
 }
 
@@ -153,7 +153,6 @@ h1 {
   gap: 0;
   grid-template-columns: 320px;
   height: auto;
-  gap: 0;
 }
 
 .project h2 {
