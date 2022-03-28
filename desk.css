@@ -199,7 +199,10 @@ h1 {
 
 .box ul {
   position: absolute;
-  display: flex;
+  display: float;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
   flex-direction: row;
   justify-content: space-between;
   list-style-type: none;
