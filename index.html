@@ -191,18 +191,18 @@
                 Voluptatum commodi aliquid quis pariatur totam explicabo
                 cupiditate, quaerat saepe dignissimos tempore nemo fugit,
                 porro illum aspernatur exercitationem rem ipsa voluptate quia.</p>
-            <form action="/getstared" method="post">
+            <form action="https://formspree.io/f/{form_id}" method="post">
                 <ul class="data">
                     <li class="liname">
                         <label class="namelabel" for="name">Your name</label>
-                        <input class="name" type="text" id="name" name="user-name" placeholder="Francisco">
+                        <input class="name" type="text" id="name" name="user-name" placeholder="Francisco" maxlength="30" required>
                     </li>
                     <li class="liemail">
                         <label class="emaillabel" for="email">Your email</label>
-                        <input class="email" type="text" id="email" name="user-email" placeholder="example@mail.com">
+                        <input class="email" type="text" id="email" name="user-email" placeholder="example@mail.com" required>
                     </li>
                     <li class="limsg">
-                        <textarea id="msg" name="user-message">Enter you message here...</textarea>
+                        <textarea id="msg" name="user-message" maxlength="500" required>Enter you message here...</textarea>
                     </li>
                     <li>
                         <a id="txtbutton">Start collaboration</a>
