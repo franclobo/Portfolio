@@ -413,3 +413,199 @@ h1 {
   left: 187px;
   bottom: 36px;
 }
+
+/*conatct form*/
+
+.ux{
+  position: absolute;
+  display: float;
+  width: 320px;
+  height: 813px;
+  top:4179px;
+  left: 0;
+}
+.ux h2 {
+  position: relative;
+  margin-block-start: 30px;
+  margin-block-end: 32px;
+  margin-inline-start: 18px;
+  margin-inline-end: 0;
+  font-family: 'Playfair_Display', 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+}
+
+.ux .phrase {
+  position: absolute;
+  top: 176px;
+  left: 18px;
+  right: 14px;
+}
+
+.data {
+  position: absolute;
+  display: block;
+  list-style-type: none;
+  top: 310px;
+  left: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.liname {
+  position: absolute;
+  width: 288px;
+  height: 82px;
+  top: 32px;
+  left: 0px;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid #1a2236;
+  box-sizing: border-box;
+}
+
+.data .name {
+  position: relative;
+  width: 220px;
+  height: 52px;
+  left: 16px;
+  top: 23px;
+  border-radius: 4px;
+  background: #fff;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1a2236;
+}
+
+.data .namelabel, .emaillabel {
+  position: absolute;
+  width: 55px;
+  height: 15px;
+  left: 16px;
+  top: 4px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #7d7c84;
+}
+
+.liemail {
+  position: absolute;
+  width: 288px;
+  height: 82px;
+  top: 132px;
+  left: 0px;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid #1a2236;
+  box-sizing: border-box;
+}
+
+.data .email {
+  position: relative;
+  width: 220px;
+  height: 52px;
+  top: 23px;
+  left: 16px;
+  border-radius: 4px;
+  background: #fff;
+  border: none; 
+}
+
+.limsg{
+  position: absolute;
+  width: 288px;
+  height: 112px;
+  top: 228px;
+  left: 0px;
+  border-radius: 4px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #dfdfe0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.data #msg {
+  position: absolute;
+  width: 260px;
+  height: 90px;
+  top:8px;
+  left: 16px;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #7d7c84;
+}
+
+.data #txtbutton {
+  position: absolute;
+  width: 288px;
+  height: 44px;
+  top: 364px;
+  left: 0px;
+  border-radius: 4px;
+}
+
+footer {
+  display: block;
+  position: absolute;
+  width: 320px;
+  height: 150px;
+  top: 754px;
+  background-color: #1a2236;
+}
+
+footer .pjbutton {
+  position: relative;
+  display: block;
+  width: 165px;
+  height: 22px;
+  top: 32px;
+  right: 50px;
+}
+
+footer .actbutton2 {
+  position: absolute;
+  width: 137px;
+  height: 24px;
+  top: 0;
+  left: 67px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #92dcdc;
+}
+
+.narrow1 {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 0;
+  left: 215px;
+}
+
+.icons {
+  position: absolute;
+  max-width: 288px;
+  height: 24px;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 29px;
+  top: 42px;
+  left: 26px;
+}
