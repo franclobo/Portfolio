@@ -403,6 +403,7 @@ h1 {
   height: 813px;
   top: 4179px;
   left: 0;
+  right: 0;
 }
 
 .ux h2 {
@@ -432,6 +433,7 @@ h1 {
   list-style-type: none;
   top: 310px;
   left: 18px;
+  right: 14px;
   margin: 0;
   padding: 0;
 }
@@ -550,6 +552,7 @@ h1 {
   height: 44px;
   top: 364px;
   left: 0;
+  right: 14px;
 }
 
 footer {
