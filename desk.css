@@ -102,7 +102,7 @@ h1 {
   margin-inline-end: 0;
 }
 
-#txtbutton {
+.txtbutton {
   display: flex;
   position: absolute;
   justify-content: center;
@@ -119,24 +119,6 @@ h1 {
   text-align: center;
   color: #fff;
   background-color: #1a2236;
-}
-
-#txtbutton a:hover {
-  background: #fff;
-  border: 1px solid #1a2236;
-  box-sizing: border-box;
-}
-
-#txtbutton a:disabled {
-  background: #1a2236;
-  border: 1px solid #1a2236;
-  box-sizing: border-box;
-}
-
-#txtbutton a:active {
-  background: #fff;
-  border: 2px solid #1a2236;
-  box-sizing: border-box;
 }
 
 #graphics {
@@ -550,13 +532,12 @@ h1 {
   color: #7d7c84;
 }
 
-.data #txtbutton {
+.data .txtbutton {
   position: absolute;
   width: 288px;
   height: 44px;
   top: 364px;
   left: 0px;
-  border-radius: 4px;
 }
 
 footer {
@@ -575,6 +556,7 @@ footer .pjbutton {
   height: 22px;
   top: 32px;
   right: 50px;
+  border-radius: 0;
 }
 
 footer .actbutton2 {
@@ -588,6 +570,7 @@ footer .actbutton2 {
   font-size: 16px;
   line-height: 24px;
   color: #92dcdc;
+  
 }
 
 .narrow1 {
@@ -609,3 +592,23 @@ footer .actbutton2 {
   top: 42px;
   left: 26px;
 }
+/*button interactions*/
+.txtbutton:hover {
+  background: #fff;
+  border: 1px solid #1a2236;
+  box-sizing: border-box;
+  color: #1a2236;
+}
+
+.txtbutton:disabled {
+  background: #1a2236;
+  border: 1px solid #1a2236;
+  box-sizing: border-box;
+}
+
+.txtbutton:active {
+  background: #fff;
+  border: 2px solid #1a2236;
+  box-sizing: border-box;
+}
+
