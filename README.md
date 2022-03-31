@@ -26,6 +26,10 @@ Twitter: [@pancho2788](https://twitter.com/Pancho2788)
 
 LinkedIn: [Francisco Borja](https://www.linkedin.com/in/francisco-borja-lobato/)
 
+## 👤 Frederick Ankomah
+
+E-mail: [Gmail](ankomahfrederickyahoo@gmail.com)
+
 
 # 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
