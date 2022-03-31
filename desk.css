@@ -451,7 +451,7 @@ h1 {
   position: absolute;
   width: 288px;
   height: 52px;
-  top: 0px;
+  top: 0;
   left: 0;
   border-radius: 4px;
   background: #fff;
@@ -530,7 +530,7 @@ h1 {
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
-  color: #1A2236;
+  color: #1a2236;
 }
 
 .limsg {
