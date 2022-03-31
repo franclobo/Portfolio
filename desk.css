@@ -181,7 +181,6 @@ h1 {
 
 .box ul {
   position: absolute;
-  display: float;
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 10px;
@@ -396,16 +395,16 @@ h1 {
   bottom: 36px;
 }
 
-/*conatct form*/
+/* conatct form */
 
-.ux{
+.ux {
   position: absolute;
-  display: float;
   width: 320px;
   height: 813px;
   top:4179px;
   left: 0;
 }
+
 .ux h2 {
   position: relative;
   margin-block-start: 30px;
@@ -442,7 +441,7 @@ h1 {
   width: 288px;
   height: 82px;
   top: 32px;
-  left: 0px;
+  left: 0;
   border-radius: 4px;
   background: #fff;
   border: 1px solid #1a2236;
@@ -466,7 +465,21 @@ h1 {
   color: #1a2236;
 }
 
-.data .namelabel, .emaillabel {
+.data .namelabel {
+  position: absolute;
+  width: 55px;
+  height: 15px;
+  left: 16px;
+  top: 4px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #7d7c84;
+}
+
+.data .emaillabel {
   position: absolute;
   width: 55px;
   height: 15px;
@@ -508,13 +521,12 @@ h1 {
   width: 288px;
   height: 112px;
   top: 228px;
-  left: 0px;
+  left: 0;
   border-radius: 4px;
   margin: 0;
   padding: 0;
   border: 1px solid #dfdfe0;
   box-sizing: border-box;
-  border-radius: 4px;
 }
 
 .data #msg {
@@ -570,7 +582,6 @@ footer .actbutton2 {
   font-size: 16px;
   line-height: 24px;
   color: #92dcdc;
-  
 }
 
 .narrow1 {
@@ -592,7 +603,9 @@ footer .actbutton2 {
   top: 42px;
   left: 26px;
 }
-/*button interactions*/
+
+/* button interactions */
+
 .txtbutton:hover {
   background: #fff;
   border: 1px solid #1a2236;
