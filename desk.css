@@ -541,7 +541,7 @@ h1 {
   position: absolute;
   width: 220px;
   height: 21px;
-  top: 83px;
+  top: 23px;
   left: 16px;
   border-radius: 4px;
   background: #fff;
@@ -570,8 +570,8 @@ h1 {
 #msg textarea {
   position: absolute;
   width: 253px;
-  height: 90px;
-  top: 122px;
+  height: 100px;
+  top: 15pz;
   left: 16px;
   border: none;
   font-family: 'Poppins', sans-serif;
