@@ -1586,6 +1586,7 @@ footer .actbutton2 {
     font-size: 16px;
     line-height: 24px;
     color: #1a2236;
+    border: 1px solid #1a2236;
     box-sizing: border-box;
   }
 
@@ -1643,6 +1644,7 @@ footer .actbutton2 {
     font-size: 16px;
     line-height: 24px;
     color: #1a2236;
+    border: 1px solid #1a2236;
     box-sizing: border-box;
   }
 
@@ -1757,12 +1759,12 @@ footer .actbutton2 {
     border: 2px solid #1a2236;
     box-sizing: border-box;
   }
-
+    
   /* 
-    Animations and transitions
-    PAIR PROGRAMING ACTIVITY
+  Animations and transitions
+  PAIR PROGRAMING ACTIVITY
 
-    1. Add scale fuction to icons in footer.
-    2. Add animations to .box01 to .box06.
+  1. Add scale fuction to icons in footer.
+  2. Add animations to .box01 to .box06.
   */
 }
