@@ -567,7 +567,7 @@ h1 {
   box-sizing: border-box;
 }
 
-.msg textarea {
+#msg textarea {
   position: absolute;
   width: 253px;
   height: 90px;
@@ -1676,7 +1676,7 @@ footer .actbutton2 {
     background: #f9f9fa;
   }
 
-  .msg {
+  #msg {
     position: absolute;
     width: 542px;
     height: 140px;
@@ -1702,7 +1702,7 @@ footer .actbutton2 {
     color: #7d7c84;
   }
 
-  .msg textarea {
+  #msg textarea {
     position: absolute;
     width: 500px;
     height: 100px;
