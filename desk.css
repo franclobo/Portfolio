@@ -574,8 +574,7 @@ h1 {
   top: 122px;
   left: 16px;
   border: none;
-  font-family: 'Poppins',
-  sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1586,14 +1585,13 @@ footer .actbutton2 {
     top: 23px;
     border-radius: 4px;
     background: #fff;
-    border: none;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #1a2236;
-    border: 1px solid #E0E0E0;
+    border: 1px solid #e0e0e0;
     box-sizing: border-box;
   }
 
@@ -1650,7 +1648,6 @@ footer .actbutton2 {
     left: 289px;
     border-radius: 4px;
     background: #fff;
-    border: none;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -1693,7 +1690,7 @@ footer .actbutton2 {
   .msglabel {
     display: block;
     position: absolute;
-    width: 140.83;
+    width: 140.83px;
     height: 18px;
     top: 0;
     left: 0;
