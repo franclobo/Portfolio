@@ -1024,7 +1024,7 @@ footer .actbutton2 {
     width: 169px;
     height: 40px;
     top: 142px;
-    left: 212px; 
+    left: 212px;
   }
 
   .box01 .js {
@@ -1115,8 +1115,8 @@ footer .actbutton2 {
     backdrop-filter: blur(24px);
   }
 
-  .box02 p, 
-  .box03 p, 
+  .box02 p,
+  .box03 p,
   .box04 p,
   .box05 p {
     position: absolute;
@@ -1366,8 +1366,8 @@ footer .actbutton2 {
     position: absolute;
     width: 295px;
     height: 110px;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     transform: rotate(0deg);
   }
 
@@ -1376,9 +1376,9 @@ footer .actbutton2 {
     width: 446px;
     height: 84px;
     top: 140px;
-    left: 0px;
+    left: 0;
     right: 160px;
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -1508,7 +1508,7 @@ footer .actbutton2 {
     right: 0;
   }
 
-  #uxlogo  {
+  #uxlogo {
     display: none;
   }
 
@@ -1586,7 +1586,6 @@ footer .actbutton2 {
     font-size: 16px;
     line-height: 24px;
     color: #1a2236;
-    border: 1px solid #1a2236;
     box-sizing: border-box;
   }
 
@@ -1644,7 +1643,6 @@ footer .actbutton2 {
     font-size: 16px;
     line-height: 24px;
     color: #1a2236;
-    border: 1px solid #1a2236;
     box-sizing: border-box;
   }
 
@@ -1735,7 +1733,7 @@ footer .actbutton2 {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
     gap: 29px;
-    top: 0px;
+    top: 0;
     left: 840px;
   }
 
@@ -1760,11 +1758,11 @@ footer .actbutton2 {
     box-sizing: border-box;
   }
 
-/* 
-  Animations and transitions
-  PAIR PROGRAMING ACTIVITY
+  /* 
+    Animations and transitions
+    PAIR PROGRAMING ACTIVITY
 
-  1. Add scale fuction to icons in footer.
-  2. Add animations to .box01 to .box06.
-*/
+    1. Add scale fuction to icons in footer.
+    2. Add animations to .box01 to .box06.
+  */
 }
