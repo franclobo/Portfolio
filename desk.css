@@ -1568,7 +1568,7 @@ footer .actbutton2 {
     top: 0;
     left: 0;
     background: #fff;
-    border: none;
+    border-style: none;
   }
 
   .data .name {
@@ -1612,7 +1612,7 @@ footer .actbutton2 {
     top: 0;
     left: 289px;
     background: #fff;
-    border: none;
+    border-style: none;
   }
 
   .data .emaillabel {
@@ -1759,8 +1759,8 @@ footer .actbutton2 {
     border: 2px solid #1a2236;
     box-sizing: border-box;
   }
-    
-  /* 
+
+  /*
   Animations and transitions
   PAIR PROGRAMING ACTIVITY
 
