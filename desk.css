@@ -10,11 +10,25 @@
 
 /* mobile version */
 
-.desk,.geometry,.dots, .geo4, .geo5, .geo6, .geo7, .geo8, .geo9, .teal {
+.desk,
+.geometry,
+.dots, 
+.geo4, 
+.geo5, 
+.geo6, 
+.geo7, 
+.geo8, 
+.geo9, 
+.teal {
   display: none;
 }
 
-.box01, .box02, .box03, .box04, .box05, .box06 {
+.box01, 
+.box02, 
+.box03, 
+.box04, 
+.box05, 
+.box06 {
   display: none;
 }
 
@@ -651,13 +665,13 @@ footer .actbutton2 {
 
 /* desk-version */
 
-@media (min-width:800px){
-
+@media (min-width: 800px) {
   #mobile {
     display: none;
   }
-  body{
-    margin:0;
+
+  body {
+    margin: 0;
     padding: 0;
   }
 
@@ -1110,7 +1124,9 @@ footer .actbutton2 {
     backdrop-filter: blur(24px);
   }
   
-  .box02 p, .box03 p, .box04 p,
+  .box02 p, 
+  .box03 p, 
+  .box04 p,
   .box05 p {
     position: absolute;
     width: 465px;
@@ -1127,12 +1143,18 @@ footer .actbutton2 {
     color: #fff;
   }
 
-  .box01 ul,.box02 ul, .box03 ul, .box04 ul,
-  .box05 ul, .box06 ul {
+  .box01 ul,
+  .box02 ul,
+  .box03 ul,
+  .box04 ul,
+  .box05 ul,
+  .box06 ul {
     list-style: none;
   }
   
-  .box02 button, .box03 button, .box04 button,
+  .box02 button,
+  .box03 button,
+  .box04 button,
   .box05 button {
     appearance: auto;
     writing-mode: horizontal-tb;
@@ -1158,7 +1180,9 @@ footer .actbutton2 {
     border-image: initial;
   }
   
-  .box02 .html, .box03 .html, .box04 .html,
+  .box02 .html,
+  .box03 .html,
+  .box04 .html,
   .box05 .html {
     position: absolute;
     width: 132px;
@@ -1167,7 +1191,9 @@ footer .actbutton2 {
     left: 30px;
   }
   
-  .box02 .ruby, .box03 .ruby, .box04 .ruby,
+  .box02 .ruby,
+  .box03 .ruby,
+  .box04 .ruby,
   .box05 .ruby {
     position: absolute;
     width: 169px;
@@ -1176,7 +1202,9 @@ footer .actbutton2 {
     left: 177px;
   }
   
-  .box02 .js, .box03 .js, .box04 .js,
+  .box02 .js,
+  .box03 .js,
+  .box04 .js,
   .box05 .js {
     position: absolute;
     width: 57px;
@@ -1185,7 +1213,9 @@ footer .actbutton2 {
     left: 361px;
   }
   
-  .box02 .pjbutton, .box03 .pjbutton, .box04 .pjbutton,
+  .box02 .pjbutton,
+  .box03 .pjbutton,
+  .box04 .pjbutton,
   .box05 .pjbutton {
     display: flex;
     position: absolute;
@@ -1197,7 +1227,9 @@ footer .actbutton2 {
     border: solid #fff;
   }
   
-  .box02 .pjbutton .actbutton, .box03 .pjbutton .actbutton, .box04 .pjbutton .actbutton,
+  .box02 .pjbutton .actbutton,
+  .box03 .pjbutton .actbutton,
+  .box04 .pjbutton .actbutton,
   .box05 .pjbutton .actbutton {
     position: absolute;
     font-family: 'Poppins', sans-serif;
@@ -1211,7 +1243,9 @@ footer .actbutton2 {
     text-decoration: none;
   }
   
-  .box02 .narrow, .box03 .narrow, .box04 .narrow,
+  .box02 .narrow,
+  .box03 .narrow,
+  .box04 .narrow,
   .box05 .narrow {
     position: absolute;
     width: 20.57px;
