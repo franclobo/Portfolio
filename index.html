@@ -58,8 +58,6 @@
             <img class="geo5" src="./images/image-geometry_5.png" alt="geo5">
             <img class="geo6" src="./images/image-geometry_6.png" alt="geo6">
             <img class="geo7" src="./images/image-geometry_7.png" alt="geo7">
-            <img class="geo8" src="./images/image-geometry_8.png" alt="geo8">
-            <img class="geo9" src="./images/image-geometry_9.png" alt="geo9">
             <img class="teal" src="./images/image_dots_with_teal.png" alt="teal">
             <img class="pc" src="./images/pcprogect.png" alt="Project1">
             <div class="box">
@@ -297,22 +295,28 @@
     <!--Forms section-->
     <section>
         <div class="ux">
+            <figure>
+                <img class="geo8" src="./images/image-geometry_8.png" alt="geo8">
+                <img class="geo9" src="./images/image-geometry_9.png" alt="geo9">
+            </figure>            
             <img id="uxlogo" src="./images/image_geometry_2.png" alt="logo">
             <h2>Get stared</h2>
-            <p class="phrase">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatum commodi aliquid quis pariatur totam explicabo.</p>
+            <p class="phrase">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Ea, adipisci! Sapiente quos dolorem dolores exercitationem possimus tenetur corporis, 
+                vel cupiditate consequatur, placeat harum adipisci maiores laudantium. Omnis officiis et blanditiis.</p>
             <form action="https://formspree.io/f/xayvddpz" method="post">
                 <ul class="data">
                     <li class="liname">
                         <label class="namelabel" for="name">Your name</label>
-                        <input class="name" type="text" id="name" name="user-name" placeholder="Francisco" maxlength="30" required>
+                        <li class="name"><input type="text" id="name" name="user-name" placeholder="Francisco" maxlength="30" required></li>
                     </li>
                     <li class="liemail">
                         <label class="emaillabel" for="email">Your email</label>
-                        <input class="email" type="email" id="email" name="user-email" placeholder="example@mail.com" required>
+                        <li class="email"><input type="email" id="email" name="user-email" placeholder="example@mail.com" required></li>
                     </li>
                     <li class="limsg">
-                        <textarea id="msg" name="user-message" maxlength="500" required>Enter your message here...</textarea>
+                        <label class="msglabel" for="message">Message</label>
+                        <li class="msg"><textarea name="user-message" maxlength="500" required>Enter your message here...</textarea></li>
                     </li>
                     <li>
                         <button class="txtbutton" type="submit">Start collaboration</button>
