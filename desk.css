@@ -1807,4 +1807,10 @@ footer .actbutton2 {
   1. Add scale fuction to icons in footer.
   2. Add animations to .box01 to .box06.
   */
+  .icons:hover {
+    transform: scale(0.7);
+  }
+
 }
+
+
