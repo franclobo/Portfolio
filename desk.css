@@ -19,7 +19,8 @@
 .geo7,
 .geo8,
 .geo9,
-.teal {
+.teal,
+.msglabel {
   display: none;
 }
 
@@ -444,6 +445,7 @@ h1 {
   position: absolute;
   max-width: 288px;
   max-height: 63px;
+  overflow: hidden;
   top: 176px;
   left: 18px;
   right: 14px;
@@ -479,13 +481,12 @@ h1 {
   box-sizing: border-box;
 }
 
-.data .name {
-  position: relative;
+.name input {
+  position: absolute;
   width: 220px;
   height: 21px;
   left: 16px;
   top: 23px;
-  border-radius: 4px;
   background: #fff;
   border: none;
   font-family: 'Poppins', sans-serif;
@@ -536,11 +537,11 @@ h1 {
   color: #7d7c84;
 }
 
-.data .email {
-  position: relative;
+.email input {
+  position: absolute;
   width: 220px;
   height: 21px;
-  top: 23px;
+  top: 83px;
   left: 16px;
   border-radius: 4px;
   background: #fff;
@@ -566,14 +567,15 @@ h1 {
   box-sizing: border-box;
 }
 
-.data #msg {
+.msg textarea {
   position: absolute;
-  width: 260px;
+  width: 253px;
   height: 90px;
-  top: 8px;
+  top: 122px;
   left: 16px;
   border: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins',
+  sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -861,24 +863,6 @@ footer .actbutton2 {
     height: 87.61px;
     top: 2560px;
     left: 712px;
-  }
-
-  .project .geo8 {
-    position: absolute;
-    display: block;
-    width: 263.06px;
-    height: 350.84px;
-    top: 3782px;
-    left: 0;
-  }
-
-  .project .geo9 {
-    position: absolute;
-    display: block;
-    width: 350.75px;
-    height: 350.84px;
-    top: 4278px;
-    left: 1089px;
   }
 
   .project .teal {
@@ -1506,14 +1490,33 @@ footer .actbutton2 {
     top: 3782px;
     left: 0;
     right: 0;
+    background: #f9f9fa;
   }
 
   #uxlogo {
     display: none;
   }
 
+  .ux .geo8 {
+    position: absolute;
+    display: block;
+    width: 263.06px;
+    height: 350.84px;
+    top: 0;
+    left: 0;
+  }
+
+  .ux .geo9 {
+    position: absolute;
+    display: block;
+    width: 350.75px;
+    height: 350.84px;
+    top: 596px;
+    left: 1089px;
+  }
+
   .ux h2 {
-    position: relative;
+    position: absolute;
     width: 548px;
     height: 110px;
     top: 168px;
@@ -1523,15 +1526,19 @@ footer .actbutton2 {
     font-family: 'Playfair_Display', 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 110px;
     line-height: 100%;
+    text-align: center;
     color: #1a2236;
   }
 
   .ux .phrase {
     position: absolute;
+    margin: 0;
+    padding: 0;
     max-width: 548px;
     max-height: 63px;
+    overflow: hidden;
     top: 318px;
     left: 446px;
     right: 446px;
@@ -1546,7 +1553,7 @@ footer .actbutton2 {
 
   .data {
     position: absolute;
-    display: flex;
+    display: block;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -1567,12 +1574,12 @@ footer .actbutton2 {
     height: 60px;
     top: 0;
     left: 0;
-    background: #fff;
+    background: #f9f9fa;
     border-style: none;
   }
 
-  .data .name {
-    position: relative;
+  .name {
+    position: absolute;
     width: 254px;
     height: 60px;
     left: 0;
@@ -1586,7 +1593,14 @@ footer .actbutton2 {
     font-size: 16px;
     line-height: 24px;
     color: #1a2236;
+    border: 1px solid #E0E0E0;
     box-sizing: border-box;
+  }
+
+  .name input {
+    position: absolute;
+    top: 18px;
+    left: 20px;
   }
 
   .data .namelabel {
@@ -1610,7 +1624,7 @@ footer .actbutton2 {
     height: 60px;
     top: 0;
     left: 289px;
-    background: #fff;
+    background: #f9f9fa;
     border-style: none;
   }
 
@@ -1628,12 +1642,12 @@ footer .actbutton2 {
     color: #7d7c84;
   }
 
-  .data .email {
-    position: relative;
+  .email {
+    position: absolute;
     width: 253px;
     height: 60px;
     top: 23px;
-    left: 0;
+    left: 289px;
     border-radius: 4px;
     background: #fff;
     border: none;
@@ -1643,29 +1657,60 @@ footer .actbutton2 {
     font-size: 16px;
     line-height: 24px;
     color: #1a2236;
+    border: 1px solid #e0e0e0;
     box-sizing: border-box;
+  }
+
+  .email input {
+    position: absolute;
+    top: 18px;
+    left: 19.55px;
   }
 
   .limsg {
-    flex: 1;
     position: absolute;
     width: 542px;
     height: 140px;
-    top: 124px;
+    top: 92px;
     left: 0;
-    border-radius: 4px;
     margin: 0;
     padding: 0;
-    border: 1px solid #dfdfe0;
+    border-style: none;
+    background: #f9f9fa;
+  }
+
+  .msg {
+    position: absolute;
+    width: 542px;
+    height: 140px;
+    top: 114px;
+    border-radius: 4px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
     box-sizing: border-box;
   }
 
-  .data #msg {
+  .msglabel {
+    display: block;
     position: absolute;
-    width: 260px;
-    height: 90px;
-    top: 8px;
-    left: 16px;
+    width: 140.83;
+    height: 18px;
+    top: 0;
+    left: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7d7c84;
+  }
+
+  .msg textarea {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    top: 18px;
+    left: 20px;
     border: none;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -1688,7 +1733,7 @@ footer .actbutton2 {
     position: absolute;
     width: 1440px;
     height: 123px;
-    top: 827px;
+    top: 947px;
     background-color: #1a2236;
   }
 
@@ -1696,7 +1741,7 @@ footer .actbutton2 {
     position: absolute;
     max-width: 165px;
     height: 22px;
-    top: 48px;
+    top: 40px;
     left: 160px;
     border-radius: 0;
   }
