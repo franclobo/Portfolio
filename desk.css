@@ -12,22 +12,22 @@
 
 .desk,
 .geometry,
-.dots, 
-.geo4, 
-.geo5, 
-.geo6, 
-.geo7, 
-.geo8, 
-.geo9, 
+.dots,
+.geo4,
+.geo5,
+.geo6,
+.geo7,
+.geo8,
+.geo9,
 .teal {
   display: none;
 }
 
-.box01, 
-.box02, 
-.box03, 
-.box04, 
-.box05, 
+.box01,
+.box02,
+.box03,
+.box04,
+.box05,
 .box06 {
   display: none;
 }
@@ -692,7 +692,7 @@ footer .actbutton2 {
     height: 100px;
   }
 
-  .navbar{
+  .navbar {
     position: absolute;
     list-style-type: none;
     display: flex;
@@ -723,15 +723,15 @@ footer .actbutton2 {
     left: 160px;
     top: 192px;
   }
-  
-  #presentation>article {
+
+  #presentation > article {
     position: absolute;
     width: 484px;
     height: 364px;
     left: 0;
     top: 0;
   }
-  
+
   h1 {
     position: absolute;
     border: none;
@@ -747,7 +747,7 @@ footer .actbutton2 {
     line-height: 100%;
     color: #1a2236;
   }
-  
+
   #phrase {
     position: absolute;
     width: 484px;
@@ -766,7 +766,7 @@ footer .actbutton2 {
     margin-inline-start: 0;
     margin-inline-end: 0;
   }
-  
+
   .txtbutton {
     display: flex;
     position: absolute;
@@ -785,7 +785,7 @@ footer .actbutton2 {
     color: #fff;
     background-color: #1a2236;
   }
-  
+
   .geometry {
     display: block;
     position: absolute;
@@ -811,7 +811,7 @@ footer .actbutton2 {
     left: 563px;
     right: 702px;
   }
-  
+
   .project {
     display: grid;
     gap: 0;
@@ -897,7 +897,7 @@ footer .actbutton2 {
     top: 1197px;
     left: 313px;
   }
-  
+
   .project h2 {
     position: absolute;
     width: 398px;
@@ -937,7 +937,7 @@ footer .actbutton2 {
     top: 2095px;
     left: 0;
   }
-  
+
   .pc3 {
     position: absolute;
     width: 465px;
@@ -993,7 +993,7 @@ footer .actbutton2 {
     line-height: 80%;
     color: #fff;
   }
-  
+
   .box01 button {
     appearance: auto;
     writing-mode: horizontal-tb;
@@ -1018,7 +1018,7 @@ footer .actbutton2 {
     border-color: #98dede;
     border-image: initial;
   }
-  
+
   .box01 .html {
     position: absolute;
     width: 132px;
@@ -1026,7 +1026,7 @@ footer .actbutton2 {
     top: 142px;
     left: 60px;   
   }
-  
+
   .box01 .ruby {
     position: absolute;
     width: 169px;
@@ -1034,7 +1034,7 @@ footer .actbutton2 {
     top: 142px;
     left: 212px;   
   }
-  
+
   .box01 .js {
     position: absolute;
     width: 144px;
@@ -1043,7 +1043,7 @@ footer .actbutton2 {
     left: 401px;
     
   }
-  
+
   .box01 .pjbutton {
     display: flex;
     position: absolute;
@@ -1054,7 +1054,7 @@ footer .actbutton2 {
     background-color: #fff;
     border: solid #fff;
   }
-  
+
   .box01 .pjbutton .actbutton {
     position: absolute;
     font-family: 'Poppins', sans-serif;
@@ -1067,7 +1067,7 @@ footer .actbutton2 {
     cursor: pointer;
     text-decoration: none;
   }
-  
+
   .box01 .narrow {
     position: absolute;
     width: 20.57px;
@@ -1123,7 +1123,7 @@ footer .actbutton2 {
     background: rgba(26, 34, 54, 0.95);
     backdrop-filter: blur(24px);
   }
-  
+
   .box02 p, 
   .box03 p, 
   .box04 p,
@@ -1151,7 +1151,7 @@ footer .actbutton2 {
   .box06 ul {
     list-style: none;
   }
-  
+
   .box02 button,
   .box03 button,
   .box04 button,
@@ -1179,7 +1179,7 @@ footer .actbutton2 {
     border-color: #98dede;
     border-image: initial;
   }
-  
+
   .box02 .html,
   .box03 .html,
   .box04 .html,
@@ -1190,7 +1190,7 @@ footer .actbutton2 {
     top: 82px;
     left: 30px;
   }
-  
+
   .box02 .ruby,
   .box03 .ruby,
   .box04 .ruby,
@@ -1201,7 +1201,7 @@ footer .actbutton2 {
     top: 82px;
     left: 177px;
   }
-  
+
   .box02 .js,
   .box03 .js,
   .box04 .js,
@@ -1212,7 +1212,7 @@ footer .actbutton2 {
     top: 82px;
     left: 361px;
   }
-  
+
   .box02 .pjbutton,
   .box03 .pjbutton,
   .box04 .pjbutton,
@@ -1226,7 +1226,7 @@ footer .actbutton2 {
     background-color: #fff;
     border: solid #fff;
   }
-  
+
   .box02 .pjbutton .actbutton,
   .box03 .pjbutton .actbutton,
   .box04 .pjbutton .actbutton,
@@ -1242,7 +1242,7 @@ footer .actbutton2 {
     cursor: pointer;
     text-decoration: none;
   }
-  
+
   .box02 .narrow,
   .box03 .narrow,
   .box04 .narrow,
@@ -1265,7 +1265,7 @@ footer .actbutton2 {
     background: rgba(26, 34, 54, 0.95);
     backdrop-filter: blur(24px);
   }
-  
+
   .box06 p {
     position: relative;
     width: 726px;
@@ -1281,7 +1281,7 @@ footer .actbutton2 {
     line-height: 80%;
     color: #fff;
   }
-  
+
   .box06 button {
     appearance: auto;
     writing-mode: horizontal-tb;
@@ -1306,7 +1306,7 @@ footer .actbutton2 {
     border-color: #98dede;
     border-image: initial;
   }
-  
+
   .box06 .html {
     position: absolute;
     width: 132px;
@@ -1314,7 +1314,7 @@ footer .actbutton2 {
     top: 142px;
     left: 60px;
   }
-  
+
   .box06 .ruby {
     position: absolute;
     width: 169px;
@@ -1322,16 +1322,15 @@ footer .actbutton2 {
     top: 142px;
     left: 212px;
   }
-  
+
   .box06 .js {
     position: absolute;
     width: 144px;
     height: 40px;
     top: 142px;
     left: 401px;
-  
   }
-  
+
   .box06 .pjbutton {
     display: flex;
     position: absolute;
@@ -1342,7 +1341,7 @@ footer .actbutton2 {
     background-color: #fff;
     border: solid #fff;
   }
-  
+
   .box06 .pjbutton .actbutton {
     position: absolute;
     font-family: 'Poppins', sans-serif;
@@ -1355,7 +1354,7 @@ footer .actbutton2 {
     cursor: pointer;
     text-decoration: none;
   }
-  
+
   .box06 .narrow {
     position: absolute;
     width: 20.57px;
@@ -1363,14 +1362,13 @@ footer .actbutton2 {
     top: 17.95px;
     left: 174px;
   }
-  
+
   .box1 {
     position: absolute;
     width: 446px;
     height: 336px;
     top: 3074px;
     left: 834px;
-    
   }
 
   .box1 h2 {
@@ -1381,7 +1379,7 @@ footer .actbutton2 {
     left: 0px;
     transform: rotate(0deg);
   }
-  
+
   .box1 .phrase {
     position: absolute;
     width: 446px;
@@ -1396,7 +1394,7 @@ footer .actbutton2 {
     line-height: 21px;
     color: #1a2236;
   }
-  
+
   .box1 .pjbutton {
     display: flex;
     position: relative;
@@ -1406,7 +1404,7 @@ footer .actbutton2 {
     top: 266px;
     background-color: #1a2236;
   }
-  
+
   .pjbutton .actbutton1 {
     position: absolute;
     font-family: 'Poppins', sans-serif;
@@ -1421,13 +1419,13 @@ footer .actbutton2 {
     top: 22px;
     left: 55px;
   }
-  
+
   .narrow0 {
     position: absolute;
     top: 23px;
     left: 175px;
   }
-  
+
   .project #square1 {
     position: absolute;
     width: 289px;
@@ -1436,7 +1434,7 @@ footer .actbutton2 {
     top: 3046px;
     background: #1c528a;
   }
-  
+
   .project #square2 {
     position: absolute;
     width: 289px;
@@ -1445,7 +1443,7 @@ footer .actbutton2 {
     top: 3046px;
     background: #e2505c;
   }
-  
+
   .project #square3 {
     position: absolute;
     width: 289px;
@@ -1454,7 +1452,7 @@ footer .actbutton2 {
     top: 3335px;
     background: #febf52;
   }
-  
+
   .project .chart {
     position: absolute;
     width: 178px;
@@ -1469,7 +1467,7 @@ footer .actbutton2 {
     letter-spacing: -0.0525em;
     color: #fff;
   }
-  
+
   .project h3 {
     position: relative;
     width: 116px;
@@ -1483,7 +1481,7 @@ footer .actbutton2 {
     line-height: 30px;
     color: #fff;
   }
-  
+
   .project #narrow1 {
     position: absolute;
     width: 102px;
@@ -1491,7 +1489,7 @@ footer .actbutton2 {
     top: 187px;
     left: 187px;
   }
-  
+
   .project #narrow2 {
     position: absolute;
     width: 102px;
@@ -1499,7 +1497,7 @@ footer .actbutton2 {
     top: 187px;
     left: 187px;
   }
-  
+
   .project #narrow3 {
     position: absolute;
     width: 102px;
@@ -1507,9 +1505,9 @@ footer .actbutton2 {
     top: 187px;
     left: 187px;
   }
-  
+
   /* conatct form */
-  
+
   .ux {
     position: absolute;
     width: 1440px;
@@ -1522,7 +1520,7 @@ footer .actbutton2 {
   #uxlogo  {
     display: none;
   }
-  
+
   .ux h2 {
     position: relative;
     width: 548px;
@@ -1538,7 +1536,7 @@ footer .actbutton2 {
     line-height: 100%;
     color: #1a2236;
   }
-  
+
   .ux .phrase {
     position: absolute;
     max-width: 548px;
@@ -1554,7 +1552,7 @@ footer .actbutton2 {
     letter-spacing: -0.01em;
     color: #1a2236;
   }
-  
+
   .data {
     position: absolute;
     display: flex;
@@ -1570,7 +1568,7 @@ footer .actbutton2 {
     margin: 0;
     padding: 0;
   }
-  
+
   .liname {
     flex: 1;
     position: absolute;
@@ -1581,7 +1579,7 @@ footer .actbutton2 {
     background: #fff;
     border: none;
   }
-  
+
   .data .name {
     position: relative;
     width: 254px;
@@ -1600,7 +1598,7 @@ footer .actbutton2 {
     border: 1px solid #1a2236;
     box-sizing: border-box;
   }
-  
+
   .data .namelabel {
     position: absolute;
     width: 66px;
@@ -1614,7 +1612,7 @@ footer .actbutton2 {
     line-height: 18px;
     color: #7d7c84;
   }
-  
+
   .liemail {
     flex: 1;
     position: absolute;
@@ -1625,7 +1623,7 @@ footer .actbutton2 {
     background: #fff;
     border: none;
   }
-  
+
   .data .emaillabel {
     position: absolute;
     width: 64px;
@@ -1639,7 +1637,7 @@ footer .actbutton2 {
     line-height: 18px;
     color: #7d7c84;
   }
-  
+
   .data .email {
     position: relative;
     width: 253px;
@@ -1658,7 +1656,7 @@ footer .actbutton2 {
     border: 1px solid #1a2236;
     box-sizing: border-box;
   }
-  
+
   .limsg {
     flex: 1;
     position: absolute;
@@ -1672,7 +1670,7 @@ footer .actbutton2 {
     border: 1px solid #dfdfe0;
     box-sizing: border-box;
   }
-  
+
   .data #msg {
     position: absolute;
     width: 260px;
@@ -1687,7 +1685,7 @@ footer .actbutton2 {
     line-height: 21px;
     color: #7d7c84;
   }
-  
+
   .data .txtbutton {
     position: absolute;
     width: 254px;
@@ -1695,7 +1693,7 @@ footer .actbutton2 {
     top: 300px;
     left: 144px;
   }
-  
+
   footer {
     display: block;
     position: absolute;
@@ -1704,7 +1702,7 @@ footer .actbutton2 {
     top: 827px;
     background-color: #1a2236;
   }
-  
+
   footer .pjbutton1 {
     position: absolute;
     max-width: 165px;
@@ -1713,7 +1711,7 @@ footer .actbutton2 {
     left: 160px;
     border-radius: 0;
   }
-  
+
   footer .actbutton2 {
     position: absolute;
     width: 137px;
@@ -1726,7 +1724,7 @@ footer .actbutton2 {
     line-height: 24px;
     color: #92dcdc;
   }
-  
+
   .narrow1 {
     position: absolute;
     width: 22px;
@@ -1734,7 +1732,7 @@ footer .actbutton2 {
     top: 0;
     left: 215px;
   }
-  
+
   .icons {
     position: absolute;
     flex: 1;
@@ -1749,32 +1747,33 @@ footer .actbutton2 {
     top: 0px;
     left: 840px;
   }
-  
+
   /* button interactions */
-  
+
   .txtbutton:hover {
     background: #fff;
     border: 1px solid #1a2236;
     box-sizing: border-box;
     color: #1a2236;
   }
-  
+
   .txtbutton:disabled {
     background: #1a2236;
     border: 1px solid #1a2236;
     box-sizing: border-box;
   }
-  
+
   .txtbutton:active {
     background: #fff;
     border: 2px solid #1a2236;
     box-sizing: border-box;
   }
-  /* 
+
+/* 
   Animations and transitions
   PAIR PROGRAMING ACTIVITY
 
   1. Add scale fuction to icons in footer.
   2. Add animations to .box01 to .box06.
-  */
+*/
 }
