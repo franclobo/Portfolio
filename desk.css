@@ -14,6 +14,15 @@
   display: none;
 }
 
+.box01, .box02, .box03, .box04, .box05, .box06 {
+  display: none;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
 .flex-item {
   display: flex;
   justify-content: space-between;
@@ -940,46 +949,44 @@ footer .actbutton2 {
   }
 
   .box {
-    position: relative;
     display: none;
-    top: 0;
-    height: 156px;
-    background-color: #1a2236;
   }
-  
-  .box p {
+
+  .box01 {
+    display: flex;
+    flex-wrap: wrap;
     position: absolute;
-    display: block;
-    margin-block-start: 20px;
+    width: 960px;
+    height: 353px;
+    top: 1392px;
+    left: 480px;
+    background: rgba(26, 34, 54, 0.95);
+    backdrop-filter: blur(24px);
+  }
+
+  .box01 p {
+    position: relative;
+    width: 726px;
+    height: 48px;
+    margin-block-start: 60px;
     margin-block-end: 16px;
-    margin-inline-start: 20px;
+    margin-inline-start: 60px;
     margin-inline-end: 36px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 60px;
     line-height: 80%;
     color: #fff;
   }
   
-  .box ul {
-    position: absolute;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 10px;
-    margin-block-start: 52px;
-    margin-block-end: 84px;
-    margin-inline-start: 20px;
-    margin-inline-end: 50px;
-  }
-  
-  .box button {
+  .box01 button {
     appearance: auto;
     writing-mode: horizontal-tb;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 10.3334px;
+    font-size: 20px;
     line-height: 80%;
     text-transform: none;
     text-indent: 0;
@@ -998,57 +1005,329 @@ footer .actbutton2 {
     border-image: initial;
   }
   
-  .html {
+  .box01 .html {
     position: absolute;
-    width: 69px;
-    height: 20px;
-    left: 0;
-  }
-  
-  .ruby {
-    position: absolute;
-    width: 87px;
-    height: 20px;
-    left: 79px;
-  }
-  
-  .js {
-    position: absolute;
-    width: 74px;
-    height: 20px;
-    left: 176px;
-  }
-  
-  .box .pjbutton {
-    display: flex;
-    position: relative;
-    width: 178px;
+    width: 132px;
     height: 40px;
-    left: 20px;
-    top: 92px;
-    background-color: #1a2236;
+    top: 142px;
+    left: 60px;   
+  }
+  
+  .box01 .ruby {
+    position: absolute;
+    width: 169px;
+    height: 40px;
+    top: 142px;
+    left: 212px;   
+  }
+  
+  .box01 .js {
+    position: absolute;
+    width: 144px;
+    height: 40px;
+    top: 142px;
+    left: 401px;
+    
+  }
+  
+  .box01 .pjbutton {
+    display: flex;
+    position: absolute;
+    width: 212px;
+    height: 51px;
+    left: 60px;
+    top: 242px;
+    background-color: #fff;
     border: solid #fff;
   }
   
-  .pjbutton .actbutton {
-    position: relative;
+  .box01 .pjbutton .actbutton {
+    position: absolute;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 27px;
     text-align: center;
-    color: #fff;
+    color: #1a2236;
     cursor: pointer;
     text-decoration: none;
-    top: 10px;
-    left: 10px;
   }
   
-  .narrow {
+  .box01 .narrow {
     position: absolute;
-    top: 10px;
-    left: 146px;
+    width: 20.57px;
+    height: 15.35px;
+    top: 17.95px;
+    left: 174px;
+  }
+
+  .box02 {
+    display: block;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 465px;
+    height: 218px;
+    top: 1797px;
+    left: 975px;
+    background: rgba(26, 34, 54, 0.95);
+    backdrop-filter: blur(24px);
+  }
+
+  .box03 {
+    display: block;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 465px;
+    height: 218px;
+    top: 2067px;
+    left: 975px;
+    background: rgba(26, 34, 54, 0.95);
+    backdrop-filter: blur(24px);
+  }
+
+  .box04 {
+    display: block;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 465px;
+    height: 218px;
+    top: 1877px;
+    left: 0;
+    background: rgba(26, 34, 54, 0.95);
+    backdrop-filter: blur(24px);
+  }
+
+  .box05 {
+    display: block;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 465px;
+    height: 218px;
+    top: 2612px;
+    left: 799px;
+    background: rgba(26, 34, 54, 0.95);
+    backdrop-filter: blur(24px);
+  }
+  
+  .box02 p, .box03 p, .box04 p,
+  .box05 p {
+    position: absolute;
+    width: 465px;
+    height: auto;
+    margin-block-start: 30px;
+    margin-block-end: 24px;
+    margin-inline-start: 30px;
+    margin-inline-end: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 80%;
+    color: #fff;
+  }
+
+  .box01 ul,.box02 ul, .box03 ul, .box04 ul,
+  .box05 ul, .box06 ul {
+    list-style: none;
+  }
+  
+  .box02 button, .box03 button, .box04 button,
+  .box05 button {
+    appearance: auto;
+    writing-mode: horizontal-tb;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 80%;
+    text-transform: none;
+    text-indent: 0;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: #98dede;
+    margin: 0;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: #98dede;
+    border-image: initial;
+  }
+  
+  .box02 .html, .box03 .html, .box04 .html,
+  .box05 .html {
+    position: absolute;
+    width: 132px;
+    height: 40px;
+    top: 82px;
+    left: 30px;
+  }
+  
+  .box02 .ruby, .box03 .ruby, .box04 .ruby,
+  .box05 .ruby {
+    position: absolute;
+    width: 169px;
+    height: 40px;
+    top: 82px;
+    left: 177px;
+  }
+  
+  .box02 .js, .box03 .js, .box04 .js,
+  .box05 .js {
+    position: absolute;
+    width: 57px;
+    height: 40px;
+    top: 82px;
+    left: 361px;
+  }
+  
+  .box02 .pjbutton, .box03 .pjbutton, .box04 .pjbutton,
+  .box05 .pjbutton {
+    display: flex;
+    position: absolute;
+    width: 212px;
+    height: 51px;
+    left: 30px;
+    top: 137px;
+    background-color: #fff;
+    border: solid #fff;
+  }
+  
+  .box02 .pjbutton .actbutton, .box03 .pjbutton .actbutton, .box04 .pjbutton .actbutton,
+  .box05 .pjbutton .actbutton {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #1a2236;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .box02 .narrow, .box03 .narrow, .box04 .narrow,
+  .box05 .narrow {
+    position: absolute;
+    width: 20.57px;
+    height: 15.35px;
+    top: 17.95px;
+    left: 174px;
+  }
+
+  .box06 {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 800px;
+    height: 365px;
+    top: 2195px;
+    left: 0;
+    background: rgba(26, 34, 54, 0.95);
+    backdrop-filter: blur(24px);
+  }
+  
+  .box06 p {
+    position: relative;
+    width: 726px;
+    height: 48px;
+    margin-block-start: 60px;
+    margin-block-end: 16px;
+    margin-inline-start: 60px;
+    margin-inline-end: 36px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80%;
+    color: #fff;
+  }
+  
+  .box06 button {
+    appearance: auto;
+    writing-mode: horizontal-tb;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 80%;
+    text-transform: none;
+    text-indent: 0;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: #98dede;
+    margin: 0;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: #98dede;
+    border-image: initial;
+  }
+  
+  .box06 .html {
+    position: absolute;
+    width: 132px;
+    height: 40px;
+    top: 142px;
+    left: 60px;
+  }
+  
+  .box06 .ruby {
+    position: absolute;
+    width: 169px;
+    height: 40px;
+    top: 142px;
+    left: 212px;
+  }
+  
+  .box06 .js {
+    position: absolute;
+    width: 144px;
+    height: 40px;
+    top: 142px;
+    left: 401px;
+  
+  }
+  
+  .box06 .pjbutton {
+    display: flex;
+    position: absolute;
+    width: 212px;
+    height: 51px;
+    left: 60px;
+    top: 242px;
+    background-color: #fff;
+    border: solid #fff;
+  }
+  
+  .box06 .pjbutton .actbutton {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #1a2236;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .box06 .narrow {
+    position: absolute;
+    width: 20.57px;
+    height: 15.35px;
+    top: 17.95px;
+    left: 174px;
   }
   
   .box1 {
@@ -1262,20 +1541,18 @@ footer .actbutton2 {
     flex: 1;
     position: absolute;
     width: 254px;
-    height: 60px;
+    height: 82px;
     top: 0;
     left: 0;
-    border-radius: 4px;
     background: #fff;
-    border: 1px solid #1a2236;
-    box-sizing: border-box;
+    border: none;
   }
   
   .data .name {
     position: relative;
-    width: 220px;
-    height: 21px;
-    left: 16px;
+    width: 254px;
+    height: 60px;
+    left: 0;
     top: 23px;
     border-radius: 4px;
     background: #fff;
@@ -1283,22 +1560,24 @@ footer .actbutton2 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 16px;
+    line-height: 24px;
     color: #1a2236;
+    border: 1px solid #1a2236;
+    box-sizing: border-box;
   }
   
   .data .namelabel {
     position: absolute;
-    width: 55px;
-    height: 15px;
-    left: 16px;
+    width: 66px;
+    height: 1px;
+    left: 0;
     top: 4px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 10px;
-    line-height: 15px;
+    font-size: 12px;
+    line-height: 18px;
     color: #7d7c84;
   }
   
@@ -1309,41 +1588,41 @@ footer .actbutton2 {
     height: 60px;
     top: 0;
     left: 289px;
-    border-radius: 4px;
     background: #fff;
-    border: 1px solid #1a2236;
-    box-sizing: border-box;
+    border: none;
   }
   
   .data .emaillabel {
     position: absolute;
-    width: 55px;
-    height: 15px;
-    left: 16px;
+    width: 64px;
+    height: 18px;
+    left: 0;
     top: 4px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 10px;
-    line-height: 15px;
+    font-size: 12px;
+    line-height: 18px;
     color: #7d7c84;
   }
   
   .data .email {
     position: relative;
-    width: 220px;
-    height: 21px;
+    width: 253px;
+    height: 60px;
     top: 23px;
-    left: 16px;
+    left: 0;
     border-radius: 4px;
     background: #fff;
     border: none;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 16px;
+    line-height: 24px;
     color: #1a2236;
+    border: 1px solid #1a2236;
+    box-sizing: border-box;
   }
   
   .limsg {
@@ -1457,5 +1736,11 @@ footer .actbutton2 {
     border: 2px solid #1a2236;
     box-sizing: border-box;
   }
+  /* 
+  Animations and transitions
+  PAIR PROGRAMING ACTIVITY
 
+  1. Add scale fuction to icons in footer.
+  2. Add animations to .box01 to .box06.
+  */
 }
