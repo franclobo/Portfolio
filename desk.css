@@ -1839,7 +1839,7 @@ footer .actbutton2 {
     from {
       width: 0%;
     }
-  
+
     50% {
       width: 150%;
     }
@@ -1847,7 +1847,7 @@ footer .actbutton2 {
     75% {
       width: 150%;
     }
-  
+
     to {
       width: 100%;
     }
