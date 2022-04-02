@@ -1807,10 +1807,55 @@ footer .actbutton2 {
   1. Add scale fuction to icons in footer.
   2. Add animations to .box01 to .box06.
   */
-  .icons:hover {
+  .icons img:hover {
     transform: scale(0.7);
   }
 
+  .box01,
+  .box02,
+  .box03,
+  .box04,
+  .box05,
+  .box06 {
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: visible;
+  }
+
+  figure:hover > .box01,
+  figure:hover > .box02,
+  figure:hover > .box03,
+  figure:hover > .box04,
+  figure:hover > .box05,
+  figure:hover > .box06 {
+    opacity: 1;
+    visibility: visible;
+    cursor: pointer;
+  }
+
+  .geometry {
+    animation-duration: 3s;
+    animation-name: project;
+  }
+  
+  @keyframes project {
+    from {
+      width: 0%;
+    }
+  
+    50% {
+      size: 50%;
+      width: 150%;
+    }
+
+    75% {
+      size: 75%;
+      width: 150%;
+    }
+  
+    to {
+      width: 100%;
+    }
+  }
+
 }
-
-
