@@ -797,6 +797,8 @@ footer .actbutton2 {
     right: 0;
     margin: 0;
     padding: 0;
+    animation-duration: 3s;
+    animation-name: project;
   }
 
   #graphics {
@@ -1833,23 +1835,16 @@ footer .actbutton2 {
     cursor: pointer;
   }
 
-  .geometry {
-    animation-duration: 3s;
-    animation-name: project;
-  }
-  
   @keyframes project {
     from {
       width: 0%;
     }
   
     50% {
-      size: 50%;
       width: 150%;
     }
 
     75% {
-      size: 75%;
       width: 150%;
     }
   
@@ -1857,5 +1852,4 @@ footer .actbutton2 {
       width: 100%;
     }
   }
-
 }
