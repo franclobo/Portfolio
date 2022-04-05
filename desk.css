@@ -669,6 +669,18 @@ footer .actbutton2 {
 /* desk-version */
 
 @media (min-width: 800px) {
+  /* Accessibility PAIR  PROGRAMMING */
+  
+  h1,
+  h2,
+  h3,
+  #phrase,
+  p,
+  ul {
+    zoom: 200%;
+    transform: scale(2);
+  }
+  
   #mobile {
     display: none;
   }
@@ -1858,15 +1870,5 @@ footer .actbutton2 {
     to {
       width: 100%;
     }
-  }
-  /* Accessibility PAIR  PROGRAMMING */
-  h1,
-  h2,
-  h3,
-  #phrase,
-  p,
-  ul {
-    zoom: 200%;
-    transform: scale(2);
   }
 }
