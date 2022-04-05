@@ -34,6 +34,10 @@ LinkedIn: [Francisco Borja](https://www.linkedin.com/in/francisco-borja-lobato/)
 
 E-mail: [Gmail](ankomahfrederickyahoo@gmail.com)
 
+## 👤 Luca Benavente
+
+GitHub: [@lucabenaventew](https://github.com/lucabenaventew)
+
 
 # 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
