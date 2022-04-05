@@ -110,6 +110,7 @@ h1 {
   font-size: 50px;
   line-height: 100%;
   color: #1a2236;
+  zoom: normal;
 }
 
 #phrase {
@@ -212,6 +213,7 @@ h1 {
   margin-block-end: 84px;
   margin-inline-start: 20px;
   margin-inline-end: 50px;
+  zoom: normal;
 }
 
 .box button {
@@ -747,6 +749,7 @@ footer .actbutton2 {
     font-size: 110px;
     line-height: 100%;
     color: #1a2236;
+    zoom: normal;
   }
 
   #phrase {
@@ -889,6 +892,7 @@ footer .actbutton2 {
     line-height: 100%;
     color: #1a2236;
     transform: rotate(-90deg);
+    zoom: normal;
   }
 
   .pc {
@@ -1126,6 +1130,7 @@ footer .actbutton2 {
   .box05 ul,
   .box06 ul {
     list-style: none;
+    zoom: normal;
   }
 
   .box02 button,
@@ -1354,6 +1359,7 @@ footer .actbutton2 {
     top: 0;
     left: 0;
     transform: rotate(0deg);
+    zoom: normal;
   }
 
   .box1 .phrase {
@@ -1531,6 +1537,7 @@ footer .actbutton2 {
     line-height: 100%;
     text-align: center;
     color: #1a2236;
+    zoom: normal;
   }
 
   .ux .phrase {
@@ -1851,5 +1858,15 @@ footer .actbutton2 {
     to {
       width: 100%;
     }
+  }
+  /* Accessibility PAIR  PROGRAMMING */
+  h1,
+  h2,
+  h3,
+  #phrase,
+  p,
+  ul {
+    zoom: 200%;
+    transform: scale(2);
   }
 }
