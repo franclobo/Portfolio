@@ -671,16 +671,6 @@ footer .actbutton2 {
 @media (min-width: 800px) {
   /* Accessibility PAIR  PROGRAMMING */
 
-  h1,
-  h2,
-  h3,
-  #phrase,
-  p,
-  ul {
-    zoom: 200%;
-    transform: scale(2);
-  }
-
   #mobile {
     display: none;
   }
@@ -688,23 +678,26 @@ footer .actbutton2 {
   body {
     margin: 0;
     padding: 0;
+    width: 100%;
   }
 
   .flex-item {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    max-width: 1440px;
-    height: 1187px;
+    width: 100%;
+    height: 24.47%;
     margin: 0;
     padding: 0;
   }
 
   .desk {
     display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    width: 1440px;
-    height: 100px;
+    width: 100%;
+    height: 8.42%;
   }
 
   .navbar {
@@ -712,19 +705,16 @@ footer .actbutton2 {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    width: 369px;
-    height: 24px;
-    top: 38px;
-    left: 536px;
-    right: 535px;
+    width: 25.63%;
+    height: 24%;
+    left: 37.22%;
+    top:38%;
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: right;
+    font-size: 1em;
     color: #1a2236;
   }
 
@@ -733,48 +723,45 @@ footer .actbutton2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 484px;
-    height: 493px;
-    left: 160px;
-    top: 192px;
+    width: 33.61%;
+    height: 56.21%;
+    left: 11.11%;
+    top: 16.18%;
   }
 
   #presentation > article {
     position: absolute;
-    width: 484px;
-    height: 364px;
-    left: 0;
-    top: 0;
+    width: 100%;
+    height: 73.83%;
   }
 
   h1 {
     position: absolute;
     border: none;
     margin: 0;
-    width: 484px;
-    height: 220px;
+    width: 100%;
+    height: 60.43%;
     left: 0;
     top: 0;
     font-family: 'Playfair_Display', 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 110px;
-    line-height: 100%;
+    font-size: 6.875em;
     color: #1a2236;
     zoom: normal;
   }
 
   #phrase {
     position: absolute;
-    width: 484px;
-    height: 84px;
+    width: 100%;
+    height: 23.08%;
     left: 0;
-    top: 280px;
+    top: 76.92%;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 0.875em;
+    line-height: 1.313em;
     letter-spacing: -0.01em;
     color: #1a2236;
     margin-block-start: 0;
@@ -788,15 +775,15 @@ footer .actbutton2 {
     position: absolute;
     justify-content: center;
     align-items: center;
-    width: 254px;
-    height: 70px;
+    width: 52.48%;
+    height: 14.2%;
     left: 0;
-    top: 423px;
+    top: 85.8%;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 50px;
+    font-size: 1em;
+    line-height: 3.125em;
     text-align: center;
     color: #fff;
     background-color: #1a2236;
@@ -805,10 +792,10 @@ footer .actbutton2 {
   .geometry {
     display: block;
     position: absolute;
-    width: 702px;
-    height: 877px;
-    top: 100px;
-    left: 738px;
+    width: 48.75%;
+    height: 80.68%;
+    top: 8.42%;
+    left: 51.25%;
     right: 0;
     margin: 0;
     padding: 0;
@@ -823,51 +810,44 @@ footer .actbutton2 {
   .dots {
     display: block;
     position: absolute;
-    width: 175px;
-    height: 175px;
-    top: 802px;
-    left: 563px;
-    right: 702px;
-  }
-
-  .project {
-    display: grid;
-    gap: 0;
-    grid-template-columns: 320px;
-    height: auto;
+    width: 12.15%;
+    height: 14.74%;
+    top: 73.78%;
+    left: 39.1%;
+    right: 48.75%;
   }
 
   .project .dots {
     position: absolute;
-    width: 160px;
-    height: 160px;
-    top: 1197px;
-    left: 313px;
+    width: 11.11%;
+    height: 14.37%;
+    top: 1187px;
+    left: 21.74%;
   }
 
   .project .geo4 {
     display: block;
     position: absolute;
-    width: 511px;
-    height: 350px;
+    width: 35.49%;
+    height: 19.56%;
     top: 1745px;
-    left: 464px;
+    left: 32.22%;
   }
 
   .project .geo5 {
     display: block;
     position: absolute;
-    width: 639.75px;
-    height: 275.42px;
+    width: 44.43%;
+    height: 17.52%;
     top: 2285px;
-    left: 800px;
+    left: 55.56%;
   }
 
   .project .geo6 {
     display: block;
     position: absolute;
-    width: 211.7px;
-    height: 124.04px;
+    width: 14.7%;
+    height: 13.39%;
     top: 2560px;
     left: 0;
   }
@@ -875,24 +855,24 @@ footer .actbutton2 {
   .project .geo7 {
     display: block;
     position: absolute;
-    width: 87.69px;
-    height: 87.61px;
+    width: 6.09%;
+    height: 12.39%;
     top: 2560px;
-    left: 712px;
+    left: 49.44%;
   }
 
   .project .teal {
     position: absolute;
     display: block;
-    width: 222.02px;
+    width: 15.42%;
     height: 222px;
     top: 3410px;
-    left: 516px;
+    left: 35.83%;
   }
 
   .project h2 {
     position: absolute;
-    width: 398px;
+    width: 27.64%;
     height: 110px;
     left: 0;
     top: 1327px;
@@ -909,15 +889,15 @@ footer .actbutton2 {
 
   .pc {
     position: absolute;
-    width: 960px;
+    width: 66.67%;
     height: 558px;
     top: 1187px;
-    left: 480px;
+    left: 33.33%;
   }
 
   .pc1 {
     position: absolute;
-    width: 465px;
+    width: 32.29%;
     height: 270px;
     top: 1825px;
     left: 0;
@@ -925,7 +905,7 @@ footer .actbutton2 {
 
   .pc2 {
     position: absolute;
-    width: 800px;
+    width: 55.56%;
     height: 465px;
     top: 2095px;
     left: 0;
@@ -933,26 +913,26 @@ footer .actbutton2 {
 
   .pc3 {
     position: absolute;
-    width: 465px;
+    width: 32.29%;
     height: 270px;
     top: 2560px;
-    left: 799px;
+    left: 55.49%;
   }
 
   .pc4 {
     position: absolute;
-    width: 465px;
+    width: 32.29%;
     height: 270px;
     top: 2015px;
-    left: 975px;
+    left: 67.71%;
   }
 
   .pc5 {
     position: absolute;
-    width: 465px;
+    width: 32.29%;
     height: 270px;
     top: 1745px;
-    left: 975px;
+    left: 67.71%;
   }
 
   .box {
@@ -963,17 +943,17 @@ footer .actbutton2 {
     display: flex;
     flex-wrap: wrap;
     position: absolute;
-    width: 960px;
+    width: 66.67%;
     height: 353px;
     top: 1392px;
-    left: 480px;
+    left: 33.33%;
     background: rgba(26, 34, 54, 0.95);
     backdrop-filter: blur(24px);
   }
 
   .box01 p {
     position: relative;
-    width: 726px;
+    width: 100%;
     height: 48px;
     margin-block-start: 60px;
     margin-block-end: 16px;
@@ -1072,10 +1052,10 @@ footer .actbutton2 {
     display: block;
     flex-wrap: wrap;
     position: absolute;
-    width: 465px;
+    width: 32.29%;
     height: 218px;
     top: 1797px;
-    left: 975px;
+    left: 67.71%;
     background: rgba(26, 34, 54, 0.95);
     backdrop-filter: blur(24px);
   }
@@ -1084,10 +1064,10 @@ footer .actbutton2 {
     display: block;
     flex-wrap: wrap;
     position: absolute;
-    width: 465px;
+    width: 32.29%;
     height: 218px;
     top: 2067px;
-    left: 975px;
+    left: 67.71%;
     background: rgba(26, 34, 54, 0.95);
     backdrop-filter: blur(24px);
   }
@@ -1096,7 +1076,7 @@ footer .actbutton2 {
     display: block;
     flex-wrap: wrap;
     position: absolute;
-    width: 465px;
+    width: 32.29%;
     height: 218px;
     top: 1877px;
     left: 0;
@@ -1108,10 +1088,10 @@ footer .actbutton2 {
     display: block;
     flex-wrap: wrap;
     position: absolute;
-    width: 465px;
+    width: 32.29%;
     height: 218px;
     top: 2612px;
-    left: 799px;
+    left: 55.49%;
     background: rgba(26, 34, 54, 0.95);
     backdrop-filter: blur(24px);
   }
@@ -1121,7 +1101,7 @@ footer .actbutton2 {
   .box04 p,
   .box05 p {
     position: absolute;
-    width: 465px;
+    width: 100%;
     height: auto;
     margin-block-start: 30px;
     margin-block-end: 24px;
@@ -1251,7 +1231,7 @@ footer .actbutton2 {
     display: flex;
     flex-wrap: wrap;
     position: absolute;
-    width: 800px;
+    width: 55.56%;
     height: 365px;
     top: 2195px;
     left: 0;
@@ -1261,7 +1241,7 @@ footer .actbutton2 {
 
   .box06 p {
     position: relative;
-    width: 726px;
+    width: 100%;
     height: 48px;
     margin-block-start: 60px;
     margin-block-end: 16px;
@@ -1358,10 +1338,10 @@ footer .actbutton2 {
 
   .box1 {
     position: absolute;
-    width: 446px;
+    width: 30.97%;
     height: 336px;
     top: 3074px;
-    left: 834px;
+    left: 57.92%;
   }
 
   .box1 h2 {
@@ -1504,7 +1484,7 @@ footer .actbutton2 {
 
   .ux {
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 950px;
     top: 3782px;
     left: 0;
@@ -1519,7 +1499,7 @@ footer .actbutton2 {
   .ux .geo8 {
     position: absolute;
     display: block;
-    width: 263.06px;
+    width: 18.27%;
     height: 350.84px;
     top: 0;
     left: 0;
@@ -1528,15 +1508,15 @@ footer .actbutton2 {
   .ux .geo9 {
     position: absolute;
     display: block;
-    width: 350.75px;
+    width: 24.36%;
     height: 350.84px;
     top: 596px;
-    left: 1089px;
+    left: 75.63%;
   }
 
   .ux h2 {
     position: absolute;
-    width: 548px;
+    width: 38.06%;
     height: 110px;
     top: 168px;
     left: 446px;
@@ -1556,7 +1536,7 @@ footer .actbutton2 {
     position: absolute;
     margin: 0;
     padding: 0;
-    max-width: 548px;
+    max-width: 38.06%;
     max-height: 63px;
     overflow: hidden;
     top: 318px;
@@ -1577,7 +1557,7 @@ footer .actbutton2 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 542px;
+    width: 37.64%;
     height: 374px;
     list-style-type: none;
     top: 441px;
@@ -1749,7 +1729,7 @@ footer .actbutton2 {
   footer {
     display: block;
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 123px;
     top: 947px;
     background-color: #1a2236;
