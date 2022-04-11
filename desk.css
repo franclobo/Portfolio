@@ -95,6 +95,11 @@ figure {
   top: 30px;
 }
 
+.mobile-menu-navigation {
+  position: absolute;
+  z-index: 10;
+}
+
 h1 {
   position: absolute;
   display: flex;
