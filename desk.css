@@ -678,14 +678,14 @@ footer .actbutton2 {
   body {
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 100vw;
   }
 
   .flex-item {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    width: 100%;
+    width: 100vw;
     height: 24.47%;
     margin: 0;
     padding: 0;
@@ -1484,7 +1484,7 @@ footer .actbutton2 {
 
   .ux {
     position: absolute;
-    width: 100%;
+    width: 100vw;
     height: 950px;
     top: 3782px;
     left: 0;
