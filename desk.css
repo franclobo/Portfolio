@@ -63,9 +63,25 @@
   padding: 0;
 }
 
+#logo {
+  width: 111px;
+  height: 74px;
+  left: -10px;
+}
+
+.mobile-menu {
+  position: absolute;
+  width: 20px;
+  height: 14px;
+  margin-top: 19px;
+  margin-right: 16px;
+  margin-left: 284px;
+  background: #fff;
+}
+
 /* dropdown-menu */
 .dropdown-menu {
-  position: fixed;
+  position: absolute;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -91,8 +107,8 @@
   margin-right: 21px;
 }
 
-.hide-menu {
-  display: none;
+.hide-menu {  
+  visibility: hidden;
 }
 
 .dropdown-menu a {
@@ -117,20 +133,6 @@
   border: none;
   font-size: 25px;
   top: 0;
-}
-
-#logo {
-  width: 111px;
-  height: 74px;
-  left: -10px;
-}
-
-#icon {
-  width: 20px;
-  height: 14px;
-  margin-top: 19px;
-  margin-right: 16px;
-  background: #fff;
 }
 
 #presentation {
