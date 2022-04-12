@@ -6,15 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="desk.css">
-    <title>Portfolio</title>
+    
+    <title>Fracisco's Portfolio</title>
 </head>
 
-<body>
+<body class="content">
     <div class="flex-item">
         <nav id="mobile">
             <header>
                 <img id="logo" src="./images/image_geometry_2.png" alt="logo">
-                <img id="icon" src="./images/hamburguer.png" alt="menu">
+                <img class ="mobile-menu" id="icon" src="./images/hamburguer.png" alt="menu">
+                <div class="dropdown-menu hide-menu">
+                    <figure class="menu-header">
+                        <img src="./images/indexmobile/image_geometry_menu_1-1.svg" alt="">
+                        <button class="close-menu">&times;</button>
+                    </figure>
+                    <ul class="mobile-menu-navigation">
+                        <li><a href="#presentation">Hello</a> </li>
+                        <li><a href="#projectSection">Portfolio</a></li>
+                        <li><a href="#about-section">About</a></li>
+                        <li><a href="#ux">Contact</a></li>
+                    </ul>
+                    <figure>
+                        <img src="./images/Microverse-Student-Project-1/image_geometry_menu_2-1.svg" alt="">
+                    </figure>
+                </div>
             </header>
         </nav>
         <nav class="desk">
@@ -50,15 +66,15 @@
             <img class="dots" src="./images/image_dots.png" alt="dots">
         </aside>
     </div> 
-    <section>
+    <section   id="projectSection">
         <div class="project">
             <h2>Projects</h2>
-            <img class="dots" src="./images/image_dots2.png" alt="dots">
-            <img class="geo4" src="./images/image-geometry_4.png" alt="geo4">
-            <img class="geo5" src="./images/image-geometry_5.png" alt="geo5">
-            <img class="geo6" src="./images/image-geometry_6.png" alt="geo6">
-            <img class="geo7" src="./images/image-geometry_7.png" alt="geo7">
-            <img class="teal" src="./images/image_dots_with_teal.png" alt="teal">
+            <img class="dots" src="./images/image_dots2.png" alt="">
+            <img class="geo4" src="./images/image-geometry_4.png" alt="">
+            <img class="geo5" src="./images/image-geometry_5.png" alt="">
+            <img class="geo6" src="./images/image-geometry_6.png" alt="">
+            <img class="geo7" src="./images/image-geometry_7.png" alt="">
+            <img class="teal" src="./images/image_dots_with_teal.png" alt="">
             <figure>
                 <img class="pc" src="./images/pcprogect.png" alt="Project1">
                 <div class="box01">
@@ -236,7 +252,7 @@
                 </div>
             </div>
         </div>
-        <div class="project">
+        <div class="project" id="about-section">
             <div class="box1">
                 <h2>About</h2>
                 <p class="phrase">
@@ -291,7 +307,7 @@
         </div>
     </section>
     <!--Forms section-->
-    <section>
+    <section id="ux">
         <div class="ux">
             <figure>
                 <img class="geo8" src="./images/image-geometry_8.png" alt="geo8">
@@ -337,6 +353,7 @@
             </footer>    
         </div>
     </section>
+    <script src="scripts.js" ></script>
 </body>
 
 </html>
