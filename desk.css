@@ -33,26 +33,30 @@
   display: none;
 }
 
-figure {
+.content{
+  display: flex;
+  flex-direction: column;
   margin: 0;
-  padding: 0;
+  top: 0;
+  left: 0;
 }
 
 .flex-item {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  max-width: 320px;
+  flex-wrap: nowrap;
   height: 672px;
   margin: 0;
   padding: 0;
+  top: 0;
+  left: 0;
 }
 
 #mobile > header {
-  position: absolute;
+  flex: 1;
   display: flex;
   justify-content: space-between;
-  max-width: 320px;
   max-height: 74px;
   top: 0;
   margin: 0;
@@ -60,36 +64,34 @@ figure {
 }
 
 #logo {
-  position: absolute;
   width: 111px;
   height: 74px;
   left: -10px;
 }
 
 #icon {
-  z-index: 10;
-  position: absolute;
   width: 20px;
   height: 14px;
-  left: 284px;
-  top: 19px;
-  right: 16px;
+  margin-top: 19px;
+  margin-right: 16px;
   background: #fff;
 }
 
 #presentation {
-  position: absolute;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: nowrap;
   width: 288px;
   height: 366px;
-  left: 16px;
-  top: 80px;
+  margin-left: 16px;
+  top: 0;
 }
 
 #presentation > article {
-  position: absolute;
+  display: flex;
+  flex-direction: column;
   width: 288px;
   height: 246px;
   left: 0;
@@ -143,8 +145,7 @@ figure {
 
 
 
-h1 {
-  
+h1 {  
   display: flex;
   border: none;
   margin: 0;
@@ -161,12 +162,11 @@ h1 {
   zoom: normal;
 }
 
-#phrase {
-  
+#phrase {  
   width: 288px;
   height: 126px;
   left: 0;
-  top: 120px;
+  margin-top: 20px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -175,22 +175,16 @@ h1 {
   letter-spacing: -0.01em;
   color: #1a2236;
   display: block;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
 }
 
 .txtbutton {
   display: flex;
-  position: absolute;
-  margin: 40px 16px 32px 16px;
   justify-content: center;
   align-items: center;
   width: 288px;
   height: 50px;
   left: 0;
-  top: 316px;
+  margin-top: 40px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -203,11 +197,10 @@ h1 {
 
 #graphics {
   display: flex;
-  position: absolute;
   width: 320px;
   height: 160px;
   left: 0;
-  top: 472px;
+  margin-top: 32px;
 }
 
 .project {
@@ -218,7 +211,6 @@ h1 {
 }
 
 .project h2 {
-  position: relative;
   margin-block-start: 30px;
   margin-block-end: 32px;
   margin-inline-start: 16px;
@@ -231,8 +223,12 @@ h1 {
   color: #1a2236;
 }
 
+.project > figure {
+  margin: 0;
+  padding: 0;
+}
+
 .box {
-  position: relative;
   top: 0;
   height: 156px;
   background-color: #1a2236;
@@ -388,38 +384,36 @@ h1 {
 }
 
 .project #square1 {
-  position: absolute;
   width: 289px;
   height: 289px;
   left: 16px;
   top: 3220px;
   background: #1c528a;
+  margin: 8px 15px 8px 16px;
 }
 
 .project #square2 {
-  position: absolute;
   width: 289px;
   height: 289px;
   left: 16px;
   top: 3525px;
   background: #e2505c;
+  margin: 8px 15px 8px 16px;
 }
 
 .project #square3 {
-  position: absolute;
   width: 289px;
   height: 289px;
   left: 16px;
   top: 3830px;
   background: #febf52;
+  margin: 8px 15px 8px 16px;
 }
 
 .project .chart {
-  position: relative;
   width: 178px;
   height: 135px;
-  left: 20px;
-  top: 21px;
+  margin: 21px 45px 53px 34px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -433,7 +427,7 @@ h1 {
   position: relative;
   width: 116px;
   height: 30px;
-  left: 36px;
+  left: 50px;
   top: 20px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -443,34 +437,19 @@ h1 {
   color: #fff;
 }
 
-.project #narrow1 {
-  position: relative;
-  width: 102px;
-  height: 102px;
-  left: 187px;
-  bottom: 36px;
-}
-
-.project #narrow2 {
-  position: relative;
-  width: 102px;
-  height: 102px;
-  left: 187px;
-  bottom: 36px;
-}
-
+.project #narrow1, 
+.project #narrow2, 
 .project #narrow3 {
   position: relative;
   width: 102px;
   height: 102px;
   left: 187px;
-  bottom: 36px;
+  bottom: 72px;
 }
 
 /* conatct form */
 
 .ux {
-  position: absolute;
   width: 320px;
   height: 813px;
   top: 4179px;
@@ -479,7 +458,6 @@ h1 {
 }
 
 .ux h2 {
-  position: relative;
   margin-block-start: 30px;
   margin-block-end: 32px;
   margin-inline-start: 18px;
@@ -493,12 +471,11 @@ h1 {
 }
 
 .ux .phrase {
-  position: absolute;
   max-width: 288px;
   max-height: 63px;
   overflow: hidden;
   top: 176px;
-  left: 18px;
+  margin-left: 18px;
   right: 14px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -510,22 +487,20 @@ h1 {
 }
 
 .data {
-  position: absolute;
   display: block;
   list-style-type: none;
   top: 271px;
-  left: 18px;
+  margin-left: 18px;
   right: 14px;
   margin: 0;
   padding: 0;
 }
 
 .liname {
-  position: absolute;
   width: 288px;
   height: 52px;
   top: 0;
-  left: 0;
+  margin-left: 18px;
   border-radius: 4px;
   background: #fff;
   border: 1px solid #1a2236;
@@ -533,10 +508,9 @@ h1 {
 }
 
 .name input {
-  position: absolute;
   width: 220px;
   height: 21px;
-  left: 16px;
+  margin-left: 16px;
   top: 23px;
   background: #fff;
   border: none;
@@ -549,10 +523,9 @@ h1 {
 }
 
 .data .namelabel {
-  position: absolute;
   width: 55px;
   height: 15px;
-  left: 16px;
+  margin-left: 16px;
   top: 4px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -563,11 +536,10 @@ h1 {
 }
 
 .liemail {
-  position: absolute;
   width: 288px;
   height: 52px;
-  top: 60px;
-  left: 0;
+  margin-top: 8px;
+  margin-left: 18px;
   border-radius: 4px;
   background: #fff;
   border: 1px solid #1a2236;
@@ -575,11 +547,10 @@ h1 {
 }
 
 .data .emaillabel {
-  position: absolute;
   width: 55px;
   height: 15px;
-  left: 16px;
-  top: 4px;
+  margin-left: 16px;
+  margin-top: 8px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -589,11 +560,10 @@ h1 {
 }
 
 .email input {
-  position: absolute;
   width: 220px;
   height: 21px;
   top: 23px;
-  left: 16px;
+  margin-left: 16px;
   border-radius: 4px;
   background: #fff;
   border: none;
@@ -606,24 +576,21 @@ h1 {
 }
 
 .limsg {
-  position: absolute;
   width: 288px;
   height: 112px;
-  top: 120px;
-  left: 0;
+  margin-top: 8px;
+  margin-left: 18px;
   border-radius: 4px;
-  margin: 0;
   padding: 0;
   border: 1px solid #dfdfe0;
   box-sizing: border-box;
 }
 
 #msg textarea {
-  position: absolute;
   width: 253px;
-  height: 100px;
-  top: 15px;
-  left: 16px;
+  height: 90px;
+  margin-top: 15px;
+  margin-left: 16px;
   border: none;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -634,17 +601,13 @@ h1 {
 }
 
 .data .txtbutton {
-  position: absolute;
   width: 288px;
   height: 44px;
-  top: 252px;
-  left: 0;
-  right: 14px;
+  margin:20px 14px 64px 18px;
 }
 
 footer {
   display: block;
-  position: absolute;
   width: 320px;
   height: 150px;
   top: 631px;
@@ -652,21 +615,21 @@ footer {
 }
 
 footer .pjbutton1 {
-  position: relative;
   display: block;
+  position: relative;
   width: 165px;
   height: 22px;
   top: 32px;
-  right: 50px;
+  left: 16px;
   border-radius: 0;
 }
 
 footer .actbutton2 {
-  position: absolute;
+  position: relative;
   width: 137px;
   height: 24px;
   top: 0;
-  left: 67px;
+  left: 0;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -675,23 +638,27 @@ footer .actbutton2 {
 }
 
 .narrow1 {
-  position: absolute;
+  position: relative;
   width: 22px;
   height: 22px;
   top: 0;
-  left: 215px;
+  left: 0;
+}
+
+footer ul {
+  margin-top: 32px;
+  padding: 0;
 }
 
 .icons {
-  position: absolute;
-  max-width: 288px;
+  position: relative;
   height: 24px;
   list-style-type: none;
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
   gap: 29px;
-  top: 42px;
-  left: 26px;
+  top: 0;
+  left: 0;
 }
 
 /* button interactions */
