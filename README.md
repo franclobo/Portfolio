@@ -38,6 +38,14 @@ E-mail: [Gmail](ankomahfrederickyahoo@gmail.com)
 
 GitHub: [@lucabenaventew](https://github.com/lucabenaventew)
 
+## 👤 Lucas Costa Rodrigues
+
+GitHub: @lucas-crodrigues
+
+Twitter: @lcrodrigues58
+
+LinkedIn: https://www.linkedin.com/in/lucascostarodrigues/
+
 
 # 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
