@@ -81,9 +81,9 @@
 
 /* dropdown-menu */
 .dropdown-menu {
-  position: absolute;
+  position: fixed;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: column;
   align-items: center;
   margin: 0;
@@ -93,6 +93,21 @@
   right: 0;
   left: 0;
   background-color: #fff;
+}
+
+.dropdown-menu figure {
+  margin: 0;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  width: 100%;
+}
+
+.dropdown-menu img {
+  width: 100%;
+  height: 100%;
 }
 
 .lockscroll {
@@ -105,6 +120,7 @@
   flex-direction: row;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 .menu-header img {
