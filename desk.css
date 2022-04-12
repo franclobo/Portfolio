@@ -33,7 +33,7 @@
   display: none;
 }
 
-.content{
+.content {
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -63,7 +63,7 @@
   padding: 0;
 }
 
-/*dropdown-menu*/
+/* dropdown-menu */
 .dropdown-menu {
   position: fixed;
   display: flex;
@@ -72,10 +72,10 @@
   align-items: center;
   margin: 0;
   padding: 0;
-  top:0;
+  top: 0;
   bottom: 0;
   right: 0;
-  left:0;
+  left: 0;
   background-color: #fff;
 }
 
@@ -91,17 +91,17 @@
   margin-right: 21px;
 }
 
-.hide-menu{
+.hide-menu {
   display: none;
 }
 
-.dropdown-menu a{
+.dropdown-menu a {
   text-decoration: none;
   color: #000;
 }
 
-.dropdown-menu li{
-  font-family: 'Poppins';
+.dropdown-menu li {
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -109,14 +109,14 @@
   list-style: none;
 }
 
-.close-menu{
+.close-menu {
   margin-top: 24px;
   margin-right: 20px;
   align-self: flex-start;
   background: transparent;
   border: none;
   font-size: 25px;
-  top:0;
+  top: 0;
 }
 
 #logo {
@@ -154,7 +154,7 @@
   top: 30px;
 }
 
-h1 {  
+h1 {
   display: flex;
   border: none;
   margin: 0;
@@ -171,7 +171,7 @@ h1 {
   zoom: normal;
 }
 
-#phrase {  
+#phrase {
   width: 288px;
   height: 126px;
   left: 0;
@@ -256,6 +256,11 @@ h1 {
   font-size: 20px;
   line-height: 80%;
   color: #fff;
+}
+
+footer ul {
+  margin-top: 32px;
+  padding: 0;
 }
 
 .box ul {
@@ -446,8 +451,8 @@ h1 {
   color: #fff;
 }
 
-.project #narrow1, 
-.project #narrow2, 
+.project #narrow1,
+.project #narrow2,
 .project #narrow3 {
   position: relative;
   width: 102px;
@@ -498,9 +503,6 @@ h1 {
 .data {
   display: block;
   list-style-type: none;
-  top: 271px;
-  margin-left: 18px;
-  right: 14px;
   margin: 0;
   padding: 0;
 }
@@ -612,7 +614,7 @@ h1 {
 .data .txtbutton {
   width: 288px;
   height: 44px;
-  margin:20px 14px 64px 18px;
+  margin: 20px 14px 64px 18px;
 }
 
 footer {
@@ -652,11 +654,6 @@ footer .actbutton2 {
   height: 22px;
   top: 0;
   left: 0;
-}
-
-footer ul {
-  margin-top: 32px;
-  padding: 0;
 }
 
 .icons {
@@ -733,7 +730,7 @@ footer ul {
     width: 25.63%;
     height: 24%;
     left: 37.22%;
-    top:38%;
+    top: 38%;
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
