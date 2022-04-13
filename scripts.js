@@ -16,3 +16,14 @@ optMenu.addEventListener('click', () => {
   dropDown.classList.toggle('hide-menu');
   scrollLock.classList.remove('lockscroll');
 });
+
+window.addEventListener('load', () => {
+  new Glider(document.querySelector('.carousel__lista'), {
+    slidesToShow: 1,
+    dots: '.carousel__indicadores',
+    arrows: {
+      prev: '.carousel__anterior',
+      next: '.carousel__siguiente'
+    }
+  });
+})
