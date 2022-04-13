@@ -711,6 +711,193 @@ footer .actbutton2 {
   box-sizing: border-box;
 }
 
+/*  popup-window mobile */
+.popup-window {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f9f9fa;
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto auto;
+  grid-template-columns: 100%;
+  overflow: scroll;
+}
+
+.close-popup {
+  grid: 1;
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 10px;
+  border: none;
+  background-color: transparent;
+}
+
+.close-popup img{
+  padding: 9px 8px;
+}
+
+.popup-title {
+  grid: 1;
+  margin-left: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 80%;
+  color: #1A2236;
+}
+
+.popup-window ul {
+  grid: 1;
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  top: 0;
+  margin-block-start: 0;
+  margin-block-end: 18px;
+  margin-inline-start: 20px;
+  margin-inline-end: 50px;
+  zoom: normal;
+  list-style: none;
+}
+
+.popup-window ul button {
+  appearance: auto;
+  writing-mode: horizontal-tb;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10.3334px;
+  line-height: 80%;
+  text-transform: none;
+  text-indent: 0;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: #fff;
+  margin: 0;
+  padding: 1px 6px;
+  border-width: 0.516669px;
+  border-style: outset;
+  border-color: #1a2236;
+  border-image: initial;
+}
+
+.popup-window ul > .html {
+  position: absolute;
+  width: 69px;
+  height: 20px;
+  left: 0;
+}
+
+.popup-window ul > .ruby {
+  position: absolute;
+  width: 87px;
+  height: 20px;
+  left: 79px;
+}
+
+.popup-window > .js {
+  position: absolute;
+  width: 74px;
+  height: 20px;
+  left: 176px;
+}
+
+.carousel__contenedor {
+  position: relative;
+  margin: 18px 20px;
+}
+
+.carousel__anterior {
+  position: absolute;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: none;
+  top: calc(40%);
+  cursor: pointer;
+  line-height: 12.56px;
+  text-align: center;
+  background: none;
+  color: #fff;
+  opacity: 100%;
+  z-index: 10px;
+}
+
+.carousel__siguiente {
+  position: absolute;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: none;
+  top: calc(40%);
+  left: 250px;
+  cursor: pointer;
+  line-height: 12.56px;
+  text-align: center;
+  background: none;
+  color: #fff;
+  opacity: 100%;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+  opacity: 100%;
+}
+
+.carousel__lista {
+  overflow: hidden;
+}
+
+.carousel__elemento img{
+  width: 278px;
+  height: 162px;
+}
+
+.carousel__elemento .glider-slide{
+  width: 0;
+  height: auto;
+}
+
+.popup-p {
+  width: 291px;
+  height: 432px;
+  margin: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1A2236;
+}
+
+.see-live,
+.see-source {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 246px;
+  height: 51px;
+  margin: 15px 37px 15px;
+  left: 37px;
+  border: 1px solid #1a2236;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  background-color: #fff;
+}
+
+
+
 /* desk-version */
 
 @media (min-width: 800px) {
@@ -1895,5 +2082,210 @@ footer .actbutton2 {
     to {
       width: 100%;
     }
+  }
+
+    /*  popup-window mobile */
+  .popup-window {
+    position: fixed;
+    margin: 70px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f9f9fa;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    z-index: 10;
+  }
+
+  .close-popup {
+    justify-content: flex-end;
+    margin: 73px 61px;
+    border: none;
+    background-color: transparent;
+  }
+
+  .close-popup img{
+    padding: 9px 8px;
+  }
+
+  .popup-title {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 60px;
+    margin-right: 421px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80%;
+    color: #1A2236;
+  }
+
+  .popup-window ul {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    top: 0;
+    margin-block-start: 0;
+    margin-block-end: 18px;
+    margin-inline-start: 60px;
+    margin-inline-end: 755px;
+    zoom: normal;
+    list-style: none;
+  }
+
+  .popup-window ul button {
+    appearance: auto;
+    writing-mode: horizontal-tb;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10.3334px;
+    line-height: 80%;
+    text-transform: none;
+    text-indent: 0;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: #fff;
+    margin: 0;
+    padding: 1px 6px;
+    border-width: 0.516669px;
+    border-style: outset;
+    border-color: #1a2236;
+    border-image: initial;
+  }
+
+  .popup-window ul > .html {
+    position: absolute;
+    width: 132px;
+    height: 40px;
+    left: 0;
+  }
+
+  .popup-window ul > .ruby {
+    position: absolute;
+    width: 169x;
+    height: 40px;
+    left: 79px;
+  }
+
+  .popup-window > .js {
+    position: absolute;
+    width: 144px;
+    height: 40px;
+    left: 401px;
+  }
+
+  .carousel__contenedor {
+    position: relative;
+    margin: 18px 20px;
+  }
+
+  .carousel__anterior {
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 53px;
+    border: none;
+    top: calc(40%);
+    cursor: pointer;
+    line-height: 12.56px;
+    text-align: center;
+    background: none;
+    color: #fff;
+    opacity: 20%;
+  }
+
+  .carousel__siguiente {
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 53px;
+    border: none;
+    top: calc(40%);
+    left: 1136px;
+    cursor: pointer;
+    line-height: 12.56px;
+    text-align: center;
+    background: none;
+    color: #fff;
+    opacity: 20%;
+  }
+
+  .carousel__anterior:hover,
+  .carousel__siguiente:hover {
+    opacity: 100%;
+  }
+
+  .carousel__indicadores .glider-dot{
+    display: none;
+  }
+
+  .carousel__lista {
+    overflow: hidden;
+  }
+
+  .carousel__elemento img{
+    width: 1179px;
+    height: 689px;
+  }
+
+  .carousel__elemento .glider-slide{
+    width: 0;
+    height: auto;
+  }
+
+  .popup-p {
+    width: 700px;
+    height: 216px;
+    margin: 68px 300px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1A2236;
+  }
+
+  .see-live {
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    width: 246px;
+    height: 51px;
+    margin: 0;
+    left: 300px;
+    border: 1px solid #1a2236;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    background-color: #fff;
+  }
+
+  .see-source {
+    position: relative;
+    top: -51px;
+    justify-content: space-around;
+    align-items: center;
+    width: 246px;
+    height: 51px;
+    margin: 0;
+    left: 576px;
+    border: 1px solid #1a2236;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    background-color: #fff;
   }
 }
