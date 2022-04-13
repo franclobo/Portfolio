@@ -370,6 +370,10 @@ footer ul {
   left: 10px;
 }
 
+.hidePopup {
+  display: none;
+}
+
 .narrow {
   position: absolute;
   top: 10px;
