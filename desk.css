@@ -942,7 +942,6 @@ footer .actbutton2 {
 
 /* desk-version */
 @media (min-width: 800px) {
-
   /* Accessibility PAIR  PROGRAMMING */
   #mobile {
     display: none;
@@ -2329,7 +2328,6 @@ footer .actbutton2 {
     font-size: 18px;
     line-height: 27px;
     background-color: #fff;
-    border: none;
   }
 
   .next {
@@ -2346,7 +2344,6 @@ footer .actbutton2 {
     font-size: 18px;
     line-height: 27px;
     background-color: #fff;
-    border: none;
   }
 
   /* button interactions */
@@ -2376,14 +2373,14 @@ footer .actbutton2 {
   /*
     Animations and transitions
     PAIR PROGRAMING ACTIVITY
-  
+
     1. Add scale fuction to icons in footer.
     2. Add animations to .box01 to .box06.
     */
   .icons img:hover {
     transform: scale(0.7);
   }
-  
+
   .box01,
   .box02,
   .box03,
@@ -2394,7 +2391,7 @@ footer .actbutton2 {
     opacity: 0;
     visibility: visible;
   }
-  
+
   figure:hover > .box01,
   figure:hover > .box02,
   figure:hover > .box03,
@@ -2405,20 +2402,20 @@ footer .actbutton2 {
     visibility: visible;
     cursor: pointer;
   }
-  
+
   @keyframes project {
     from {
       width: 0%;
     }
-  
+
     50% {
       width: 150%;
     }
-  
+
     75% {
       width: 150%;
     }
-  
+
     to {
       width: 100%;
     }
