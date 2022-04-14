@@ -53,7 +53,7 @@
   left: 0;
 }
 
-#mobile>header {
+#mobile > header {
   flex: 1;
   display: flex;
   justify-content: space-between;
@@ -169,7 +169,7 @@
   top: 0;
 }
 
-#presentation>article {
+#presentation > article {
   display: flex;
   flex-direction: column;
   width: 288px;
@@ -256,7 +256,7 @@ h1 {
   color: #1a2236;
 }
 
-.project>figure {
+.project > figure {
   margin: 0;
   padding: 0;
 }
@@ -725,11 +725,10 @@ footer .actbutton2 {
   grid-template-rows: auto auto auto auto auto auto auto;
   grid-template-columns: 100%;
   overflow: scroll;
-  z-index: 10;
+   z-index: 10px;
 }
 
 .close-popup {
-  grid: 1;
   display: flex;
   justify-content: flex-end;
   margin: 10px 10px;
@@ -742,7 +741,6 @@ footer .actbutton2 {
 }
 
 .popup-title {
-  grid: 1;
   margin-left: 20px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -753,7 +751,6 @@ footer .actbutton2 {
 }
 
 .popup-window ul {
-  grid: 1;
   position: relative;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -792,21 +789,21 @@ footer .actbutton2 {
   border-image: initial;
 }
 
-.popup-window ul>.html {
+.popup-window ul > .html {
   position: absolute;
   width: 69px;
   height: 20px;
   left: 0;
 }
 
-.popup-window ul>.ruby {
+.popup-window ul > .ruby {
   position: absolute;
   width: 87px;
   height: 20px;
   left: 79px;
 }
 
-.popup-window>.js {
+.popup-window > .js {
   position: absolute;
   width: 74px;
   height: 20px;
@@ -890,7 +887,7 @@ footer .actbutton2 {
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
-  color: #1A2236;
+  color: #1a2236;
 }
 
 .see-live,
@@ -948,15 +945,18 @@ footer .actbutton2 {
 /* desk-version */
 
 @media (min-width: 800px) {
+  
   /* Accessibility PAIR  PROGRAMMING */
   #mobile {
     display: none;
   }
+
   body {
     margin: 0;
     padding: 0;
     width: 100vw;
   }
+
   .flex-item {
     display: flex;
     justify-content: space-between;
@@ -966,6 +966,7 @@ footer .actbutton2 {
     margin: 0;
     padding: 0;
   }
+
   .desk {
     display: flex;
     justify-content: center;
@@ -974,6 +975,7 @@ footer .actbutton2 {
     width: 100%;
     height: 8.42%;
   }
+
   .navbar {
     position: absolute;
     list-style-type: none;
@@ -991,6 +993,7 @@ footer .actbutton2 {
     font-size: 1em;
     color: #1a2236;
   }
+
   #presentation {
     position: absolute;
     display: flex;
@@ -1001,11 +1004,13 @@ footer .actbutton2 {
     left: 11.11%;
     top: 16.18%;
   }
-  #presentation>article {
+
+  #presentation > article {
     position: absolute;
     width: 100%;
     height: 73.83%;
   }
+
   h1 {
     position: absolute;
     border: none;
@@ -1021,6 +1026,7 @@ footer .actbutton2 {
     color: #1a2236;
     zoom: normal;
   }
+
   #phrase {
     position: absolute;
     width: 100%;
@@ -1039,6 +1045,7 @@ footer .actbutton2 {
     margin-inline-start: 0;
     margin-inline-end: 0;
   }
+
   .txtbutton {
     display: flex;
     position: absolute;
@@ -1057,6 +1064,7 @@ footer .actbutton2 {
     color: #fff;
     background-color: #1a2236;
   }
+
   .geometry {
     display: block;
     position: absolute;
@@ -1070,9 +1078,11 @@ footer .actbutton2 {
     animation-duration: 3s;
     animation-name: project;
   }
+
   #graphics {
     display: none;
   }
+
   .dots {
     display: block;
     position: absolute;
@@ -1082,6 +1092,7 @@ footer .actbutton2 {
     left: 39.1%;
     right: 48.75%;
   }
+
   .project .dots {
     position: absolute;
     width: 11.11%;
@@ -1089,6 +1100,7 @@ footer .actbutton2 {
     top: 1187px;
     left: 21.74%;
   }
+
   .project .geo4 {
     display: block;
     position: absolute;
@@ -1097,6 +1109,7 @@ footer .actbutton2 {
     top: 1745px;
     left: 32.22%;
   }
+
   .project .geo5 {
     display: block;
     position: absolute;
@@ -1105,6 +1118,7 @@ footer .actbutton2 {
     top: 2285px;
     left: 55.56%;
   }
+
   .project .geo6 {
     display: block;
     position: absolute;
@@ -1113,6 +1127,7 @@ footer .actbutton2 {
     top: 2560px;
     left: 0;
   }
+
   .project .geo7 {
     display: block;
     position: absolute;
@@ -1121,6 +1136,7 @@ footer .actbutton2 {
     top: 2560px;
     left: 49.44%;
   }
+
   .project .teal {
     position: absolute;
     display: block;
@@ -1129,6 +1145,7 @@ footer .actbutton2 {
     top: 3410px;
     left: 35.83%;
   }
+
   .project h2 {
     position: absolute;
     width: 27.64%;
@@ -1145,6 +1162,7 @@ footer .actbutton2 {
     transform: rotate(-90deg);
     zoom: normal;
   }
+
   .pc {
     position: absolute;
     width: 66.67%;
@@ -1152,6 +1170,7 @@ footer .actbutton2 {
     top: 1187px;
     left: 33.33%;
   }
+
   .pc1 {
     position: absolute;
     width: 32.29%;
@@ -1159,6 +1178,7 @@ footer .actbutton2 {
     top: 1825px;
     left: 0;
   }
+
   .pc2 {
     position: absolute;
     width: 55.56%;
@@ -1166,6 +1186,7 @@ footer .actbutton2 {
     top: 2095px;
     left: 0;
   }
+
   .pc3 {
     position: absolute;
     width: 32.29%;
@@ -1173,6 +1194,7 @@ footer .actbutton2 {
     top: 2560px;
     left: 55.49%;
   }
+
   .pc4 {
     position: absolute;
     width: 32.29%;
@@ -1180,6 +1202,7 @@ footer .actbutton2 {
     top: 2015px;
     left: 67.71%;
   }
+
   .pc5 {
     position: absolute;
     width: 32.29%;
@@ -1187,9 +1210,11 @@ footer .actbutton2 {
     top: 1745px;
     left: 67.71%;
   }
+
   .box {
     display: none;
   }
+
   .box01 {
     display: flex;
     flex-wrap: wrap;
@@ -1201,6 +1226,7 @@ footer .actbutton2 {
     background: rgba(26, 34, 54, 0.95);
     backdrop-filter: blur(24px);
   }
+
   .box01 p {
     position: relative;
     width: 100%;
@@ -1216,6 +1242,7 @@ footer .actbutton2 {
     line-height: 80%;
     color: #fff;
   }
+
   .box01 button {
     appearance: auto;
     writing-mode: horizontal-tb;
@@ -1240,6 +1267,7 @@ footer .actbutton2 {
     border-color: #98dede;
     border-image: initial;
   }
+
   .box01 .html {
     position: absolute;
     width: 132px;
@@ -1247,6 +1275,7 @@ footer .actbutton2 {
     top: 142px;
     left: 60px;
   }
+
   .box01 .ruby {
     position: absolute;
     width: 169px;
@@ -1254,6 +1283,7 @@ footer .actbutton2 {
     top: 142px;
     left: 212px;
   }
+
   .box01 .js {
     position: absolute;
     width: 144px;
@@ -1261,6 +1291,7 @@ footer .actbutton2 {
     top: 142px;
     left: 401px;
   }
+
   .box01 .pjbutton {
     display: flex;
     position: absolute;
@@ -1271,6 +1302,7 @@ footer .actbutton2 {
     background-color: #fff;
     border: solid #fff;
   }
+
   .box01 .pjbutton .actbutton {
     position: absolute;
     font-family: 'Poppins', sans-serif;
@@ -1283,6 +1315,7 @@ footer .actbutton2 {
     cursor: pointer;
     text-decoration: none;
   }
+
   .box01 .narrow {
     position: absolute;
     width: 20.57px;
@@ -1290,6 +1323,7 @@ footer .actbutton2 {
     top: 17.95px;
     left: 174px;
   }
+
   .box02 {
     display: block;
     flex-wrap: wrap;
@@ -1301,6 +1335,7 @@ footer .actbutton2 {
     background: rgba(26, 34, 54, 0.95);
     backdrop-filter: blur(24px);
   }
+
   .box03 {
     display: block;
     flex-wrap: wrap;
@@ -1312,6 +1347,7 @@ footer .actbutton2 {
     background: rgba(26, 34, 54, 0.95);
     backdrop-filter: blur(24px);
   }
+
   .box04 {
     display: block;
     flex-wrap: wrap;
@@ -1323,6 +1359,7 @@ footer .actbutton2 {
     background: rgba(26, 34, 54, 0.95);
     backdrop-filter: blur(24px);
   }
+
   .box05 {
     display: block;
     flex-wrap: wrap;
@@ -1334,6 +1371,7 @@ footer .actbutton2 {
     background: rgba(26, 34, 54, 0.95);
     backdrop-filter: blur(24px);
   }
+
   .box02 p,
   .box03 p,
   .box04 p,
@@ -1352,6 +1390,7 @@ footer .actbutton2 {
     line-height: 80%;
     color: #fff;
   }
+
   .box01 ul,
   .box02 ul,
   .box03 ul,
@@ -1361,6 +1400,7 @@ footer .actbutton2 {
     list-style: none;
     zoom: normal;
   }
+
   .box02 button,
   .box03 button,
   .box04 button,
@@ -1388,6 +1428,7 @@ footer .actbutton2 {
     border-color: #98dede;
     border-image: initial;
   }
+
   .box02 .html,
   .box03 .html,
   .box04 .html,
@@ -1398,6 +1439,7 @@ footer .actbutton2 {
     top: 82px;
     left: 30px;
   }
+
   .box02 .ruby,
   .box03 .ruby,
   .box04 .ruby,
@@ -1408,6 +1450,7 @@ footer .actbutton2 {
     top: 82px;
     left: 177px;
   }
+
   .box02 .js,
   .box03 .js,
   .box04 .js,
@@ -1418,6 +1461,7 @@ footer .actbutton2 {
     top: 82px;
     left: 361px;
   }
+
   .box02 .pjbutton,
   .box03 .pjbutton,
   .box04 .pjbutton,
@@ -1431,6 +1475,7 @@ footer .actbutton2 {
     background-color: #fff;
     border: solid #fff;
   }
+
   .box02 .pjbutton .actbutton,
   .box03 .pjbutton .actbutton,
   .box04 .pjbutton .actbutton,
@@ -1446,6 +1491,7 @@ footer .actbutton2 {
     cursor: pointer;
     text-decoration: none;
   }
+
   .box02 .narrow,
   .box03 .narrow,
   .box04 .narrow,
@@ -1456,6 +1502,7 @@ footer .actbutton2 {
     top: 17.95px;
     left: 174px;
   }
+
   .box06 {
     display: flex;
     flex-wrap: wrap;
@@ -1467,6 +1514,7 @@ footer .actbutton2 {
     background: rgba(26, 34, 54, 0.95);
     backdrop-filter: blur(24px);
   }
+
   .box06 p {
     position: relative;
     width: 100%;
@@ -1482,6 +1530,7 @@ footer .actbutton2 {
     line-height: 80%;
     color: #fff;
   }
+
   .box06 button {
     appearance: auto;
     writing-mode: horizontal-tb;
@@ -1506,6 +1555,7 @@ footer .actbutton2 {
     border-color: #98dede;
     border-image: initial;
   }
+
   .box06 .html {
     position: absolute;
     width: 132px;
@@ -1513,6 +1563,7 @@ footer .actbutton2 {
     top: 142px;
     left: 60px;
   }
+
   .box06 .ruby {
     position: absolute;
     width: 169px;
@@ -1520,6 +1571,7 @@ footer .actbutton2 {
     top: 142px;
     left: 212px;
   }
+
   .box06 .js {
     position: absolute;
     width: 144px;
@@ -1527,6 +1579,7 @@ footer .actbutton2 {
     top: 142px;
     left: 401px;
   }
+
   .box06 .pjbutton {
     display: flex;
     position: absolute;
@@ -1537,6 +1590,7 @@ footer .actbutton2 {
     background-color: #fff;
     border: solid #fff;
   }
+
   .box06 .pjbutton .actbutton {
     position: absolute;
     font-family: 'Poppins', sans-serif;
@@ -1549,6 +1603,7 @@ footer .actbutton2 {
     cursor: pointer;
     text-decoration: none;
   }
+
   .box06 .narrow {
     position: absolute;
     width: 20.57px;
@@ -1556,6 +1611,7 @@ footer .actbutton2 {
     top: 17.95px;
     left: 174px;
   }
+
   .box1 {
     position: absolute;
     width: 30.97%;
@@ -1563,6 +1619,7 @@ footer .actbutton2 {
     top: 3074px;
     left: 57.92%;
   }
+
   .box1 h2 {
     position: absolute;
     width: 295px;
@@ -1572,6 +1629,7 @@ footer .actbutton2 {
     transform: rotate(0deg);
     zoom: normal;
   }
+
   .box1 .phrase {
     position: absolute;
     width: 446px;
@@ -1586,6 +1644,7 @@ footer .actbutton2 {
     line-height: 21px;
     color: #1a2236;
   }
+
   .box1 .pjbutton {
     display: flex;
     position: relative;
@@ -1595,6 +1654,7 @@ footer .actbutton2 {
     top: 266px;
     background-color: #1a2236;
   }
+
   .pjbutton .actbutton1 {
     position: absolute;
     font-family: 'Poppins', sans-serif;
@@ -1609,11 +1669,13 @@ footer .actbutton2 {
     top: 22px;
     left: 55px;
   }
+
   .narrow0 {
     position: absolute;
     top: 23px;
     left: 175px;
   }
+
   .project #square1 {
     position: absolute;
     width: 289px;
@@ -1622,6 +1684,7 @@ footer .actbutton2 {
     top: 3046px;
     background: #1c528a;
   }
+
   .project #square2 {
     position: absolute;
     width: 289px;
@@ -1630,6 +1693,7 @@ footer .actbutton2 {
     top: 3046px;
     background: #e2505c;
   }
+
   .project #square3 {
     position: absolute;
     width: 289px;
@@ -1638,6 +1702,7 @@ footer .actbutton2 {
     top: 3335px;
     background: #febf52;
   }
+
   .project .chart {
     position: absolute;
     width: 178px;
@@ -1652,6 +1717,7 @@ footer .actbutton2 {
     letter-spacing: -0.0525em;
     color: #fff;
   }
+
   .project h3 {
     position: relative;
     width: 116px;
@@ -1665,6 +1731,7 @@ footer .actbutton2 {
     line-height: 30px;
     color: #fff;
   }
+
   .project #narrow1 {
     position: absolute;
     width: 102px;
@@ -1672,6 +1739,7 @@ footer .actbutton2 {
     top: 187px;
     left: 187px;
   }
+
   .project #narrow2 {
     position: absolute;
     width: 102px;
@@ -1679,6 +1747,7 @@ footer .actbutton2 {
     top: 187px;
     left: 187px;
   }
+
   .project #narrow3 {
     position: absolute;
     width: 102px;
@@ -1686,6 +1755,7 @@ footer .actbutton2 {
     top: 187px;
     left: 187px;
   }
+
   /* conatct form */
   .ux {
     position: absolute;
@@ -1696,9 +1766,11 @@ footer .actbutton2 {
     right: 0;
     background: #f9f9fa;
   }
+
   #uxlogo {
     display: none;
   }
+
   .ux .geo8 {
     position: absolute;
     display: block;
@@ -1707,6 +1779,7 @@ footer .actbutton2 {
     top: 0;
     left: 0;
   }
+
   .ux .geo9 {
     position: absolute;
     display: block;
@@ -1715,6 +1788,7 @@ footer .actbutton2 {
     top: 596px;
     left: 75.63%;
   }
+
   .ux h2 {
     position: absolute;
     width: 38.06%;
@@ -1732,6 +1806,7 @@ footer .actbutton2 {
     color: #1a2236;
     zoom: normal;
   }
+
   .ux .phrase {
     position: absolute;
     margin: 0;
@@ -1750,6 +1825,7 @@ footer .actbutton2 {
     letter-spacing: -0.01em;
     color: #1a2236;
   }
+
   .data {
     position: absolute;
     display: block;
@@ -1765,6 +1841,7 @@ footer .actbutton2 {
     margin: 0;
     padding: 0;
   }
+
   .liname {
     flex: 1;
     position: absolute;
@@ -1775,6 +1852,7 @@ footer .actbutton2 {
     background: #f9f9fa;
     border-style: none;
   }
+
   .name {
     position: absolute;
     width: 254px;
@@ -1792,11 +1870,13 @@ footer .actbutton2 {
     border: 1px solid #e0e0e0;
     box-sizing: border-box;
   }
+
   .name input {
     position: absolute;
     top: 18px;
     left: 20px;
   }
+
   .data .namelabel {
     position: absolute;
     width: 66px;
@@ -1810,6 +1890,7 @@ footer .actbutton2 {
     line-height: 18px;
     color: #7d7c84;
   }
+
   .liemail {
     flex: 1;
     position: absolute;
@@ -1820,6 +1901,7 @@ footer .actbutton2 {
     background: #f9f9fa;
     border-style: none;
   }
+
   .data .emaillabel {
     position: absolute;
     width: 64px;
@@ -1833,6 +1915,7 @@ footer .actbutton2 {
     line-height: 18px;
     color: #7d7c84;
   }
+
   .email {
     position: absolute;
     width: 253px;
@@ -1850,11 +1933,13 @@ footer .actbutton2 {
     border: 1px solid #e0e0e0;
     box-sizing: border-box;
   }
+
   .email input {
     position: absolute;
     top: 18px;
     left: 19.55px;
   }
+
   .limsg {
     position: absolute;
     width: 542px;
@@ -1866,6 +1951,7 @@ footer .actbutton2 {
     border-style: none;
     background: #f9f9fa;
   }
+
   #msg {
     position: absolute;
     width: 542px;
@@ -1876,6 +1962,7 @@ footer .actbutton2 {
     border: 1px solid #e0e0e0;
     box-sizing: border-box;
   }
+
   .msglabel {
     display: block;
     position: absolute;
@@ -1890,6 +1977,7 @@ footer .actbutton2 {
     line-height: 18px;
     color: #7d7c84;
   }
+
   #msg textarea {
     position: absolute;
     width: 500px;
@@ -1904,6 +1992,7 @@ footer .actbutton2 {
     line-height: 21px;
     color: #7d7c84;
   }
+
   .data .txtbutton {
     position: absolute;
     width: 254px;
@@ -1911,6 +2000,7 @@ footer .actbutton2 {
     top: 300px;
     left: 144px;
   }
+
   footer {
     display: block;
     position: absolute;
@@ -1919,6 +2009,7 @@ footer .actbutton2 {
     top: 947px;
     background-color: #1a2236;
   }
+
   footer .pjbutton1 {
     position: absolute;
     max-width: 165px;
@@ -1927,6 +2018,7 @@ footer .actbutton2 {
     left: 160px;
     border-radius: 0;
   }
+
   footer .actbutton2 {
     position: absolute;
     width: 137px;
@@ -1939,6 +2031,7 @@ footer .actbutton2 {
     line-height: 24px;
     color: #92dcdc;
   }
+
   .narrow1 {
     position: absolute;
     width: 22px;
@@ -1946,6 +2039,7 @@ footer .actbutton2 {
     top: 0;
     left: 215px;
   }
+
   .icons {
     position: absolute;
     flex: 1;
@@ -1960,6 +2054,7 @@ footer .actbutton2 {
     top: 0;
     left: 840px;
   }
+
   /* button interactions */
   .txtbutton:hover {
     background: #fff;
@@ -1967,16 +2062,19 @@ footer .actbutton2 {
     box-sizing: border-box;
     color: #1a2236;
   }
+
   .txtbutton:disabled {
     background: #1a2236;
     border: 1px solid #1a2236;
     box-sizing: border-box;
   }
+
   .txtbutton:active {
     background: #fff;
     border: 2px solid #1a2236;
     box-sizing: border-box;
   }
+
   /*
   Animations and transitions
   PAIR PROGRAMING ACTIVITY
@@ -1987,6 +2085,7 @@ footer .actbutton2 {
   .icons img:hover {
     transform: scale(0.7);
   }
+
   .box01,
   .box02,
   .box03,
@@ -1997,16 +2096,18 @@ footer .actbutton2 {
     opacity: 0;
     visibility: visible;
   }
-  figure:hover>.box01,
-  figure:hover>.box02,
-  figure:hover>.box03,
-  figure:hover>.box04,
-  figure:hover>.box05,
-  figure:hover>.box06 {
+
+  figure:hover > .box01,
+  figure:hover > .box02,
+  figure:hover > .box03,
+  figure:hover > .box04,
+  figure:hover > .box05,
+  figure:hover > .box06 {
     opacity: 1;
     visibility: visible;
     cursor: pointer;
   }
+
   @keyframes project {
     from {
       width: 0%;
@@ -2021,6 +2122,7 @@ footer .actbutton2 {
       width: 100%;
     }
   }
+
   /*  popup-window mobile */
   .popup-window {
     position: fixed;
@@ -2034,18 +2136,21 @@ footer .actbutton2 {
     flex-direction: column;
     overflow-y: scroll;
     overflow-x: hidden;
-    z-index: 10;
+    z-index: 10px;
     border: 70px solid rgba(26, 34, 54, 0.95);
   }
+
   .close-popup {
     justify-content: flex-end;
     margin: 73px 61px;
     border: none;
     background-color: transparent;
   }
+
   .close-popup img {
     padding: 9px 8px;
   }
+
   .popup-title {
     position: absolute;
     width: 726px;
@@ -2060,6 +2165,7 @@ footer .actbutton2 {
     line-height: 80%;
     color: #1A2236;
   }
+
   .popup-window ul {
     position: relative;
     display: grid;
@@ -2073,6 +2179,7 @@ footer .actbutton2 {
     zoom: normal;
     list-style: none;
   }
+
   .popup-window ul button {
     appearance: auto;
     writing-mode: horizontal-tb;
@@ -2097,24 +2204,28 @@ footer .actbutton2 {
     border-color: #1a2236;
     border-image: initial;
   }
-  .popup-window ul>.html {
+
+  .popup-window ul > .html {
     position: absolute;
     width: 132px;
     height: 40px;
     left: 0;
   }
-  .popup-window ul>.ruby {
+
+  .popup-window ul > .ruby {
     position: absolute;
     width: 169x;
     height: 40px;
     left: 79px;
   }
-  .popup-window>.js {
+
+  .popup-window > .js {
     position: absolute;
     width: 144px;
     height: 40px;
     left: 401px;
   }
+
   .carousel__contenedor {
     position: relative;
     width: 1169px;
@@ -2122,6 +2233,7 @@ footer .actbutton2 {
     margin: 18px 20px;
     overflow: hidden;
   }
+
   .carousel__anterior {
     position: absolute;
     display: block;
@@ -2136,6 +2248,7 @@ footer .actbutton2 {
     color: #fff;
     opacity: 20%;
   }
+
   .carousel__siguiente {
     position: absolute;
     display: block;
@@ -2151,22 +2264,26 @@ footer .actbutton2 {
     color: #fff;
     opacity: 20%;
   }
+
   .carousel__anterior:hover,
   .carousel__siguiente:hover {
     opacity: 100%;
   }
+
   .carousel__lista {
     position: absolute;
     margin: 0;
     display: flex;
     overflow: hidden;
   }
+
   .carousel__elemento img {
     width: 1179px;
     height: 685px;
     margin: 0;
     padding: 0;
   }
+
   .carousel__indicadores {
     display: flex;
     flex-direction: row;
@@ -2176,10 +2293,12 @@ footer .actbutton2 {
     padding: 0;
     overflow: hidden;
   }
+
   .carousel__indicador img {
     width: 293px;
     height: 117px;
   }
+
   .popup-p {
     position: absolute;
     width: 700px;
@@ -2194,6 +2313,7 @@ footer .actbutton2 {
     line-height: 27px;
     color: #1A2236;
   }
+
   .see-buttons {
     display: grid;
     grid-template-columns: auto auto;
@@ -2204,6 +2324,7 @@ footer .actbutton2 {
     top: 1404px;
     left: 180px;
   }
+
   .see-live {
     justify-content: space-around;
     align-items: center;
@@ -2218,6 +2339,7 @@ footer .actbutton2 {
     line-height: 27px;
     background-color: #fff;
   }
+
   .see-source {
     justify-content: space-around;
     align-items: center;
@@ -2232,6 +2354,7 @@ footer .actbutton2 {
     line-height: 27px;
     background-color: #fff;
   }
+
   .narrow-buttons {
     display: grid;
     grid-template-columns: auto auto;
@@ -2243,6 +2366,7 @@ footer .actbutton2 {
     left: 180px;
     padding-bottom: 109px;
   }
+
   .previus {
     position: relative;
     display: flex;
@@ -2259,6 +2383,7 @@ footer .actbutton2 {
     background-color: #fff;
     border: none;
   }
+
   .next {
     position: relative;
     display: flex;
@@ -2275,6 +2400,7 @@ footer .actbutton2 {
     background-color: #fff;
     border: none;
   }
+
   /* button interactions */
   .see-source:hover,
   .see-live:hover {
@@ -2284,18 +2410,21 @@ footer .actbutton2 {
     color: #fff;
     cursor: pointer;
   }
+
   .see-source:disabled,
   .see-live:disabled {
     background: #fff;
     border: 1px solid #1a2236;
     box-sizing: border-box;
   }
+
   .see-source:active,
   .see-live:active {
     background: #fff;
     border: 2px solid #1a2236;
     box-sizing: border-box;
   }
+
   .hidePopup {
     display: none;
   }
