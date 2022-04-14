@@ -2,12 +2,10 @@
   font-family: Poppins;
   src: url('./fonts/Poppins/Poppins-Regular.ttf') format('truetype');
 }
-
 @font-face {
   font-family: Playfair_Display;
   src: url('./fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf') format('truetype');
 }
-
 
 /* mobile version */
 
@@ -24,7 +22,6 @@
 .msglabel {
   display: none;
 }
-
 .box01,
 .box02,
 .box03,
@@ -33,7 +30,6 @@
 .box06 {
   display: none;
 }
-
 .content {
   display: flex;
   flex-direction: column;
@@ -41,7 +37,6 @@
   top: 0;
   left: 0;
 }
-
 .flex-item {
   display: flex;
   justify-content: space-between;
@@ -53,7 +48,6 @@
   top: 0;
   left: 0;
 }
-
 #mobile>header {
   flex: 1;
   display: flex;
@@ -63,13 +57,11 @@
   margin: 0;
   padding: 0;
 }
-
 #logo {
   width: 111px;
   height: 74px;
   left: -10px;
 }
-
 .mobile-menu {
   position: absolute;
   width: 20px;
@@ -79,7 +71,6 @@
   margin-left: 284px;
   background: #fff;
 }
-
 
 /* dropdown-menu */
 
@@ -98,7 +89,6 @@
   left: 0;
   background-color: #fff;
 }
-
 .dropdown-menu figure {
   margin: 0;
   padding: 0;
@@ -108,16 +98,13 @@
   margin-inline-end: 0;
   width: 100%;
 }
-
 .dropdown-menu img {
   width: 100%;
   height: 100%;
 }
-
 .lockscroll {
   overflow: hidden;
 }
-
 .menu-header {
   display: flex;
   justify-content: space-around;
@@ -126,20 +113,16 @@
   padding: 0;
   width: 100%;
 }
-
 .menu-header img {
   margin-right: 21px;
 }
-
 .hide-menu {
   visibility: hidden;
 }
-
 .dropdown-menu a {
   text-decoration: none;
   color: #000;
 }
-
 .dropdown-menu li {
   font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
@@ -148,7 +131,6 @@
   line-height: 300%;
   list-style: none;
 }
-
 .close-menu {
   margin-top: 24px;
   margin-right: 20px;
@@ -158,7 +140,6 @@
   font-size: 25px;
   top: 0;
 }
-
 #presentation {
   display: flex;
   justify-content: center;
@@ -170,7 +151,6 @@
   margin-left: 16px;
   top: 0;
 }
-
 #presentation>article {
   display: flex;
   flex-direction: column;
@@ -179,7 +159,6 @@
   left: 0;
   top: 30px;
 }
-
 h1 {
   display: flex;
   border: none;
@@ -196,7 +175,6 @@ h1 {
   color: #1a2236;
   zoom: normal;
 }
-
 #phrase {
   width: 288px;
   height: 126px;
@@ -211,7 +189,6 @@ h1 {
   color: #1a2236;
   display: block;
 }
-
 .txtbutton {
   display: flex;
   justify-content: center;
@@ -229,7 +206,6 @@ h1 {
   color: #fff;
   background-color: #1a2236;
 }
-
 #graphics {
   display: flex;
   width: 320px;
@@ -237,14 +213,12 @@ h1 {
   left: 0;
   margin-top: 32px;
 }
-
 .project {
   display: grid;
   gap: 0;
   grid-template-columns: 320px;
   height: auto;
 }
-
 .project h2 {
   margin-block-start: 30px;
   margin-block-end: 32px;
@@ -257,18 +231,15 @@ h1 {
   line-height: 100%;
   color: #1a2236;
 }
-
 .project>figure {
   margin: 0;
   padding: 0;
 }
-
 .box {
   top: 0;
   height: 156px;
   background-color: #1a2236;
 }
-
 .box p {
   position: absolute;
   display: block;
@@ -283,12 +254,10 @@ h1 {
   line-height: 80%;
   color: #fff;
 }
-
 footer ul {
   margin-top: 32px;
   padding: 0;
 }
-
 .box ul {
   position: absolute;
   display: grid;
@@ -300,7 +269,6 @@ footer ul {
   margin-inline-end: 50px;
   zoom: normal;
 }
-
 .box button {
   appearance: auto;
   writing-mode: horizontal-tb;
@@ -325,28 +293,24 @@ footer ul {
   border-color: #98dede;
   border-image: initial;
 }
-
 .html {
   position: absolute;
   width: 69px;
   height: 20px;
   left: 0;
 }
-
 .ruby {
   position: absolute;
   width: 87px;
   height: 20px;
   left: 79px;
 }
-
 .js {
   position: absolute;
   width: 74px;
   height: 20px;
   left: 176px;
 }
-
 .box .pjbutton {
   display: flex;
   position: relative;
@@ -357,7 +321,6 @@ footer ul {
   background-color: #1a2236;
   border: solid #fff;
 }
-
 .pjbutton .actbutton {
   position: relative;
   font-family: 'Poppins', sans-serif;
@@ -372,26 +335,22 @@ footer ul {
   top: 10px;
   left: 10px;
 }
-
 .narrow {
   position: absolute;
   top: 10px;
   left: 146px;
 }
-
 .box1 {
   position: relative;
   top: 0;
   height: 334px;
 }
-
 .box1 .phrase {
   position: absolute;
   top: 84px;
   left: 16px;
   right: 16px;
 }
-
 .box1 .pjbutton {
   display: flex;
   position: relative;
@@ -401,7 +360,6 @@ footer ul {
   top: 128px;
   background-color: #1a2236;
 }
-
 .pjbutton .actbutton1 {
   position: absolute;
   font-family: 'Poppins', sans-serif;
@@ -416,13 +374,11 @@ footer ul {
   top: 13px;
   left: 79px;
 }
-
 .narrow0 {
   position: absolute;
   top: 13px;
   left: 185px;
 }
-
 .project #square1 {
   width: 289px;
   height: 289px;
@@ -431,7 +387,6 @@ footer ul {
   background: #1c528a;
   margin: 8px 15px 8px 16px;
 }
-
 .project #square2 {
   width: 289px;
   height: 289px;
@@ -440,7 +395,6 @@ footer ul {
   background: #e2505c;
   margin: 8px 15px 8px 16px;
 }
-
 .project #square3 {
   width: 289px;
   height: 289px;
@@ -449,7 +403,6 @@ footer ul {
   background: #febf52;
   margin: 8px 15px 8px 16px;
 }
-
 .project .chart {
   width: 178px;
   height: 135px;
@@ -462,7 +415,6 @@ footer ul {
   letter-spacing: -0.0525em;
   color: #fff;
 }
-
 .project h3 {
   position: relative;
   width: 116px;
@@ -476,7 +428,6 @@ footer ul {
   line-height: 30px;
   color: #fff;
 }
-
 .project #narrow1,
 .project #narrow2,
 .project #narrow3 {
@@ -487,7 +438,6 @@ footer ul {
   bottom: 72px;
 }
 
-
 /* conatct form */
 
 .ux {
@@ -497,7 +447,6 @@ footer ul {
   left: 0;
   right: 0;
 }
-
 .ux h2 {
   margin-block-start: 30px;
   margin-block-end: 32px;
@@ -510,7 +459,6 @@ footer ul {
   line-height: 100%;
   color: #1a2236;
 }
-
 .ux .phrase {
   max-width: 288px;
   max-height: 63px;
@@ -526,14 +474,12 @@ footer ul {
   letter-spacing: -0.01em;
   color: #1a2236;
 }
-
 .data {
   display: block;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-
 .liname {
   width: 288px;
   height: 52px;
@@ -544,7 +490,6 @@ footer ul {
   border: 1px solid #1a2236;
   box-sizing: border-box;
 }
-
 .name input {
   width: 220px;
   height: 21px;
@@ -559,7 +504,6 @@ footer ul {
   line-height: 21px;
   color: #1a2236;
 }
-
 .data .namelabel {
   width: 55px;
   height: 15px;
@@ -572,7 +516,6 @@ footer ul {
   line-height: 15px;
   color: #7d7c84;
 }
-
 .liemail {
   width: 288px;
   height: 52px;
@@ -583,7 +526,6 @@ footer ul {
   border: 1px solid #1a2236;
   box-sizing: border-box;
 }
-
 .data .emaillabel {
   width: 55px;
   height: 15px;
@@ -596,7 +538,6 @@ footer ul {
   line-height: 15px;
   color: #7d7c84;
 }
-
 .email input {
   width: 220px;
   height: 21px;
@@ -612,7 +553,6 @@ footer ul {
   line-height: 21px;
   color: #1a2236;
 }
-
 .limsg {
   width: 288px;
   height: 112px;
@@ -623,7 +563,6 @@ footer ul {
   border: 1px solid #dfdfe0;
   box-sizing: border-box;
 }
-
 #msg textarea {
   width: 253px;
   height: 90px;
@@ -637,13 +576,11 @@ footer ul {
   line-height: 21px;
   color: #7d7c84;
 }
-
 .data .txtbutton {
   width: 288px;
   height: 44px;
   margin: 20px 14px 64px 18px;
 }
-
 footer {
   display: block;
   width: 320px;
@@ -651,7 +588,6 @@ footer {
   top: 631px;
   background-color: #1a2236;
 }
-
 footer .pjbutton1 {
   display: block;
   position: relative;
@@ -661,7 +597,6 @@ footer .pjbutton1 {
   left: 16px;
   border-radius: 0;
 }
-
 footer .actbutton2 {
   position: relative;
   width: 137px;
@@ -674,7 +609,6 @@ footer .actbutton2 {
   line-height: 24px;
   color: #92dcdc;
 }
-
 .narrow1 {
   position: relative;
   width: 22px;
@@ -682,7 +616,6 @@ footer .actbutton2 {
   top: 0;
   left: 0;
 }
-
 .icons {
   position: relative;
   height: 24px;
@@ -694,7 +627,6 @@ footer .actbutton2 {
   left: 0;
 }
 
-
 /* button interactions */
 
 .txtbutton:hover {
@@ -703,19 +635,16 @@ footer .actbutton2 {
   box-sizing: border-box;
   color: #1a2236;
 }
-
 .txtbutton:disabled {
   background: #1a2236;
   border: 1px solid #1a2236;
   box-sizing: border-box;
 }
-
 .txtbutton:active {
   background: #fff;
   border: 2px solid #1a2236;
   box-sizing: border-box;
 }
-
 
 /*  popup-window mobile */
 
@@ -732,7 +661,6 @@ footer .actbutton2 {
   overflow: scroll;
   z-index: 10;
 }
-
 .close-popup {
   grid: 1;
   display: flex;
@@ -741,11 +669,9 @@ footer .actbutton2 {
   border: none;
   background-color: transparent;
 }
-
 .close-popup img {
   padding: 9px 8px;
 }
-
 .popup-title {
   grid: 1;
   margin-left: 20px;
@@ -756,7 +682,6 @@ footer .actbutton2 {
   line-height: 80%;
   color: #1A2236;
 }
-
 .popup-window ul {
   grid: 1;
   position: relative;
@@ -771,7 +696,6 @@ footer .actbutton2 {
   zoom: normal;
   list-style: none;
 }
-
 .popup-window ul button {
   appearance: auto;
   writing-mode: horizontal-tb;
@@ -796,28 +720,24 @@ footer .actbutton2 {
   border-color: #1a2236;
   border-image: initial;
 }
-
 .popup-window ul>.html {
   position: absolute;
   width: 69px;
   height: 20px;
   left: 0;
 }
-
 .popup-window ul>.ruby {
   position: absolute;
   width: 87px;
   height: 20px;
   left: 79px;
 }
-
 .popup-window>.js {
   position: absolute;
   width: 74px;
   height: 20px;
   left: 176px;
 }
-
 .carousel__contenedor {
   position: relative;
   margin: 18px 20px 0 20px;
@@ -825,7 +745,6 @@ footer .actbutton2 {
   height: 162px;
   overflow: hidden;
 }
-
 .carousel__anterior {
   position: absolute;
   display: block;
@@ -841,7 +760,6 @@ footer .actbutton2 {
   opacity: 100%;
   z-index: 10px;
 }
-
 .carousel__siguiente {
   position: absolute;
   display: block;
@@ -857,21 +775,17 @@ footer .actbutton2 {
   color: #fff;
   opacity: 100%;
 }
-
 .carousel__anterior:hover,
 .carousel__siguiente:hover {
   opacity: 100%;
 }
-
 .carousel__lista {
   overflow: hidden;
 }
-
 .carousel__elemento img {
   width: 278px;
   height: 162px;
 }
-
 .carousel__indicadores {
   display: flex;
   flex-direction: row;
@@ -880,12 +794,10 @@ footer .actbutton2 {
   margin: 0 20px 0 20px;
   overflow: hidden;
 }
-
 .carousel__indicador img {
   width: 69px;
   height: 40px;
 }
-
 .popup-p {
   width: 291px;
   height: 432px;
@@ -897,7 +809,6 @@ footer .actbutton2 {
   line-height: 27px;
   color: #1A2236;
 }
-
 .see-live,
 .see-source {
   display: flex;
@@ -915,12 +826,10 @@ footer .actbutton2 {
   line-height: 27px;
   background-color: #fff;
 }
-
 .previus,
 .next {
   display: none;
 }
-
 
 /* button interactions */
 
@@ -932,25 +841,21 @@ footer .actbutton2 {
   color: #fff;
   cursor: pointer;
 }
-
 .see-source:disabled,
 .see-live:disabled {
   background: #fff;
   border: 1px solid #1a2236;
   box-sizing: border-box;
 }
-
 .see-source:active,
 .see-live:active {
   background: #fff;
   border: 2px solid #1a2236;
   box-sizing: border-box;
 }
-
 .hidePopup {
   display: none;
 }
-
 
 /* desk-version */
 
