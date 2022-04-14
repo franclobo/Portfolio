@@ -1,23 +1,23 @@
-const mobileMenu = document.querySelector('.mobile-menu');
-const closeBtn = document.querySelector('.close-menu');
-const optMenu = document.querySelector('.mobile-menu-navigation');
-const dropDown = document.querySelector('.dropdown-menu');
-const scrollLock = document.querySelector('.content');
-const seeProjectButton = document.querySelectorAll('.pjbutton');
-const projectPopup = document.querySelector('.popup-window');
+const mobileMenu = document.querySelector('.mobile-menu')
+const closeBtn = document.querySelector('.close-menu')
+const optMenu = document.querySelector('.mobile-menu-navigation')
+const dropDown = document.querySelector('.dropdown-menu')
+const scrollLock = document.querySelector('.content')
+const seeProjectButton = document.querySelectorAll('.pjbutton')
+const projectPopup = document.querySelector('.popup-window')
 
 mobileMenu.addEventListener('click', () => {
-  dropDown.classList.remove('hide-menu');
-  scrollLock.classList.add('lockscroll');
-});
+  dropDown.classList.remove('hide-menu')
+  scrollLock.classList.add('lockscroll')
+})
 closeBtn.addEventListener('click', () => {
-  dropDown.classList.toggle('hide-menu');
-  scrollLock.classList.remove('lockscroll');
-});
+  dropDown.classList.toggle('hide-menu')
+  scrollLock.classList.remove('lockscroll')
+})
 optMenu.addEventListener('click', () => {
-  dropDown.classList.toggle('hide-menu');
-  scrollLock.classList.remove('lockscroll');
-});
+  dropDown.classList.toggle('hide-menu')
+  scrollLock.classList.remove('lockscroll')
+})
 
 const projects = [
   {
@@ -47,7 +47,7 @@ const projects = [
     seeLive: ['See live', './icons/see-live.png', './icons/right-light.svg'],
     seeSource: ['See source', './icons/see-source.png', './icons/ic_github.png']
   },
-  { 
+  {
     id: 4,
     projectTitle: 'Project name goes here',
     technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
@@ -76,17 +76,17 @@ const projects = [
   }
 ]
 
-function displayProject(event) {
-  projectPopup.classList.remove('hidePopup');
-  scrollLock.classList.remove('lockscroll');
+function displayProject (event) {
+  projectPopup.classList.remove('hidePopup')
+  scrollLock.classList.remove('lockscroll')
 
-  let selectedProjects;
+  let selectedProjects
 
   Object.keys(projects).forEach((project) => {
     if (event.target.id === projects[project].id.toString()) {
-      selectedProjects = projects[project];
+      selectedProjects = projects[project]
     }
-  });
+  })
 
   projectPopup.innerHTML = `
   <button class="close-popup" onclick="projectPopup.classList.add('hidePopup');"><img src="./icons/cross.svg" alt=""></button>
@@ -132,11 +132,11 @@ function displayProject(event) {
   <div class="narrow-buttons">
     <button class="previus"><img src="./icons/left.svg">Previus project </button>
     <button class="next">Next project <img src="./icons/right.svg"></button>
-  </div>`;
+  </div>`
 }
 
 seeProjectButton.forEach((div) => {
   div.addEventListener('click', (event) => {
-    displayProject(event);
-   });
-});
+    displayProject(event)
+  })
+})
