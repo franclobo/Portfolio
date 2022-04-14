@@ -19,60 +19,60 @@ optMenu.addEventListener('click', () => {
   scrollLock.classList.remove('lockscroll');
 });
 
-const projects = 
+const projects = [
   {
-    id: '1',
+    id: 1,
     projectTitle: 'Project name goes here',
     technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
     projectImages: ['./images/pcprogect.png', './images/pcprogect1.png', './images/pcprogect2.png', './images/pcprogect3.png', './images/pcprogect4.png', './images/pcprogect5.png'],
     projectDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi<br>Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    seeLive: ['See live', './icons/see-live.png'],
-    seeSource: ['See source', './icons/see-source.png']
+    seeLive: ['See live', './icons/see-live.png', './icons/right-light.svg'],
+    seeSource: ['See source', './icons/see-source.png', './icons/ic_github.png']
   },
   {
-    id: '2',
+    id: 2,
     projectTitle: 'Project name goes here',
     technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
     projectImages: ['./images/pcprogect.png', './images/pcprogect1.png', './images/pcprogect2.png', './images/pcprogect3.png', './images/pcprogect4.png', './images/pcprogect5.png'],
     projectDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi<br>Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    seeLive: ['See live', './icons/see-live.png'],
-    seeSource: ['See source', './icons/see-source.png']
+    seeLive: ['See live', './icons/see-live.png', './icons/right-light.svg'],
+    seeSource: ['See source', './icons/see-source.png', './icons/ic_github.png']
   },
   {
-    id: '3',
+    id: 3,
     projectTitle: 'Project name goes here',
     technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
     projectImages: ['./images/pcprogect.png', './images/pcprogect1.png', './images/pcprogect2.png', './images/pcprogect3.png', './images/pcprogect4.png', './images/pcprogect5.png'],
     projectDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi<br>Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    seeLive: ['See live', './icons/see-live.png'],
-    seeSource: ['See source', './icons/see-source.png']
+    seeLive: ['See live', './icons/see-live.png', './icons/right-light.svg'],
+    seeSource: ['See source', './icons/see-source.png', './icons/ic_github.png']
+  },
+  { 
+    id: 4,
+    projectTitle: 'Project name goes here',
+    technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
+    projectImages: ['./images/pcprogect.png', './images/pcprogect1.png', './images/pcprogect2.png', './images/pcprogect3.png', './images/pcprogect4.png', './images/pcprogect5.png'],
+    projectDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi<br>Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    seeLive: ['See live', './icons/see-live.png', './icons/right-light.svg'],
+    seeSource: ['See source', './icons/see-source.png', './icons/ic_github.png']
   },
   {
-    id: '4',
+    id: 5,
     projectTitle: 'Project name goes here',
     technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
     projectImages: ['./images/pcprogect.png', './images/pcprogect1.png', './images/pcprogect2.png', './images/pcprogect3.png', './images/pcprogect4.png', './images/pcprogect5.png'],
     projectDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi<br>Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    seeLive: ['See live', './icons/see-live.png'],
-    seeSource: ['See source', './icons/see-source.png']
+    seeLive: ['See live', './icons/see-live.png', './icons/right-light.svg'],
+    seeSource: ['See source', './icons/see-source.png', './icons/ic_github.png']
   },
   {
-    id: '5',
+    id: 6,
     projectTitle: 'Project name goes here',
     technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
     projectImages: ['./images/pcprogect.png', './images/pcprogect1.png', './images/pcprogect2.png', './images/pcprogect3.png', './images/pcprogect4.png', './images/pcprogect5.png'],
     projectDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi<br>Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    seeLive: ['See live', './icons/see-live.png'],
-    seeSource: ['See source', './icons/see-source.png']
-  },
-  {
-    id: '6',
-    projectTitle: 'Project name goes here',
-    technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
-    projectImages: ['./images/pcprogect.png', './images/pcprogect1.png', './images/pcprogect2.png', './images/pcprogect3.png', './images/pcprogect4.png', './images/pcprogect5.png'],
-    projectDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi<br>Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    seeLive: ['See live', './icons/see-live.png'],
-    seeSource: ['See source', './icons/see-source.png']
+    seeLive: ['See live', './icons/see-live.png', './icons/right-light.svg'],
+    seeSource: ['See source', './icons/see-source.png', './icons/ic_github.png']
   }
 ]
 
@@ -138,5 +138,5 @@ function displayProject(event) {
 seeProjectButton.forEach((div) => {
   div.addEventListener('click', (event) => {
     displayProject(event);
-  });
+   });
 });

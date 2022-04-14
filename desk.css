@@ -39,6 +39,7 @@
   margin: 0;
   top: 0;
   left: 0;
+  overflow-x: hidden;
 }
 
 .flex-item {
@@ -725,6 +726,7 @@ footer .actbutton2 {
   grid-template-rows: auto auto auto auto auto auto auto;
   grid-template-columns: 100%;
   overflow: scroll;
+  z-index: 10;
 }
 
 .close-popup {
@@ -2074,7 +2076,6 @@ footer .actbutton2 {
   /*  popup-window desk */
   .popup-window {
     position: fixed;
-    margin: 70px;
     top: 0;
     left: 0;
     right: 0;
@@ -2085,6 +2086,7 @@ footer .actbutton2 {
     overflow-y: scroll;
     overflow-x: hidden;
     border: 70px solid rgba(26, 34, 54, 0.95);
+    z-index: 10;
   }
 
   .close-popup {
@@ -2269,7 +2271,7 @@ footer .actbutton2 {
     width: 522px;
     height: 51px;
     top: 1404px;
-    left: 180px;
+    left: 225px;
   }
 
   .see-live {
@@ -2310,7 +2312,7 @@ footer .actbutton2 {
     width: 522px;
     height: 51px;
     top: 1575px;
-    left: 180px;
+    left: 225px;
     padding-bottom: 109px;
   }
 
@@ -2321,7 +2323,7 @@ footer .actbutton2 {
     align-items: center;
     width: 183px;
     height: 51px;
-    border: 1px solid #1a2236;
+    border: none;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -2337,7 +2339,7 @@ footer .actbutton2 {
     align-items: center;
     width: 161px;
     height: 51px;
-    border: 1px solid #1a2236;
+    border: none;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
