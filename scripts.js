@@ -5,27 +5,25 @@ const dropDown = document.querySelector('.dropdown-menu');
 const scrollLock = document.querySelector('.content');
 const seeProjectButton = document.querySelectorAll('.pjbutton');
 const projectPopup = document.querySelector('.popup-window');
-const nextBtn = document.querySelector('.next');
-const previusBtn = document.querySelector('.previus');
 
 mobileMenu.addEventListener('click', () => {
-    dropDown.classList.remove('hide-menu');
-    scrollLock.classList.add('lockscroll');
+  dropDown.classList.remove('hide-menu');
+  scrollLock.classList.add('lockscroll');
 });
 closeBtn.addEventListener('click', () => {
-    dropDown.classList.toggle('hide-menu');
-    scrollLock.classList.remove('lockscroll');
+  dropDown.classList.toggle('hide-menu');
+  scrollLock.classList.remove('lockscroll');
 });
 optMenu.addEventListener('click', () => {
-    dropDown.classList.toggle('hide-menu');
-    scrollLock.classList.remove('lockscroll');
+  dropDown.classList.toggle('hide-menu');
+  scrollLock.classList.remove('lockscroll');
 });
 
 function displayProject() {
-    projectPopup.classList.remove('hidePopup');
-    scrollLock.classList.remove('lockscroll');
+  projectPopup.classList.remove('hidePopup');
+  scrollLock.classList.remove('lockscroll');
 
-    projectPopup.innerHTML = `
+  projectPopup.innerHTML = `
   <button class="close-popup" onclick="projectPopup.classList.add('hidePopup');"><img src="./icons/cross.svg" alt=""></button>
   <h3 class="popup-title">Project name goes here</h3>
   <ul>
@@ -77,8 +75,7 @@ function displayProject() {
 }
 
 seeProjectButton.forEach((div) => {
-    div.addEventListener('click', () => {
-        displayProject();
-        carousel();
-    });
+  div.addEventListener('click', () => {
+    displayProject();
+  });
 });
