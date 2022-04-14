@@ -79,3 +79,12 @@ seeProjectButton.forEach((div) => {
     displayProject();
   });
 });
+
+const projects = [{
+    name: "Project name goes here",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi <br><br>Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
+    image: "./images/progect.png",
+    technologies: ["HTML", "Ruby  on rails", "JavaScript"],
+    link: "https://franclobo.github.io/Portfolio/",
+    github: "https://github.com/franclobo"
+}]
