@@ -3,48 +3,29 @@ const closeBtn = document.querySelector('.close-menu');
 const optMenu = document.querySelector('.mobile-menu-navigation');
 const dropDown = document.querySelector('.dropdown-menu');
 const scrollLock = document.querySelector('.content');
+const seeProjectButton = document.querySelectorAll('.pjbutton');
+const projectPopup = document.querySelector('.popup-window');
+const nextBtn = document.querySelector('.next');
+const previusBtn = document.querySelector('.previus');
 
 mobileMenu.addEventListener('click', () => {
-  dropDown.classList.remove('hide-menu');
-  scrollLock.classList.add('lockscroll');
+    dropDown.classList.remove('hide-menu');
+    scrollLock.classList.add('lockscroll');
 });
 closeBtn.addEventListener('click', () => {
-  dropDown.classList.toggle('hide-menu');
-  scrollLock.classList.remove('lockscroll');
+    dropDown.classList.toggle('hide-menu');
+    scrollLock.classList.remove('lockscroll');
 });
 optMenu.addEventListener('click', () => {
-  dropDown.classList.toggle('hide-menu');
-  scrollLock.classList.remove('lockscroll');
+    dropDown.classList.toggle('hide-menu');
+    scrollLock.classList.remove('lockscroll');
 });
 
-window.addEventListener('load', () => {
-  new Glider(document.querySelector('.carousel__lista'), {
-    slidesToShow: 1,
-    dots: '.carousel__indicadores',
-    arrows: {
-      prev: '.carousel__anterior',
-      next: '.carousel__siguiente'
-    }
-  });
-})
+function displayProject() {
+    projectPopup.classList.remove('hidePopup');
+    scrollLock.classList.remove('lockscroll');
 
-const seeProjectButton = document.querySelector('.pjbutton');
-const projectPopup = document.querySelector('.popup-window');
-
-const projects = 
-
-function displayProject(event) {
-  projectPopup.classList.remove('hidePopup');
-
-  let selectedProject;
-
-  Object.keys(projects).forEach((project) => {
-    if (event.target.id === projects[project].id.toString()) {
-      selectedProject = projects[project];
-    }
-  });
-
-  projectPopup.innerHTML = `
+    projectPopup.innerHTML = `
   <button class="close-popup" onclick="projectPopup.classList.add('hidePopup');"><img src="./icons/cross.svg" alt=""></button>
   <h3 class="popup-title">Project name goes here</h3>
   <ul>
@@ -69,7 +50,14 @@ function displayProject(event) {
               <i class="fa-solid fa-chevron-right"></i>
           </button>
       </div>
-      <div role="tablist" class="carousel__indicadores"></div>
+      <div role="tablist" class="carousel__indicadores">
+              <div class="carousel__indicador"><img src="./images/pcprogect.png" alt="Project1"></div>
+              <div class="carousel__indicador"><img src="./images/pcprogect1.png" alt="Project2"></div>
+              <div class="carousel__indicador"><img src="./images/pcprogect2.png" alt="Project3"></div>
+              <div class="carousel__indicador"><img src="./images/pcprogect3.png" alt="Project4"></div>
+              <div class="carousel__indicador"><img src="./images/pcprogect4.png" alt="Project5"></div>
+              <div class="carousel__indicador"><img src="./images/pcprogect5.png" alt="Project6"></div>
+      </div>
   </div>
   <p class="popup-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -78,8 +66,19 @@ function displayProject(event) {
       consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
   </p>
-  <button class="see-live">See live <img src="./icons/see-live.png"></button>
-  <button class="see-source">See source <img src="./icons/see-source.png"></button>`;
+  <div class="see-buttons">
+    <button class="see-live">See live <img src="./icons/see-live.png"></button>
+    <button class="see-source">See source <img src="./icons/see-source.png"></button>
+  </div>
+  <div class="narrow-buttons">
+    <button class="previus"><img src="./icons/left.svg">Previus project </button>
+    <button class="next">Next project <img src="./icons/right.svg"></button>
+  </div>`;
 }
 
-seeProjectButton.forEach((div) => { div.addEventListener('click', (event) => {displayProject(event)}) });
+seeProjectButton.forEach((div) => {
+    div.addEventListener('click', () => {
+        displayProject();
+        carousel();
+    });
+});
