@@ -148,7 +148,6 @@ const msgError = document.getElementById('msg-error');
 form.addEventListener('submit', (e) => {
   if (formEmail.value !== formEmail.value.toLowerCase()) {
     e.preventDefault();
-    errorMessage.classList.remove('hideError');
     errorMessage.innerHTML = 'Type only lowercase';
   }
 });
