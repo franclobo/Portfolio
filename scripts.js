@@ -83,8 +83,8 @@ function displayProject(event) {
   let selectedProjects;
 
   Object.keys(projects).forEach((project) => {
-    if (event.target.id === projects[project].id.toString()) {
-      selectedProjects = projects[project];
+    if (event.target.id = projects[project].id.toString()) {
+      selectedProject = projects[project];
     }
   });
 
@@ -141,9 +141,9 @@ seeProjectButton.forEach((div) => {
   });
 });
 
-const form = document.getElementById('contact');
-const email = document.getElementById('email');
-const msgError = document.getElementById('msg-error');
+const form = document.getElementById('#contact');
+const email = document.getElementById('#email');
+const msgError = document.getElementById('#msg-error');
 
 form.addEventListener('submit', (e) => {
   if (email.value !== email.value.toLowerCase()) {
