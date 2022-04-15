@@ -140,3 +140,14 @@ seeProjectButton.forEach((div) => {
     displayProject(event);
   });
 });
+
+const form = document.getElementById('contact');
+const email = document.getElementById('email');
+const msgError = document.getElementById('msg-error');
+
+form.addEventListener('submit', (e) => {
+  if (email.value !== email.value.toLowerCase()) {
+    e.preventDefault();
+    msgError.innerHTML = 'Type Email only in lowercase';
+  }
+});
