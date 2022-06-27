@@ -18,7 +18,7 @@ GitHub & Visual Studio Code
 
 # Deployment
 
-You can see the result of my project in this [link](https://franclobo.github.io/Portfolio/)
+[Portfolio](https://franclobo.github.io/Portfolio/)
 
 # Authors
 
