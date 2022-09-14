@@ -59,6 +59,7 @@
 #about-section,
 #ux {
   cursor: pointer;
+  list-style: none;
 }
 
 #mobile > header {
