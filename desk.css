@@ -56,8 +56,8 @@
 
 .presentation,
 .projectSection,
-#about-section,
-#ux {
+.about-section,
+.ux {
   cursor: pointer;
 }
 
