@@ -54,13 +54,6 @@
   left: 0;
 }
 
-.presentation,
-.projectSection,
-.about-section,
-.ux {
-  cursor: pointer;
-}
-
 #mobile > header {
   flex: 1;
   display: flex;
