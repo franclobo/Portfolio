@@ -54,14 +54,6 @@
   left: 0;
 }
 
-#presentation,
-#projectSection,
-#about-section,
-#ux {
-  cursor: pointer;
-  text-decoration: none;
-}
-
 #mobile > header {
   flex: 1;
   display: flex;
@@ -1011,6 +1003,7 @@ footer .actbutton2 {
     font-weight: 400;
     font-size: 1em;
     color: #1a2236;
+    cursor: pointer;
   }
 
   #presentation {
