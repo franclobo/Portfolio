@@ -1006,6 +1006,12 @@ footer .actbutton2 {
     cursor: pointer;
   }
 
+  .navbar a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #1a2236;
+  }
+
   #presentation {
     position: absolute;
     display: flex;
