@@ -229,6 +229,11 @@ h1 {
   background-color: #1a2236;
 }
 
+.txtbutton > a {
+  text-decoration: none;
+  color: #fff;
+}
+
 #graphics {
   display: flex;
   width: 320px;

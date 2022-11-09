@@ -22,12 +22,13 @@ optMenu.addEventListener('click', () => {
 const projects = [
   {
     id: 1,
-    projectTitle: 'Project name goes here',
+    projectTitle: 'Conference page',
     technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
     projectImages: ['./images/pcprogect.png', './images/pcprogect1.png', './images/pcprogect2.png', './images/pcprogect3.png', './images/pcprogect4.png', './images/pcprogect5.png'],
-    projectDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi<br>Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    projectDescription: 'In the first capstone project I will desing a page for English courses based in a Behance template.',
     seeLive: ['See live', './icons/see-live.png', './icons/right-light.svg'],
     seeSource: ['See source', './icons/see-source.png', './icons/ic_github.png'],
+    link: 'https://franclobo.github.io/Conference-page/',
   },
   {
     id: 2,
@@ -126,7 +127,7 @@ function displayProject(event) {
     ${selectedProjects.projectDescription}
   </p>
   <div class="see-buttons">
-    <button class="see-live">${selectedProjects.seeLive[0]} <img src=${selectedProjects.seeLive[1]}></button>
+    <button class="see-live">${selectedProjects.seeLive[0]} <a href="${selectedProjects.link}"><img src=${selectedProjects.seeLive[1]}></a></button>
     <button class="see-source">${selectedProjects.seeSource[0]} <img src=${selectedProjects.seeSource[1]}></button>
   </div>
   <div class="narrow-buttons">
