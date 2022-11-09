@@ -139,7 +139,7 @@ function displayProject(event) {
   </p>
   <div class="see-buttons">
     <a class="see-live" href="${selectedProjects.link}"> ${selectedProjects.seeLive[0]} <img src=${selectedProjects.seeLive[1]}></a>
-    <button class="see-source">${selectedProjects.seeSource[0]} <img src=${selectedProjects.seeSource[1]}></button>
+    <a class="see-source" href="${selectedProjects.github}">${selectedProjects.seeSource[0]} <img src=${selectedProjects.seeSource[1]}></a>
   </div>
   <div class="narrow-buttons">
     <button class="previus"><img src="./icons/left.svg">Previus project </button>
