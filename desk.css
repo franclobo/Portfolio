@@ -921,6 +921,8 @@ footer .actbutton2 {
   font-size: 18px;
   line-height: 27px;
   background-color: #fff;
+  text-decoration: none;
+  color: #1a2236;
 }
 
 .previus,
@@ -2322,6 +2324,8 @@ footer .actbutton2 {
     font-size: 18px;
     line-height: 27px;
     background-color: #fff;
+    text-decoration: none;
+    color: #1a2236;
   }
 
   .see-source {
@@ -2337,6 +2341,8 @@ footer .actbutton2 {
     font-size: 18px;
     line-height: 27px;
     background-color: #fff;
+    text-decoration: none;
+    color: #1a2236;
   }
 
   .narrow-buttons {
