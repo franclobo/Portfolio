@@ -231,6 +231,12 @@ h1 {
   text-decoration: none;
 }
 
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 #graphics {
   display: flex;
   width: 320px;
@@ -1086,6 +1092,12 @@ footer .actbutton2 {
     cursor: pointer;
     text-decoration: none;
   }
+
+  a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+}
 
   .geometry {
     display: block;
