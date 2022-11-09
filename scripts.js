@@ -22,57 +22,69 @@ optMenu.addEventListener('click', () => {
 const projects = [
   {
     id: 1,
-    projectTitle: 'Project name goes here',
+    projectTitle: 'Conference page',
     technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
     projectImages: ['./images/pcprogect.png', './images/pcprogect1.png', './images/pcprogect2.png', './images/pcprogect3.png', './images/pcprogect4.png', './images/pcprogect5.png'],
-    projectDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi<br>Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    projectDescription: 'In the first capstone project I will desing a page for English courses based in a Behance template.',
     seeLive: ['See live', './icons/see-live.png', './icons/right-light.svg'],
     seeSource: ['See source', './icons/see-source.png', './icons/ic_github.png'],
+    link: 'https://franclobo.github.io/Conference-page/',
+    github: 'https://github.com/franclobo/Conference-page',
   },
   {
     id: 2,
-    projectTitle: 'Project name goes here',
+    projectTitle: 'Space-Travelers-Hub',
     technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
     projectImages: ['./images/pcprogect.png', './images/pcprogect1.png', './images/pcprogect2.png', './images/pcprogect3.png', './images/pcprogect4.png', './images/pcprogect5.png'],
-    projectDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi<br>Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    projectDescription: 'In this task, I will be working with the real live data from the SpaceX API. My task is to build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
     seeLive: ['See live', './icons/see-live.png', './icons/right-light.svg'],
     seeSource: ['See source', './icons/see-source.png', './icons/ic_github.png'],
+    link: 'https://react-redux-space-travelers-hub.netlify.app/',
+    github: 'https://github.com/franclobo/Space-Travelers-Hub',
   },
   {
     id: 3,
-    projectTitle: 'Project name goes here',
+    projectTitle: 'Catalog-of-my-things',
     technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
     projectImages: ['./images/pcprogect.png', './images/pcprogect1.png', './images/pcprogect2.png', './images/pcprogect3.png', './images/pcprogect4.png', './images/pcprogect5.png'],
-    projectDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi<br>Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    projectDescription: "In this project, we will create a console app that will help you to keep a record of different types of things you own: books, music albums, movies, and games. Everything will be based on the UML class diagram presented below. The data will be stored in JSON files but we will also prepare a database with tables structure analogical to our program's class structure.",
     seeLive: ['See live', './icons/see-live.png', './icons/right-light.svg'],
     seeSource: ['See source', './icons/see-source.png', './icons/ic_github.png'],
+    link: 'https://drive.google.com/file/d/1ZZGcgg7LHNh02Z1MvpfAYAuRcHa6p0fs/view',
+    github: 'https://github.com/franclobo/Catalog-of-my-things',
   },
   {
     id: 4,
-    projectTitle: 'Project name goes here',
+    projectTitle: 'Recipes_app',
     technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
     projectImages: ['./images/pcprogect.png', './images/pcprogect1.png', './images/pcprogect2.png', './images/pcprogect3.png', './images/pcprogect4.png', './images/pcprogect5.png'],
-    projectDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi<br>Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    projectDescription: 'The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow user to save ingredients to a recipe, keep track of stock, create recipes, and generate a shopping list based on the difference between inventory and recipe requirements. To allow sharing the recipe, the user or creater can indicate whether it is private or public.',
     seeLive: ['See live', './icons/see-live.png', './icons/right-light.svg'],
     seeSource: ['See source', './icons/see-source.png', './icons/ic_github.png'],
+    link: 'https://recipe-app-2022-10-07.herokuapp.com/',
+    github: 'https://github.com/franclobo/Recipes_app',
   },
   {
     id: 5,
-    projectTitle: 'Project name goes here',
+    projectTitle: 'Budget',
     technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
     projectImages: ['./images/pcprogect.png', './images/pcprogect1.png', './images/pcprogect2.png', './images/pcprogect3.png', './images/pcprogect4.png', './images/pcprogect5.png'],
-    projectDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi<br>Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    projectDescription: 'A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
     seeLive: ['See live', './icons/see-live.png', './icons/right-light.svg'],
     seeSource: ['See source', './icons/see-source.png', './icons/ic_github.png'],
+    link: 'https://budget-app-21102022.herokuapp.com/',
+    github: 'https://github.com/franclobo/Budget',
   },
   {
     id: 6,
-    projectTitle: 'Project name goes here',
+    projectTitle: 'Tesla-Booking',
     technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
     projectImages: ['./images/pcprogect.png', './images/pcprogect1.png', './images/pcprogect2.png', './images/pcprogect3.png', './images/pcprogect4.png', './images/pcprogect5.png'],
-    projectDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi<br>Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    projectDescription: "This application was made by creating our API, using Ruby on Rails, containing some Tesla models' info in our database. In the front end, made with React & Redux, the user is allowed to create an account and book any of the cars we have displayed. Admin users can add entirely new models by sending data to the API.",
     seeLive: ['See live', './icons/see-live.png', './icons/right-light.svg'],
     seeSource: ['See source', './icons/see-source.png', './icons/ic_github.png'],
+    link: 'https://www.loom.com/share/525b7c8d3f7c4d4f941e20a34b5cccd3',
+    github: 'https://github.com/franclobo/Front-end_Tesla-Booking',
   },
 ];
 
@@ -126,8 +138,8 @@ function displayProject(event) {
     ${selectedProjects.projectDescription}
   </p>
   <div class="see-buttons">
-    <button class="see-live">${selectedProjects.seeLive[0]} <img src=${selectedProjects.seeLive[1]}></button>
-    <button class="see-source">${selectedProjects.seeSource[0]} <img src=${selectedProjects.seeSource[1]}></button>
+    <a class="see-live" href="${selectedProjects.link}"> ${selectedProjects.seeLive[0]} <img src=${selectedProjects.seeLive[1]}></a>
+    <a class="see-source" href="${selectedProjects.github}">${selectedProjects.seeSource[0]} <img src=${selectedProjects.seeSource[1]}></a>
   </div>
   <div class="narrow-buttons">
     <button class="previus"><img src="./icons/left.svg">Previus project </button>

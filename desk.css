@@ -227,6 +227,8 @@ h1 {
   text-align: center;
   color: #fff;
   background-color: #1a2236;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 #graphics {
@@ -919,6 +921,8 @@ footer .actbutton2 {
   font-size: 18px;
   line-height: 27px;
   background-color: #fff;
+  text-decoration: none;
+  color: #1a2236;
 }
 
 .previus,
@@ -1006,7 +1010,7 @@ footer .actbutton2 {
     cursor: pointer;
   }
 
-  .navbar a{
+  .navbar a {
     text-decoration: none;
     list-style-type: none;
     color: #1a2236;
@@ -1081,6 +1085,8 @@ footer .actbutton2 {
     text-align: center;
     color: #fff;
     background-color: #1a2236;
+    cursor: pointer;
+    text-decoration: none;
   }
 
   .geometry {
@@ -2318,6 +2324,8 @@ footer .actbutton2 {
     font-size: 18px;
     line-height: 27px;
     background-color: #fff;
+    text-decoration: none;
+    color: #1a2236;
   }
 
   .see-source {
@@ -2333,6 +2341,8 @@ footer .actbutton2 {
     font-size: 18px;
     line-height: 27px;
     background-color: #fff;
+    text-decoration: none;
+    color: #1a2236;
   }
 
   .narrow-buttons {
