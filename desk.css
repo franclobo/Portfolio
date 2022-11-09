@@ -227,11 +227,8 @@ h1 {
   text-align: center;
   color: #fff;
   background-color: #1a2236;
-}
-
-.txtbutton > a {
+  cursor: pointer;
   text-decoration: none;
-  color: #fff;
 }
 
 #graphics {
@@ -1086,11 +1083,8 @@ footer .actbutton2 {
     text-align: center;
     color: #fff;
     background-color: #1a2236;
-  }
-
-  .txtbutton > a {
+    cursor: pointer;
     text-decoration: none;
-    color: #fff;
   }
 
   .geometry {
