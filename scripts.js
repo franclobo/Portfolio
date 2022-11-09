@@ -127,7 +127,7 @@ function displayProject(event) {
     ${selectedProjects.projectDescription}
   </p>
   <div class="see-buttons">
-    <button class="see-live">${selectedProjects.seeLive[0]} <a href="${selectedProjects.link}"><img src=${selectedProjects.seeLive[1]}></a></button>
+    <a class="see-live" href="${selectedProjects.link}"> ${selectedProjects.seeLive[0]} <img src=${selectedProjects.seeLive[1]}></a>
     <button class="see-source">${selectedProjects.seeSource[0]} <img src=${selectedProjects.seeSource[1]}></button>
   </div>
   <div class="narrow-buttons">
