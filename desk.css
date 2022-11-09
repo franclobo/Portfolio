@@ -229,7 +229,7 @@ h1 {
   background-color: #1a2236;
 }
 
-.txtbutton a {
+.txtbutton > a {
   text-decoration: none;
   color: #fff;
 }
