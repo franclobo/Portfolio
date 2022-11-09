@@ -1088,6 +1088,11 @@ footer .actbutton2 {
     background-color: #1a2236;
   }
 
+  .txtbutton > a {
+    text-decoration: none;
+    color: #fff;
+  }
+
   .geometry {
     display: block;
     position: absolute;
