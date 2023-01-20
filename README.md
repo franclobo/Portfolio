@@ -57,5 +57,6 @@ Give a ⭐️ if you like this project!
 
 # Acknowledgments
 - Microverse
+- Original design from [Figma](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=23%3A9&t=hsjtPTKoGPbRTf0O-0)
 # 📝 License
 This project is MIT licensed.
