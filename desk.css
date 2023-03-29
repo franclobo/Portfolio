@@ -10,6 +10,12 @@
 
 /* mobile version */
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .desk,
 .geometry,
 .dots,
@@ -33,12 +39,18 @@
   display: none;
 }
 
+.pc,
+.pc1,
+.pc2,
+.pc3,
+.pc4,
+.pc5 {
+  display: none;
+}
+
 .content {
   display: flex;
   flex-direction: column;
-  margin: 0;
-  top: 0;
-  left: 0;
   overflow-x: hidden;
 }
 
@@ -47,36 +59,18 @@
   justify-content: space-between;
   flex-direction: column;
   flex-wrap: nowrap;
-  height: 672px;
-  margin: 0;
-  padding: 0;
-  top: 0;
-  left: 0;
 }
 
 #mobile > header {
-  flex: 1;
   display: flex;
   justify-content: space-between;
-  max-height: 74px;
-  top: 0;
-  margin: 0;
-  padding: 0;
-}
-
-#logo {
-  width: 111px;
-  height: 74px;
-  left: -10px;
 }
 
 .mobile-menu {
-  position: absolute;
   width: 20px;
   height: 14px;
   margin-top: 19px;
   margin-right: 16px;
-  margin-left: 284px;
   background: #fff;
 }
 
@@ -85,49 +79,16 @@
 .dropdown-menu {
   position: fixed;
   display: flex;
-  max-width: 320px;
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  margin: 0;
-  padding: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
   background-color: #fff;
-}
-
-.dropdown-menu figure {
-  margin: 0;
-  padding: 0;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
-  width: 100%;
-}
-
-.dropdown-menu img {
-  width: 100%;
-  height: 100%;
-}
-
-.lockscroll {
-  overflow: hidden;
 }
 
 .menu-header {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-.menu-header img {
-  margin-right: 21px;
 }
 
 .hide-menu {
@@ -161,46 +122,25 @@
 #presentation {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   flex-wrap: nowrap;
-  width: 288px;
   height: 366px;
-  margin-left: 16px;
-  top: 0;
-}
-
-#presentation > article {
-  display: flex;
-  flex-direction: column;
-  width: 288px;
-  height: 246px;
-  left: 0;
-  top: 30px;
 }
 
 h1 {
-  display: flex;
   border: none;
-  margin: 0;
-  width: 220px;
   height: 100px;
-  left: 16px;
-  top: 0;
   font-family: 'Playfair_Display', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
   line-height: 100%;
   color: #1a2236;
-  zoom: normal;
 }
 
 #phrase {
-  width: 288px;
   height: 126px;
-  left: 0;
-  margin-top: 20px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -218,7 +158,6 @@ h1 {
   width: 288px;
   height: 50px;
   left: 0;
-  margin-top: 40px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -232,25 +171,20 @@ h1 {
 }
 
 #graphics {
-  display: flex;
-  width: 320px;
-  height: 160px;
-  left: 0;
   margin-top: 32px;
+}
+
+.botton {
+  width: 100%;
 }
 
 .project {
   display: grid;
-  gap: 0;
-  grid-template-columns: 320px;
-  height: auto;
+  grid-template-columns: 1fr;
+  justify-content: center;
 }
 
 .project h2 {
-  margin-block-start: 30px;
-  margin-block-end: 32px;
-  margin-inline-start: 16px;
-  margin-inline-end: 0;
   font-family: 'Playfair_Display', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 400;
@@ -259,24 +193,23 @@ h1 {
   color: #1a2236;
 }
 
-.project > figure {
-  margin: 0;
-  padding: 0;
+.img-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .box {
-  top: 0;
-  height: 156px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
   background-color: #1a2236;
+  padding: 16px;
 }
 
-.box p {
-  position: absolute;
-  display: block;
-  margin-block-start: 20px;
-  margin-block-end: 16px;
-  margin-inline-start: 20px;
-  margin-inline-end: 36px;
+.box-title {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -285,76 +218,56 @@ h1 {
   color: #fff;
 }
 
-footer ul {
-  margin-top: 32px;
+.box p,
+.box ul {
+  margin: 0;
   padding: 0;
 }
 
-.box ul {
-  position: absolute;
-  display: grid;
-  grid-template-columns: auto auto auto;
+.box-list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
   gap: 10px;
-  margin-block-start: 52px;
-  margin-block-end: 84px;
-  margin-inline-start: 20px;
-  margin-inline-end: 50px;
-  zoom: normal;
+}
+
+.box li {
+  list-style: none;
 }
 
 .box button {
   appearance: auto;
-  writing-mode: horizontal-tb;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 10.3334px;
   line-height: 80%;
-  text-transform: none;
-  text-indent: 0;
-  text-shadow: none;
-  display: inline-block;
   text-align: center;
-  align-items: flex-start;
   cursor: default;
-  box-sizing: border-box;
   background-color: #98dede;
-  margin: 0;
-  padding: 1px 6px;
-  border-width: 2px;
-  border-style: outset;
   border-color: #98dede;
-  border-image: initial;
 }
 
 .html {
-  position: absolute;
   width: 69px;
   height: 20px;
-  left: 0;
 }
 
 .ruby {
-  position: absolute;
   width: 87px;
   height: 20px;
-  left: 79px;
 }
 
 .js {
-  position: absolute;
   width: 74px;
   height: 20px;
-  left: 176px;
 }
 
-.box .pjbutton {
+.pjbutton {
   display: flex;
   position: relative;
   width: 178px;
   height: 40px;
-  left: 20px;
-  top: 92px;
   background-color: #1a2236;
   border: solid #fff;
 }
@@ -381,16 +294,20 @@ footer ul {
 }
 
 .box1 {
-  position: relative;
-  top: 0;
-  height: 334px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-.box1 .phrase {
-  position: absolute;
-  top: 84px;
-  left: 16px;
-  right: 16px;
+.phrase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 0 38px;
+  padding: 0 16px;
 }
 
 .box1 .pjbutton {
@@ -398,9 +315,8 @@ footer ul {
   position: relative;
   width: 288px;
   height: 50px;
-  left: 8px;
-  top: 128px;
   background-color: #1a2236;
+  margin: 20px;
 }
 
 .pjbutton .actbutton1 {
@@ -491,18 +407,19 @@ footer ul {
 /* conatct form */
 
 .ux {
-  width: 320px;
-  height: 813px;
-  top: 4179px;
-  left: 0;
-  right: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 
+#uxlogo {
+  margin: 0 0 0 0;
+  justify-self: flex-start;
+  align-self: flex-start;
+}
 .ux h2 {
-  margin-block-start: 30px;
-  margin-block-end: 32px;
-  margin-inline-start: 18px;
-  margin-inline-end: 0;
   font-family: 'Playfair_Display', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 400;
@@ -512,12 +429,6 @@ footer ul {
 }
 
 .ux .phrase {
-  max-width: 288px;
-  max-height: 63px;
-  overflow: hidden;
-  top: 176px;
-  margin-left: 18px;
-  right: 14px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -528,17 +439,13 @@ footer ul {
 }
 
 .data {
-  display: block;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
 .liname {
-  width: 288px;
-  height: 52px;
   top: 0;
-  margin-left: 18px;
   border-radius: 4px;
   background: #fff;
   border: 1px solid #1a2236;
@@ -546,8 +453,6 @@ footer ul {
 }
 
 .name input {
-  width: 220px;
-  height: 21px;
   margin-left: 16px;
   top: 23px;
   background: #fff;
@@ -561,10 +466,7 @@ footer ul {
 }
 
 .data .namelabel {
-  width: 55px;
-  height: 15px;
   margin-left: 16px;
-  top: 4px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -574,10 +476,7 @@ footer ul {
 }
 
 .liemail {
-  width: 288px;
-  height: 52px;
   margin-top: 8px;
-  margin-left: 18px;
   border-radius: 4px;
   background: #fff;
   border: 1px solid #1a2236;
@@ -585,7 +484,6 @@ footer ul {
 }
 
 .data .emaillabel {
-  width: 55px;
   height: 15px;
   margin-left: 16px;
   margin-top: 8px;
@@ -658,11 +556,10 @@ small {
 }
 
 footer {
-  display: block;
-  width: 320px;
   height: 150px;
   top: 631px;
   background-color: #1a2236;
+  width: 100%;
 }
 
 footer .pjbutton1 {
@@ -962,46 +859,33 @@ footer .actbutton2 {
 /* desk-version */
 @media (min-width: 800px) {
   /* Accessibility PAIR  PROGRAMMING */
-  #mobile {
+  #mobile,
+  .img-mobile {
     display: none;
-  }
-
-  body {
-    margin: 0;
-    padding: 0;
-    width: 100vw;
   }
 
   .flex-item {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    width: 100vw;
-    height: 24.47%;
-    margin: 0;
-    padding: 0;
   }
 
   .desk {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    width: 100%;
     height: 8.42%;
   }
 
   .navbar {
-    position: absolute;
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
-    width: 25.63%;
-    height: 24%;
-    left: 37.22%;
-    top: 38%;
+    justify-content: center;
+    align-items: center;
     margin: 0;
     padding: 0;
+    gap: 16px;
+    height: 24%;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -1021,26 +905,21 @@ footer .actbutton2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 33.61%;
-    height: 56.21%;
     left: 11.11%;
     top: 16.18%;
   }
 
   #presentation > article {
-    position: absolute;
     width: 100%;
-    height: 73.83%;
   }
 
   h1 {
-    position: absolute;
     border: none;
     margin: 0;
     width: 100%;
     height: 60.43%;
-    left: 0;
-    top: 0;
     font-family: 'Playfair_Display', 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 400;
@@ -1050,11 +929,7 @@ footer .actbutton2 {
   }
 
   #phrase {
-    position: absolute;
     width: 100%;
-    height: 23.08%;
-    left: 0;
-    top: 76.92%;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -1062,10 +937,6 @@ footer .actbutton2 {
     line-height: 1.313em;
     letter-spacing: -0.01em;
     color: #1a2236;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin-inline-start: 0;
-    margin-inline-end: 0;
   }
 
   .txtbutton {
@@ -1188,51 +1059,63 @@ footer .actbutton2 {
   }
 
   .pc {
+    display: block;
     position: absolute;
     width: 66.67%;
     height: 558px;
     top: 1187px;
     left: 33.33%;
+    border: solid 5px #1a2236;
   }
 
   .pc1 {
+    display: block;
     position: absolute;
     width: 32.29%;
     height: 270px;
     top: 1825px;
     left: 0;
+    border: solid 5px #1a2236;
   }
 
   .pc2 {
+    display: block;
     position: absolute;
     width: 55.56%;
     height: 465px;
     top: 2095px;
     left: 0;
+    border: solid 5px #1a2236;
   }
 
   .pc3 {
+    display: block;
     position: absolute;
     width: 32.29%;
     height: 270px;
     top: 2560px;
     left: 55.49%;
+    border: solid 5px #1a2236;
   }
 
   .pc4 {
+    display: block;
     position: absolute;
     width: 32.29%;
     height: 270px;
     top: 2015px;
     left: 67.71%;
+    border: solid 5px #1a2236;
   }
 
   .pc5 {
+    display: block;
     position: absolute;
     width: 32.29%;
     height: 270px;
     top: 1745px;
     left: 67.71%;
+    border: solid 5px #1a2236;
   }
 
   .box {
